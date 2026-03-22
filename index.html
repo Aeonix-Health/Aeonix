@@ -46,13 +46,13 @@ body{background:var(--bg);color:var(--ink);font-family:'DM Sans',sans-serif;font
 .nav-link{padding:8px 13px;color:var(--ink3);font-size:.78rem;letter-spacing:.04em;text-decoration:none;transition:color .2s;background:none;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;white-space:nowrap;}
 .nav-link:hover{color:var(--gold);}
 .nav-right{display:flex;align-items:center;gap:10px;flex-shrink:0;}
-.lang-select{position:relative;}
+.lang-select{position:relative;z-index:300;}
 .lang-trigger{display:flex;align-items:center;gap:5px;padding:7px 11px;background:none;border:1px solid var(--bdr);color:var(--ink3);font-size:.7rem;letter-spacing:.09em;font-family:'DM Sans',sans-serif;cursor:pointer;transition:all .2s;}
 .lang-trigger:hover{color:var(--gold);border-color:var(--gold);}
 .lang-trigger svg{width:9px;height:9px;transition:transform .2s;}
-.lang-select.open .lang-trigger svg{transform:rotate(180deg);}
-.lang-dropdown{position:absolute;top:calc(100% + 5px);right:0;background:var(--surface);border:1px solid var(--bdr);min-width:148px;box-shadow:var(--sh-md);opacity:0;visibility:hidden;transform:translateY(-5px);transition:opacity .2s,transform .2s,visibility .2s;}
-.lang-select.open .lang-dropdown{opacity:1;visibility:visible;transform:none;}
+
+.lang-dropdown{position:absolute;top:calc(100% + 8px);right:0;background:#fff;border:1px solid rgba(184,134,78,.25);min-width:152px;box-shadow:0 8px 32px rgba(26,24,20,.15);display:none;z-index:9999;}
+
 .lang-opt{display:flex;align-items:center;gap:9px;padding:10px 14px;font-size:.74rem;color:var(--ink3);cursor:pointer;transition:color .2s,background .2s;border:none;background:none;width:100%;text-align:left;font-family:'DM Sans',sans-serif;}
 .lang-opt:hover,.lang-opt.active{color:var(--gold);background:rgba(184,134,78,.05);}
 .nav-cta{padding:9px 22px;background:var(--gold);color:#fff;font-size:.72rem;font-weight:500;letter-spacing:.1em;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;transition:background .25s;text-decoration:none;display:inline-block;}
@@ -997,7 +997,7 @@ a.bcard:hover { text-decoration: none; }
 /* Reader */
 .ar-nav {
   position: sticky; top: 0; z-index: 10;
-  background: rgba(250,248,244,.97); backdrop-filter: blur(16px);
+  background: rgba(250,248,244,.99);
   border-bottom: 1px solid rgba(184,134,78,.15);
   padding: 0 52px; height: 64px;
   display: flex; align-items: center; justify-content: space-between;
@@ -1032,7 +1032,7 @@ a.bcard:hover { text-decoration: none; }
 .ar-body strong { color:#1A1814; font-weight:500; }
 .ar-body em { color:var(--gold-l); font-style:italic; }
 .ar-body a { color:var(--gold); }
-.ar-body blockquote { border-left:2px solid var(--gold); padding:10px 18px; background:rgba(184,134,78,.07); margin:20px 0; font-style:italic; color:var(--ink3); }
+.ar-body blockquote { border-left:2px solid var(--gold); padding:10px 18px; background:rgba(184,134,78,.07); margin:20px 0; font-style:italic; color:rgba(255,255,255,.65); }
 .ar-body table { width:100%; border-collapse:collapse; margin:20px 0; font-size:.87rem; }
 .ar-body th { background:rgba(184,134,78,.15); color:var(--gold-l); padding:9px 13px; text-align:left; border-bottom:1px solid rgba(184,134,78,.25); }
 .ar-body td { padding:8px 13px; border-bottom:1px solid rgba(26,24,20,.08); }
@@ -1157,7 +1157,7 @@ a.bcard:hover { text-decoration: none; }
 .fcol-link:hover { color:rgba(255,255,255,.8); }
 /* view-all as button */
 button.view-all { background:none; border:none; cursor:pointer; font-family:'DM Sans',sans-serif; }
-#main-nav{display:flex;align-items:center;justify-content:space-between;padding:0 48px;background:rgba(247,244,239,.97);backdrop-filter:blur(20px);box-shadow:0 1px 0 rgba(184,134,78,.15);}
+#main-nav{display:flex;align-items:center;justify-content:space-between;padding:0 48px;background:rgba(247,244,239,.99);box-shadow:0 1px 0 rgba(184,134,78,.15);}
 .nav-logo img,.nav-logo-img{height:44px;width:auto;display:block;}
 .nav-right{display:flex;align-items:center;gap:2px;margin-left:auto;}
 .nav-right .nav-link{display:inline-flex;align-items:center;padding:8px 11px;color:var(--ink3);font-size:.75rem;background:none;border:none;cursor:pointer;font-family:"DM Sans",sans-serif;white-space:nowrap;transition:color .2s;}
@@ -1227,11 +1227,11 @@ button.view-all { background:none; border:none; cursor:pointer; font-family:'DM 
     <button class="nav-link" onclick="openArticlesOverlay()">Health Insights</button>
     <div class="nav-divider"></div>
     <div class="lang-select" id="langSelect">
-      <button class="lang-trigger" onclick="toggleLangMenu()">
+      <button class="lang-trigger" id="langTrigger">
         <span id="langLabel">EN</span>
         <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2 3.5l3 3 3-3"/></svg>
       </button>
-      <div class="lang-dropdown">
+      <div class="lang-dropdown" id="langDropdown">
         <button class="lang-opt active" data-lang="en" onclick="setLang('en')"><span>🇬🇧</span> English</button>
         <button class="lang-opt" data-lang="de" onclick="setLang('de')"><span>🇩🇪</span> Deutsch</button>
         <button class="lang-opt" data-lang="fr" onclick="setLang('fr')"><span>🇫🇷</span> Français</button>
@@ -1532,7 +1532,7 @@ button.view-all { background:none; border:none; cursor:pointer; font-family:'DM 
         <div class="mkt rv d3"><div class="mkt-f">🇬🇧</div><div><div class="mkt-n" data-i18n="exp.gb.name">United Kingdom</div><div class="mkt-s" data-i18n="exp.gb.status">Coming 2027</div></div></div>
       </div>
     </div>
-    <div class="dna-wrap" aria-hidden="true"><svg width="100%" viewBox="0 0 520 460" xmlns="http://www.w3.org/2000/svg"><g opacity="0.28" stroke="#B8864E" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M260,40 C220,52 185,70 185,88 C185,106 220,118 260,130"/><path d="M185,200 C185,218 220,230 260,242"/><path d="M185,312 C185,330 220,342 260,354"/></g><g opacity="0.28" stroke="#C9A070" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M260,130 C300,142 335,154 335,172 C335,190 300,202 260,214"/><path d="M260,242 C300,254 335,266 335,284 C335,302 300,314 260,326"/><path d="M260,354 C300,366 335,378 335,396 C335,408 300,416 260,420"/></g><line x1="185" y1="88" x2="335" y2="88" stroke="#B8864E" stroke-width="1.3" opacity="0.5"/><line x1="185" y1="172" x2="335" y2="172" stroke="#C9A070" stroke-width="1.3" opacity="0.5"/><line x1="185" y1="256" x2="335" y2="256" stroke="#8C6A3A" stroke-width="1.3" opacity="0.5"/><line x1="185" y1="340" x2="335" y2="340" stroke="#B8864E" stroke-width="1.3" opacity="0.5"/><g stroke="#B8864E" stroke-width="3" fill="none" stroke-linecap="round"><path d="M260,130 C220,142 185,154 185,172 C185,190 220,202 260,214"/><path d="M260,242 C220,254 185,266 185,284 C185,302 220,314 260,326"/><path d="M260,354 C220,366 185,378 185,396"/></g><g stroke="#C9A070" stroke-width="3" fill="none" stroke-linecap="round"><path d="M260,40 C300,52 335,64 335,82 C335,100 300,112 260,124"/><path d="M260,214 C300,226 335,238 335,256 C335,274 300,286 260,298"/><path d="M260,326 C300,338 335,350 335,368 C335,386 300,398 260,410"/></g><g class="dna-scanner"><rect x="178" y="40" width="164" height="18" rx="2" fill="#B8864E" opacity="0.07"/><rect x="178" y="56" width="164" height="1.5" rx="1" fill="#B8864E" opacity="0.55"/></g><circle class="dna-nA" cx="185" cy="88" r="5" fill="#B8864E"/><circle class="dna-nG" cx="185" cy="172" r="5" fill="#8C6A3A"/><circle class="dna-nT" cx="185" cy="256" r="5" fill="#C9A070"/><circle class="dna-nC" cx="185" cy="340" r="5" fill="#B8864E"/><circle class="dna-nT" cx="335" cy="88" r="5" fill="#C9A070"/><circle class="dna-nC" cx="335" cy="172" r="5" fill="#8C6A3A"/><circle class="dna-nA" cx="335" cy="256" r="5" fill="#B8864E"/><circle class="dna-nG" cx="335" cy="340" r="5" fill="#C9A070"/><text x="170" y="92" font-family="DM Sans,sans-serif" font-size="10" font-weight="600" fill="#B8864E" text-anchor="middle">A</text><text x="170" y="176" font-family="DM Sans,sans-serif" font-size="10" font-weight="600" fill="#8C6A3A" text-anchor="middle">G</text><text x="170" y="260" font-family="DM Sans,sans-serif" font-size="10" font-weight="600" fill="#C9A070" text-anchor="middle">T</text><text x="170" y="344" font-family="DM Sans,sans-serif" font-size="10" font-weight="600" fill="#B8864E" text-anchor="middle">C</text><text x="350" y="92" font-family="DM Sans,sans-serif" font-size="10" font-weight="600" fill="#C9A070" text-anchor="middle">T</text><text x="350" y="176" font-family="DM Sans,sans-serif" font-size="10" font-weight="600" fill="#8C6A3A" text-anchor="middle">C</text><text x="350" y="260" font-family="DM Sans,sans-serif" font-size="10" font-weight="600" fill="#B8864E" text-anchor="middle">A</text><text x="350" y="344" font-family="DM Sans,sans-serif" font-size="10" font-weight="600" fill="#C9A070" text-anchor="middle">G</text><text x="90" y="56" font-family="DM Sans,sans-serif" font-size="10" fill="rgba(184,134,78,0.45)" text-anchor="middle">5&#x2032;</text><text x="90" y="428" font-family="DM Sans,sans-serif" font-size="10" fill="rgba(184,134,78,0.45)" text-anchor="middle">3&#x2032;</text><text x="430" y="56" font-family="DM Sans,sans-serif" font-size="10" fill="rgba(184,134,78,0.45)" text-anchor="middle">3&#x2032;</text><text x="430" y="428" font-family="DM Sans,sans-serif" font-size="10" fill="rgba(184,134,78,0.45)" text-anchor="middle">5&#x2032;</text><text x="378" y="92" font-family="DM Sans,sans-serif" font-size="8.5" fill="rgba(184,134,78,0.48)">A &#x2013; T</text><text x="378" y="176" font-family="DM Sans,sans-serif" font-size="8.5" fill="rgba(140,106,58,0.48)">G &#x2013; C</text><text x="378" y="260" font-family="DM Sans,sans-serif" font-size="8.5" fill="rgba(184,134,78,0.48)">T &#x2013; A</text><text x="378" y="344" font-family="DM Sans,sans-serif" font-size="8.5" fill="rgba(140,106,58,0.48)">C &#x2013; G</text></svg></div>
+    <div class="dna-wrap" aria-hidden="true"><svg width="100%" viewBox="0 0 520 460" xmlns="http://www.w3.org/2000/svg"><g opacity="0.28" stroke="#B8864E" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M260,40 C220,52 185,70 185,88 C185,106 220,118 260,130"/><path d="M185,200 C185,218 220,230 260,242"/><path d="M185,312 C185,330 220,342 260,354"/></g><g opacity="0.28" stroke="#C9A070" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M260,130 C300,142 335,154 335,172 C335,190 300,202 260,214"/><path d="M260,242 C300,254 335,266 335,284 C335,302 300,314 260,326"/><path d="M260,354 C300,366 335,378 335,396 C335,408 300,416 260,420"/></g><line x1="185" y1="88" x2="335" y2="88" stroke="#B8864E" stroke-width="1.3" opacity="0.5"/><line x1="185" y1="172" x2="335" y2="172" stroke="#C9A070" stroke-width="1.3" opacity="0.5"/><line x1="185" y1="256" x2="335" y2="256" stroke="#8C6A3A" stroke-width="1.3" opacity="0.5"/><line x1="185" y1="340" x2="335" y2="340" stroke="#B8864E" stroke-width="1.3" opacity="0.5"/><g stroke="#B8864E" stroke-width="3" fill="none" stroke-linecap="round"><path d="M260,130 C220,142 185,154 185,172 C185,190 220,202 260,214"/><path d="M260,242 C220,254 185,266 185,284 C185,302 220,314 260,326"/><path d="M260,354 C220,366 185,378 185,396"/></g><g stroke="#C9A070" stroke-width="3" fill="none" stroke-linecap="round"><path d="M260,40 C300,52 335,64 335,82 C335,100 300,112 260,124"/><path d="M260,214 C300,226 335,238 335,256 C335,274 300,286 260,298"/><path d="M260,326 C300,338 335,350 335,368 C335,386 300,398 260,410"/></g><g class="dna-scanner"><rect x="178" y="40" width="164" height="18" rx="2" fill="#B8864E" opacity="0.07"/><rect x="178" y="56" width="164" height="1.5" rx="1" fill="#B8864E" opacity="0.55"/></g><circle class="dna-nA" cx="185" cy="88" r="5" fill="#B8864E"/><circle class="dna-nG" cx="185" cy="172" r="5" fill="#8C6A3A"/><circle class="dna-nT" cx="185" cy="256" r="5" fill="#C9A070"/><circle class="dna-nC" cx="185" cy="340" r="5" fill="#B8864E"/><circle class="dna-nT" cx="335" cy="88" r="5" fill="#C9A070"/><circle class="dna-nC" cx="335" cy="172" r="5" fill="#8C6A3A"/><circle class="dna-nA" cx="335" cy="256" r="5" fill="#B8864E"/><circle class="dna-nG" cx="335" cy="340" r="5" fill="#C9A070"/><text x="170" y="92" font-family="DM Sans,sans-serif" font-size="10" font-weight="600" fill="#B8864E" text-anchor="middle">A</text><text x="170" y="176" font-family="DM Sans,sans-serif" font-size="10" font-weight="600" fill="#8C6A3A" text-anchor="middle">G</text><text x="170" y="260" font-family="DM Sans,sans-serif" font-size="10" font-weight="600" fill="#C9A070" text-anchor="middle">T</text><text x="170" y="344" font-family="DM Sans,sans-serif" font-size="10" font-weight="600" fill="#B8864E" text-anchor="middle">C</text><text x="350" y="92" font-family="DM Sans,sans-serif" font-size="10" font-weight="600" fill="#C9A070" text-anchor="middle">T</text><text x="350" y="176" font-family="DM Sans,sans-serif" font-size="10" font-weight="600" fill="#8C6A3A" text-anchor="middle">C</text><text x="350" y="260" font-family="DM Sans,sans-serif" font-size="10" font-weight="600" fill="#B8864E" text-anchor="middle">A</text><text x="350" y="344" font-family="DM Sans,sans-serif" font-size="10" font-weight="600" fill="#C9A070" text-anchor="middle">G</text></svg></div>
     </div>
   </div>
 </section>
@@ -3263,13 +3263,26 @@ function closeMobile() {
 }
 
 // ── Language dropdown ─────────────────────────────
-function toggleLangMenu() {
-  document.getElementById('langSelect').classList.toggle('open');
-}
-document.addEventListener('click', function(e) {
-  const ls = document.getElementById('langSelect');
-  if (ls && !ls.contains(e.target)) ls.classList.remove('open');
-});
+// Language dropdown
+(function() {
+  function initLang() {
+    var trigger=document.getElementById('langTrigger');
+    var dropdown=document.getElementById('langDropdown');
+    var select=document.getElementById('langSelect');
+    if(!trigger||!dropdown) return;
+    trigger.addEventListener('click',function(e){
+      e.stopPropagation();
+      var open=dropdown.style.display==='block';
+      dropdown.style.display=open?'none':'block';
+      var arr=trigger.querySelector('svg'); if(arr) arr.style.transform=open?'':'rotate(180deg)';
+    });
+    document.addEventListener('click',function(){
+      dropdown.style.display='none';
+      var arr=trigger.querySelector('svg'); if(arr) arr.style.transform='';
+    });
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',initLang); else initLang();
+})();
 
 // ── setLang ───────────────────────────────────────
 function setLang(lang) {
