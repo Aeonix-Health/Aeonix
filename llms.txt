@@ -1,0 +1,55 @@
+# Aeonix — Own Your Health
+> Preventative health screening in Switzerland by AllesHealth GmbH
+
+## What is Aeonix?
+Aeonix is a Swiss premium preventative health screening service offering 35 to 100+ clinically validated biomarkers. Results are physician-reviewed and delivered within 48 hours. The service is certified to ISO 15189 standards and fully GDPR compliant with Swiss data sovereignty.
+
+## Who is it for?
+Adults aged 25–75 who want proactive insight into their health — executives, athletes, parents, and anyone who wants to know their numbers before symptoms appear. Aeonix tests what standard GP check-ups miss: ApoB, Lp(a), HOMA-IR, free T3/T4, cortisol, advanced inflammatory markers, and more.
+
+## Screening Plans
+- **Prime Health** — 35 biomarkers, CHF 595/year (subscription) or CHF 895 one-time
+- **Vital Edge** — 60 biomarkers, CHF 795/year or CHF 1,095 one-time
+- **Longevity Plus** — 80 biomarkers, CHF 995/year or CHF 1,295 one-time (most popular)
+- **Elite** — 100+ biomarkers, CHF 1,295/year or CHF 1,595 one-time
+
+All plans include: accredited Swiss lab processing, secure personal health dashboard, GDPR-compliant data storage, and physician-reviewed results within 48 hours.
+
+## Biomarker Domains Covered
+1. Cardiovascular — ApoB, Lp(a), LDL particle count, hsCRP
+2. Metabolic — fasting glucose, HbA1c, insulin, HOMA-IR
+3. Hormonal & Endocrine — free T3, free T4, TSH, cortisol, testosterone, oestradiol
+4. Nutritional — Vitamin D, B12, folate, iron, ferritin, zinc, magnesium, omega-3 index
+5. Inflammation & Immunity — IL-6, hsCRP, full blood count, neutrophil-lymphocyte ratio
+6. Oncology — PSA, CA-125, CEA, AFP (Longevity Plus and Elite plans)
+
+## Key differentiators vs standard GP check-up
+- Standard GP tests 12–24 markers. Aeonix tests 35–100+.
+- GP tests are reactive (after symptoms). Aeonix is proactive (before symptoms).
+- Results include physician commentary, not just numbers.
+- Longitudinal tracking — year-on-year trend comparison with annual subscription.
+- Home blood collection available (Elite plan).
+
+## Company
+- Brand: Aeonix
+- Operator: AllesHealth GmbH, Zürich, Switzerland
+- Contact: info@alleshealth.com
+- Website: https://www.aeonix.ch
+- Privacy Policy: https://www.alleshealth.com/data-privacy-policy
+- Launch: Switzerland 2026. Expansion planned: Scandinavia, UAE, United Kingdom (2027)
+
+## FAQ
+**Is Aeonix covered by Swiss health insurance (Krankenkasse)?**
+No. Aeonix is a private preventative screening service, not covered by basic Swiss health insurance (KVG/LAMal). Some supplementary insurance (Zusatzversicherung) may reimburse part of the cost.
+
+**How do I get tested?**
+Reserve your spot at aeonix.ch, choose your plan, and receive a blood draw referral for a certified Swiss laboratory near you. Results arrive in your secure dashboard within 48 hours.
+
+**Is my data safe?**
+Yes. All data is stored in Switzerland under Swiss and EU GDPR law. Aeonix does not sell personal data.
+
+**What is ApoB and why does it matter?**
+ApoB (apolipoprotein B) measures the number of atherogenic lipoprotein particles — a more accurate predictor of cardiovascular risk than LDL-C alone. It is included from the Vital Edge plan upward.
+
+**What is HOMA-IR?**
+HOMA-IR (Homeostatic Model Assessment of Insulin Resistance) is a calculated measure of insulin resistance using fasting glucose and fasting insulin. It detects metabolic dysfunction before HbA1c becomes abnormal.
