@@ -4,34 +4,75 @@
   <!-- Homepage -->
   <url>
     <loc>https://www.aeonix.ch/</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-04-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Articles -->
-  <url><loc>https://www.aeonix.ch/articles/apob-vs-ldl-cholesterol/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/gp-checkup-misses-80-percent/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/insulin-resistance-silent-risk/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/vitamin-d-deficiency-switzerland/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/inflammation-silent-disease-driver/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/lipoprotein-a-genetic-risk/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/burnout-cortisol-blood-markers/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/krankenkasse-doesnt-cover/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/testosterone-decline-men-switzerland/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/thyroid-health-tsh-not-enough/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/womens-health-comprehensive-screening/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/executive-health-guide-switzerland/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/longevity-biomarkers-bryan-johnson/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/cancer-markers-preventative-screening/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/bone-health-before-50/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/sleep-biology-blood-markers/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/omega3-index-underrated-marker/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/gut-health-immune-inflammation/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/annual-vs-subscription-screening/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/corporate-wellness-switzerland/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/expat-health-screening-switzerland/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/gift-of-health-couples-screening/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aeonix.ch/articles/reading-blood-test-results/</loc><lastmod>2025-01-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <!-- Articles (46) -->
+  <url><loc>https://www.aeonix.ch/articles/analisi-sangue-burnout-svizzera.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/analisi-sangue-preventive-svizzera.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/annual-vs-subscription-screening.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/apob-test-zuerich-schweiz.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/apob-test-zurich-switzerland.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/apob-vs-ldl-cholesterol.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/bilan-sanguin-preventif-suisse.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/bone-health-before-50.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/burnout-blood-test-switzerland.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/burnout-bluttest-schweiz.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/burnout-cortisol-blood-markers.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/cancer-markers-preventative-screening.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/corporate-wellness-switzerland.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/costo-check-salute-svizzera.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/costo-test-lpa-svizzera.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/cout-bilan-sante-suisse.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/cout-test-lpa-suisse.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/executive-health-guide-switzerland.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/expat-health-screening-switzerland.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/gesundheitscheck-kosten-schweiz.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/gift-of-health-couples-screening.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/gp-checkup-misses-80-percent.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/gut-health-immune-inflammation.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/homa-ir-test-schweiz.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/homa-ir-test-switzerland.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/inflammation-silent-disease-driver.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/insulin-resistance-silent-risk.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/krankenkasse-doesnt-cover.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/lipoprotein-a-genetic-risk.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/longevity-biomarkers-bryan-johnson.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/lp-a-test-cost-switzerland.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/lpa-test-kosten-schweiz.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/omega3-index-underrated-marker.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/preventive-health-check-cost-switzerland.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/reading-blood-test-results.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/sleep-biology-blood-markers.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/test-apob-zurich-suisse.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/test-apob-zurigo-svizzera.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/test-homa-ir-suisse.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/test-homa-ir-svizzera.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/test-sanguin-burnout-suisse.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/testosterone-decline-men-switzerland.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/thyroid-health-tsh-not-enough.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/vitamin-d-deficiency-switzerland.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/vorsorgeuntersuchung-blut-schweiz.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/articles/womens-health-comprehensive-screening.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- City pages (16) -->
+  <url><loc>https://www.aeonix.ch/cities/bilan-sante-bale.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/cities/bilan-sante-geneve.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/cities/bilan-sante-zoug.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/cities/bilan-sante-zurich.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/cities/check-salute-basilea.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/cities/check-salute-ginevra.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/cities/check-salute-zugo.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/cities/check-salute-zurigo.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/cities/gesundheitscheck-basel.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/cities/gesundheitscheck-genf.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/cities/gesundheitscheck-zuerich.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/cities/gesundheitscheck-zug.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/cities/health-screening-basel.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/cities/health-screening-geneva.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/cities/health-screening-zug.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.aeonix.ch/cities/health-screening-zurich.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
 </urlset>
