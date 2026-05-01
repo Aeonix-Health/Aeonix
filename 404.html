@@ -1,12 +1,120 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!-- vanilla-cookieconsent CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css"/>
+<!-- Google Tag Manager (with Consent Mode v2) -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('consent', 'default', {
+    analytics_storage: 'denied',
+    ad_storage: 'denied',
+    functionality_storage: 'denied',
+    personalization_storage: 'denied',
+    wait_for_update: 2000
+  });
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T44V76GK');</script>
+<!-- End Google Tag Manager -->
 <meta charset="UTF-8"/>
 <meta http-equiv="refresh" content="0;url=https://www.aeonix.ch/"/>
 <title>Aeonix — Page not found</title>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T44V76GK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <p>Redirecting to <a href="https://www.aeonix.ch/">aeonix.ch</a>...</p>
 <script>window.location.href='https://www.aeonix.ch/';</script>
+
+<!-- vanilla-cookieconsent JS + config -->
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js"></script>
+<script>
+  CookieConsent.run({
+    autoShow: true,
+    revision: 1,
+    cookie: {
+      name: 'cc_cookie',
+      expiresAfterDays: 365,
+    },
+    onConsent: function({ cookie }) {
+      if (CookieConsent.acceptedCategory('analytics')) {
+        gtag('consent', 'update', { analytics_storage: 'granted' });
+        dataLayer.push({ event: 'cookie_consent_analytics' });
+      }
+      if (CookieConsent.acceptedCategory('marketing')) {
+        gtag('consent', 'update', { ad_storage: 'granted' });
+      }
+    },
+    onChange: function({ cookie }) {
+      const analyticsGranted = CookieConsent.acceptedCategory('analytics');
+      gtag('consent', 'update', {
+        analytics_storage: analyticsGranted ? 'granted' : 'denied'
+      });
+    },
+    categories: {
+      necessary: {
+        enabled: true,
+        readOnly: true
+      },
+      analytics: {
+        enabled: false,
+        autoClear: {
+          cookies: [
+            { name: /^_ga/ },
+            { name: '_gid' }
+          ]
+        }
+      },
+      marketing: {
+        enabled: false
+      }
+    },
+    language: {
+      default: 'en',
+      translations: {
+        en: {
+          consentModal: {
+            title: 'We use cookies 🍪',
+            description: 'We use cookies to analyze traffic and improve your experience.',
+            acceptAllBtn: 'Accept all',
+            acceptNecessaryBtn: 'Reject all',
+            showPreferencesBtn: 'Manage preferences'
+          },
+          preferencesModal: {
+            title: 'Cookie Preferences',
+            acceptAllBtn: 'Accept all',
+            acceptNecessaryBtn: 'Reject all',
+            savePreferencesBtn: 'Save preferences',
+            sections: [
+              {
+                title: 'Necessary Cookies',
+                description: 'Required for the site to function. Cannot be disabled.',
+                linkedCategory: 'necessary'
+              },
+              {
+                title: 'Analytics Cookies',
+                description: 'Help us understand how visitors use the site (Google Analytics).',
+                linkedCategory: 'analytics'
+              },
+              {
+                title: 'Marketing Cookies',
+                description: 'Used for targeted advertising.',
+                linkedCategory: 'marketing'
+              }
+            ]
+          }
+        }
+      }
+    }
+  });
+</script>
 </body>
 </html>

@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- vanilla-cookieconsent CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css"/>
+<!-- Google Tag Manager (with Consent Mode v2) -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('consent', 'default', {
+    analytics_storage: 'denied',
+    ad_storage: 'denied',
+    functionality_storage: 'denied',
+    personalization_storage: 'denied',
+    wait_for_update: 2000
+  });
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T44V76GK');</script>
+<!-- End Google Tag Manager -->
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title>Aeonix — Own Your Health | Advanced Preventative Screening Switzerland</title>
@@ -1193,16 +1214,12 @@ button.view-all { background:none; border:none; cursor:pointer; font-family:'DM 
 
 .plan-focus{font-size:.78rem;color:var(--ink3);line-height:1.55;margin:12px 0 4px;font-style:italic;padding-bottom:12px;border-bottom:1px solid rgba(184,134,78,.12);}
 </style>
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FC3BT0C9E5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-FC3BT0C9E5');
-</script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T44V76GK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <!-- MOBILE MENU -->
 <div class="mobile-menu" id="mobileMenu">
@@ -3648,29 +3665,50 @@ function wlSubmit(e) {
     errEl.style.display = 'block';
     return;
   }
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({'event': 'generate_lead', 'form_id': 'wl-form'});
   btn.classList.add('is-loading');
   btn.disabled = true;
   wlRefCode     = genRefCode(email);
   wlMemberEmail = email;
   wlMemberName  = fname;
-  var payload = {
-    name: fname + (lname ? ' ' + lname : ''),
-    email: email,
-    plan_interest: plan || 'undecided',
-    city: city || 'not specified',
-    referral_code: wlRefCode,
-    referred_by: (document.getElementById('wl-hidden-ref') || {}).value || 'direct',
-    source: 'aeonix-waitlist',
-    _replyto: email,
-    _subject: 'New Aeonix Waitlist: ' + fname + (lname ? ' ' + lname : '')
+  var hubspotUtk = (document.cookie.match(/hubspotutk=([^;]+)/) || [])[1] || '';
+  var hsPayload = {
+    fields: [
+      { name: 'firstname', value: fname },
+      { name: 'lastname', value: lname },
+      { name: 'email', value: email },
+      { name: 'state', value: plan || 'undecided' },
+      { name: 'country', value: city || 'not specified' }
+    ],
+    context: {
+      hutk: hubspotUtk,
+      pageUri: window.location.href,
+      pageName: document.title
+    },
+    legalConsentOptions: {
+      consent: {
+        consentToProcess: true,
+        text: 'I agree that AllesHealth GmbH may store and process my personal data.'
+      }
+    }
   };
-  fetch(FORMSPREE_URL, {
+  console.log('[HubSpot] submit', {
+    email: email,
+    firstname: fname,
+    lastname: lname,
+    plan: plan || 'undecided',
+    country: city || 'not specified'
+  });
+  fetch('https://api.hsforms.com/submissions/v3/integration/submit/245937692/f7f192f0-c51f-4f77-9cf2-ee482da19819', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-    body: JSON.stringify(payload)
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(hsPayload)
   }).then(function(res) {
-    return res.json().then(function(data) { return { ok: res.ok, data: data }; });
+    return res.json().then(function(data) { return { ok: res.ok, data: data }; })
+      .catch(function() { return { ok: res.ok, data: {} }; });
   }).then(function(result) {
+    console.log('[HubSpot] response', result);
     if (result.ok) {
       wlShowSuccess(fname, email);
     } else {
@@ -3680,7 +3718,13 @@ function wlSubmit(e) {
       btn.classList.remove('is-loading');
       btn.disabled = false;
     }
-  }).catch(function() { wlShowSuccess(fname, email); });
+  }).catch(function(err) {
+    console.error('[HubSpot] error', err);
+    errEl.textContent = 'Submission failed. Please try again.';
+    errEl.style.display = 'block';
+    btn.classList.remove('is-loading');
+    btn.disabled = false;
+  });
 }
 
 function wlShowSuccess(fname, email) {
@@ -3780,6 +3824,10 @@ document.addEventListener('DOMContentLoaded', function() {
   var floatBtn = document.getElementById('wl-float-btn');
   if (floatBtn) floatBtn.addEventListener('click', function() { smoothTo('waitlist'); });
 
+  // Waitlist form submit
+  var wlForm = document.getElementById('wl-form');
+  if (wlForm) wlForm.addEventListener('submit', wlSubmit);
+
   // Pricing toggle
   var tOT  = document.getElementById('tOT');
   var tSub = document.getElementById('tSub');
@@ -3812,6 +3860,89 @@ document.addEventListener('DOMContentLoaded', function() {
   initReveal();
 
 });
+</script>
+
+<!-- vanilla-cookieconsent JS + config -->
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js"></script>
+<script>
+  CookieConsent.run({
+    autoShow: true,
+    revision: 1,
+    cookie: {
+      name: 'cc_cookie',
+      expiresAfterDays: 365,
+    },
+    onConsent: function({ cookie }) {
+      if (CookieConsent.acceptedCategory('analytics')) {
+        gtag('consent', 'update', { analytics_storage: 'granted' });
+        dataLayer.push({ event: 'cookie_consent_analytics' });
+      }
+      if (CookieConsent.acceptedCategory('marketing')) {
+        gtag('consent', 'update', { ad_storage: 'granted' });
+      }
+    },
+    onChange: function({ cookie }) {
+      const analyticsGranted = CookieConsent.acceptedCategory('analytics');
+      gtag('consent', 'update', {
+        analytics_storage: analyticsGranted ? 'granted' : 'denied'
+      });
+    },
+    categories: {
+      necessary: {
+        enabled: true,
+        readOnly: true
+      },
+      analytics: {
+        enabled: false,
+        autoClear: {
+          cookies: [
+            { name: /^_ga/ },
+            { name: '_gid' }
+          ]
+        }
+      },
+      marketing: {
+        enabled: false
+      }
+    },
+    language: {
+      default: 'en',
+      translations: {
+        en: {
+          consentModal: {
+            title: 'We use cookies 🍪',
+            description: 'We use cookies to analyze traffic and improve your experience.',
+            acceptAllBtn: 'Accept all',
+            acceptNecessaryBtn: 'Reject all',
+            showPreferencesBtn: 'Manage preferences'
+          },
+          preferencesModal: {
+            title: 'Cookie Preferences',
+            acceptAllBtn: 'Accept all',
+            acceptNecessaryBtn: 'Reject all',
+            savePreferencesBtn: 'Save preferences',
+            sections: [
+              {
+                title: 'Necessary Cookies',
+                description: 'Required for the site to function. Cannot be disabled.',
+                linkedCategory: 'necessary'
+              },
+              {
+                title: 'Analytics Cookies',
+                description: 'Help us understand how visitors use the site (Google Analytics).',
+                linkedCategory: 'analytics'
+              },
+              {
+                title: 'Marketing Cookies',
+                description: 'Used for targeted advertising.',
+                linkedCategory: 'marketing'
+              }
+            ]
+          }
+        }
+      }
+    }
+  });
 </script>
 </body>
 </html>

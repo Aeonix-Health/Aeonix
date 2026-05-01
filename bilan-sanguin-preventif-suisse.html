@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+<!-- vanilla-cookieconsent CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css"/>
+<!-- Google Tag Manager (with Consent Mode v2) -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('consent', 'default', {
+    analytics_storage: 'denied',
+    ad_storage: 'denied',
+    functionality_storage: 'denied',
+    personalization_storage: 'denied',
+    wait_for_update: 2000
+  });
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T44V76GK');</script>
+<!-- End Google Tag Manager -->
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>Bilan sanguin préventif en Suisse : ce qu'une analyse complète révèle vraiment | Aeonix</title>
@@ -24,8 +45,6 @@
   "publisher":{"@type":"Organization","name":"AllesHealth GmbH","url":"https://www.aeonix.ch"},
   "mainEntityOfPage":{"@type":"WebPage","@id":"https://www.aeonix.ch/bilan-sanguin-preventif-suisse.html"}
 }</script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FC3BT0C9E5"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-FC3BT0C9E5');</script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Georgia',serif;background:#FAF8F4;color:#2A2723;line-height:1.85;}
@@ -64,6 +83,10 @@ body{font-family:'Georgia',serif;background:#FAF8F4;color:#2A2723;line-height:1.
 </style>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T44V76GK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <nav class="nav">
   <a href="https://www.aeonix.ch/" class="nav-logo">Aeonix</a>
   <a href="https://www.aeonix.ch/" class="nav-back">← Retour à Aeonix</a>
@@ -98,5 +121,88 @@ body{font-family:'Georgia',serif;background:#FAF8F4;color:#2A2723;line-height:1.
   <a href="https://www.aeonix.ch/#waitlist">Réservez votre place</a>
 </div>
 <div class="footer">&copy; 2026 <a href="https://www.aeonix.ch/">Aeonix</a> &mdash; AllesHealth GmbH, Zürich &nbsp;·&nbsp; <a href="https://www.alleshealth.com/data-privacy-policy">Politique de confidentialité</a></div>
+
+<!-- vanilla-cookieconsent JS + config -->
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js"></script>
+<script>
+  CookieConsent.run({
+    autoShow: true,
+    revision: 1,
+    cookie: {
+      name: 'cc_cookie',
+      expiresAfterDays: 365,
+    },
+    onConsent: function({ cookie }) {
+      if (CookieConsent.acceptedCategory('analytics')) {
+        gtag('consent', 'update', { analytics_storage: 'granted' });
+        dataLayer.push({ event: 'cookie_consent_analytics' });
+      }
+      if (CookieConsent.acceptedCategory('marketing')) {
+        gtag('consent', 'update', { ad_storage: 'granted' });
+      }
+    },
+    onChange: function({ cookie }) {
+      const analyticsGranted = CookieConsent.acceptedCategory('analytics');
+      gtag('consent', 'update', {
+        analytics_storage: analyticsGranted ? 'granted' : 'denied'
+      });
+    },
+    categories: {
+      necessary: {
+        enabled: true,
+        readOnly: true
+      },
+      analytics: {
+        enabled: false,
+        autoClear: {
+          cookies: [
+            { name: /^_ga/ },
+            { name: '_gid' }
+          ]
+        }
+      },
+      marketing: {
+        enabled: false
+      }
+    },
+    language: {
+      default: 'en',
+      translations: {
+        en: {
+          consentModal: {
+            title: 'We use cookies 🍪',
+            description: 'We use cookies to analyze traffic and improve your experience.',
+            acceptAllBtn: 'Accept all',
+            acceptNecessaryBtn: 'Reject all',
+            showPreferencesBtn: 'Manage preferences'
+          },
+          preferencesModal: {
+            title: 'Cookie Preferences',
+            acceptAllBtn: 'Accept all',
+            acceptNecessaryBtn: 'Reject all',
+            savePreferencesBtn: 'Save preferences',
+            sections: [
+              {
+                title: 'Necessary Cookies',
+                description: 'Required for the site to function. Cannot be disabled.',
+                linkedCategory: 'necessary'
+              },
+              {
+                title: 'Analytics Cookies',
+                description: 'Help us understand how visitors use the site (Google Analytics).',
+                linkedCategory: 'analytics'
+              },
+              {
+                title: 'Marketing Cookies',
+                description: 'Used for targeted advertising.',
+                linkedCategory: 'marketing'
+              }
+            ]
+          }
+        }
+      }
+    }
+  });
+</script>
 </body>
 </html>
