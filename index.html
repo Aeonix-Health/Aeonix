@@ -3673,6 +3673,11 @@ function wlSubmit(e) {
   wlMemberEmail = email;
   wlMemberName  = fname;
   var hubspotUtk = (document.cookie.match(/hubspotutk=([^;]+)/) || [])[1] || '';
+  var hsContext = {
+    pageUri: window.location.href,
+    pageName: document.title
+  };
+  if (hubspotUtk) hsContext.hutk = hubspotUtk;
   var hsPayload = {
     fields: [
       { name: 'firstname', value: fname },
@@ -3681,11 +3686,7 @@ function wlSubmit(e) {
       { name: 'state', value: plan || 'undecided' },
       { name: 'country', value: city || 'not specified' }
     ],
-    context: {
-      hutk: hubspotUtk,
-      pageUri: window.location.href,
-      pageName: document.title
-    },
+    context: hsContext,
     legalConsentOptions: {
       consent: {
         consentToProcess: true,
