@@ -3577,6 +3577,7 @@ document.addEventListener('keydown', function(e) {
 // ════════════════════════════════════════════════════
 
 const FORMSPREE_URL = 'https://formspree.io/f/xdawvwlb';
+const N8N_ACK_URL   = 'http://16.62.72.160:5678/webhook/aeonix-waitlist-ack';
 const NOTIFY_EMAIL  = 'info@alleshealth.com';
 var wlRefCode     = '';
 var wlMemberEmail = '';
@@ -3711,6 +3712,19 @@ function wlSubmit(e) {
   }).then(function(result) {
     console.log('[HubSpot] response', result);
     if (result.ok) {
+      fetch(N8N_ACK_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          firstName: fname,
+          lastName: lname,
+          email: email,
+          planInterest: plan || 'undecided',
+          country: city || 'not specified'
+        })
+      }).catch(function(err) {
+        console.error('[N8N] ack error', err);
+      });
       wlShowSuccess(fname, email);
     } else {
       var msg = (result.data.errors && result.data.errors[0] && result.data.errors[0].message) || 'Something went wrong. Please try again.';
