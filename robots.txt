@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.aeonix.ch/sitemap.xml
+Sitemap: https://aeonix.ch/sitemap.xml
