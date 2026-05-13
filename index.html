@@ -1638,12 +1638,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="wl-ref-url" id="wl-ref-url">aeonix.health?ref=XXXXXX</div>
           <button class="wl-copy-btn" id="wl-copy-btn" onclick="wlCopyLink()" data-i18n="wl.ref.copy">Copy link</button>
         </div>
-        <div class="wl-ref-section-title" style="margin-top:18px" data-i18n="wl.ref.invite.title">Or invite directly by email</div>
+        <div class="wl-ref-section-title" id="wl-invite-title" style="margin-top:18px" data-i18n="wl.ref.invite.title">Or invite directly by email</div>
         <div id="wl-invite-fields">
           <div class="wl-invite-row"><div class="wl-invite-num">1</div><input type="email" id="wl-friend-1" placeholder="friend@example.com"/></div>
           <div class="wl-invite-row"><div class="wl-invite-num">2</div><input type="email" id="wl-friend-2" placeholder="friend@example.com"/></div>
         </div>
-        <button class="wl-send-btn" onclick="wlSendInvites()" data-i18n="wl.ref.send">Send personal invitations</button>
+        <div class="wl-error" id="wl-invite-error"></div>
+        <button class="wl-send-btn" id="wl-send-btn" onclick="wlSendInvites()" data-i18n="wl.ref.send">Send personal invitations</button>
         <div class="wl-or-div"><span data-i18n="wl.ref.or">or share via</span></div>
         <div class="wl-share-btns">
           <button class="wl-share-btn" onclick="wlShareWhatsApp()">
@@ -3786,15 +3787,47 @@ function wlCopyLink() {
 }
 
 function wlSendInvites() {
+  var errEl = document.getElementById('wl-invite-error');
+  if (errEl) { errEl.style.display = 'none'; errEl.textContent = ''; }
+  var sentEl = document.getElementById('wl-sent-confirm');
+  if (sentEl && sentEl.classList.contains('is-shown')) {
+    return;
+  }
   if (!wlMemberEmail || !wlMemberName) {
-    alert('Please join the waitlist first, then send invites.');
+    if (errEl) {
+      errEl.textContent = 'Please join the waitlist first, then send invites.';
+      errEl.style.display = 'block';
+    }
     return;
   }
   var f1   = document.getElementById('wl-friend-1').value.trim();
   var f2   = document.getElementById('wl-friend-2').value.trim();
+  var inviter = wlMemberEmail.trim().toLowerCase();
+  var f1Norm = f1.toLowerCase();
+  var f2Norm = f2.toLowerCase();
+  if ((f1Norm && f1Norm === inviter) || (f2Norm && f2Norm === inviter)) {
+    if (errEl) {
+      errEl.textContent = 'Please enter a friend\'s email, not your own.';
+      errEl.style.display = 'block';
+    }
+    return;
+  }
+  if (f1Norm && f2Norm && f1Norm === f2Norm) {
+    if (errEl) {
+      errEl.textContent = 'Please enter two different friend emails.';
+      errEl.style.display = 'block';
+    }
+    return;
+  }
   var rexp = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   var friends = [f1, f2].filter(function(e) { return e && rexp.test(e); });
-  if (!friends.length) { alert('Please enter at least one valid friend email.'); return; }
+  if (!friends.length) {
+    if (errEl) {
+      errEl.textContent = 'Please enter at least one valid friend email.';
+      errEl.style.display = 'block';
+    }
+    return;
+  }
   var urlEl  = document.getElementById('wl-ref-url');
   var refUrl = (urlEl && urlEl.dataset.url) || (urlEl && urlEl.textContent) || '';
   friends.forEach(function(friendEmail) {
@@ -3811,10 +3844,13 @@ function wlSendInvites() {
       })
     }).catch(function(){});
   });
-  var sentEl   = document.getElementById('wl-sent-confirm');
   var fieldsEl = document.getElementById('wl-invite-fields');
+  var inviteTitleEl = document.getElementById('wl-invite-title');
+  var sendBtnEl = document.getElementById('wl-send-btn');
   if (sentEl)   sentEl.classList.add('is-shown');
   if (fieldsEl) fieldsEl.style.display = 'none';
+  if (inviteTitleEl) inviteTitleEl.style.display = 'none';
+  if (sendBtnEl) sendBtnEl.style.display = 'none';
 }
 
 function wlShareWhatsApp() {
