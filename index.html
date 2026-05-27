@@ -62,8 +62,10 @@ body{background:var(--bg);color:var(--ink);font-family:'DM Sans',sans-serif;font
 /* ═══ NAV ═══ */
 #main-nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:0 48px;height:72px;background:rgba(247,244,239,.99);box-shadow:0 1px 0 rgba(184,134,78,.15);}
 
-.nav-logo{display:flex;align-items:center;text-decoration:none;}
-.nav-logo img{height:38px;width:auto;}
+.nav-logo{display:flex;align-items:center;text-decoration:none;width:200px;height:44px;flex-shrink:0;}
+.nav-logo img{height:31px;width:auto;display:block;object-fit:contain;}
+.nav-logo, .ao-logo, .foot-logo { background-image: url('https://ik.imagekit.io/yllucexhy/Group%201244830804.png?updatedAt=1767778865914'); background-repeat: no-repeat; background-size: contain; background-position: left center; display:block; flex-shrink:0; }
+.nav-logo img, .ao-logo img, .foot-logo img { opacity: 0; width: 0; height: 0; }
 .nav-center{display:flex;align-items:center;gap:4px;}
 .nav-link{padding:8px 13px;color:var(--ink3);font-size:.78rem;letter-spacing:.04em;text-decoration:none;transition:color .2s;background:none;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;white-space:nowrap;}
 .nav-link:hover{color:var(--gold);}
@@ -340,6 +342,7 @@ table.ct{width:100%;border-collapse:collapse;font-size:.83rem;}
 footer{background:#2A2723;border-top:1px solid rgba(184,134,78,.2);padding:50px 52px 30px;}
 .foot-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:52px;margin-bottom:44px;}
 .foot-brand p{font-size:.78rem;color:rgba(255,255,255,.4);line-height:1.75;margin-top:14px;max-width:255px;}
+.foot-logo{width:210px;height:52px;}
 .foot-logo img{height:30px;width:auto;mix-blend-mode:screen;opacity:.85;}
 .fcol h4{font-size:.6rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-l);margin-bottom:14px;}
 .fcol ul{list-style:none;}
@@ -951,6 +954,7 @@ a.bcard:hover { text-decoration: none; }
   padding: 0 52px; height: 72px;
   display: flex; align-items: center; justify-content: space-between;
 }
+.ao-logo{width:220px;height:54px;}
 .ao-logo img { height: 34px; width: auto; }
 .ao-close {
   display: inline-flex; align-items: center; gap: 8px;
@@ -1598,7 +1602,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <input type="hidden" id="wl-hidden-ref" name="referred_by"/>
           <div class="wl-field-row">
             <div class="wl-field"><label data-i18n="wl.form.fname">First name</label><input type="text" id="wl-fname" name="first_name" placeholder="Markus" required/></div>
-            <div class="wl-field"><label data-i18n="wl.form.lname">Last name</label><input type="text" id="wl-lname" name="last_name" placeholder="Hoffmann"/></div>
+            <div class="wl-field"><label data-i18n="wl.form.lname">Last name</label><input type="text" id="wl-lname" name="last_name" placeholder="Hoffmann" required/></div>
           </div>
           <div class="wl-field"><label data-i18n="wl.form.email">Email address</label><input type="email" id="wl-email" name="email" placeholder="markus@example.com" required/></div>
           <div class="wl-field">
@@ -3658,8 +3662,8 @@ function wlSubmit(e) {
   errEl.style.display = 'none';
   var gdprCheck=document.getElementById('wl-gdpr-check');var gdprError=document.getElementById('wl-gdpr-error');
   if(gdprCheck&&!gdprCheck.checked){if(gdprError)gdprError.style.display='block';return;}if(gdprError)gdprError.style.display='none';
-  if (!fname || !email) {
-    errEl.textContent = 'Please enter your name and email address.';
+  if (!fname || !lname || !email) {
+    errEl.textContent = 'Please enter your first and last name and email address.';
     errEl.style.display = 'block';
     return;
   }
@@ -3674,7 +3678,9 @@ function wlSubmit(e) {
   btn.disabled = true;
   wlRefCode     = genRefCode(email);
   wlMemberEmail = email;
-  wlMemberName  = fname;
+  var fullName = fname;
+  if (lname) fullName = fname + ' ' + lname;
+  wlMemberName  = fullName;
   var hubspotUtk = (document.cookie.match(/hubspotutk=([^;]+)/) || [])[1] || '';
   var hsContext = {
     pageUri: window.location.href,
