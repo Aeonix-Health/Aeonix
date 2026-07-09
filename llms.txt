@@ -2,7 +2,7 @@
 > Preventative blood screening service in Switzerland by AllesHealth GmbH
 
 ## Overview
-Aeonix is a Swiss direct-access preventative health screening service. Adults can order comprehensive blood panels of 35 to 100+ biomarkers without a GP referral. Results are processed by ISO 15189-accredited Swiss laboratories and reviewed by physicians. Results are delivered digitally within 48 hours.
+Aeonix is a Swiss direct-access preventative health screening service. Adults can order comprehensive blood panels of 35 to 100+ biomarkers without a GP referral. Results are processed by leading Swiss laboratories and reviewed by physicians. Results are delivered digitally within 48 hours.
 
 Aeonix is operated by AllesHealth GmbH, Zürich, Switzerland.
 Website: https://aeonix.ch
