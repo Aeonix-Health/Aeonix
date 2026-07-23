@@ -68,6 +68,8 @@
   <!-- Hero image preload for LCP -->
   <link rel="preload" as="image" fetchpriority="high"
     href="/assets/why-photo.jpg"
+    imagesrcset="/assets/why-photo-mobile.jpg 768w, /assets/why-photo.jpg 1920w"
+    imagesizes="100vw"
     type="image/jpeg" />
 </head>
 
@@ -134,10 +136,13 @@
 
   <!-- HERO -->
   <header class="hero">
-    <img
-      src="/assets/why-photo.jpg"
-      width="1920" height="1080" alt="Own Your Health" class="hero-photo"
-      loading="eager" fetchpriority="high" decoding="sync" />
+    <picture>
+      <source media="(max-width: 768px)" srcset="/assets/why-photo-mobile.jpg" type="image/jpeg">
+      <img
+        src="/assets/why-photo.jpg"
+        width="1920" height="1080" alt="Own Your Health" class="hero-photo"
+        loading="eager" fetchpriority="high" decoding="sync" />
+    </picture>
     <div class="hero-overlay"></div>
     <div class="hero-content">
       <div class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="hero.eyebrow">Preventative Screening ·

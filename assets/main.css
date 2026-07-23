@@ -8,3 +8,4 @@
 .hero,.hero-stats,.marquee-wrap,.stats-band{
   content-visibility:visible;
 }
+.dna-nT,.dna-nA,.dna-nC,.dna-nG{transform-box:fill-box;transform-origin:center;will-change:transform}
