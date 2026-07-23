@@ -2221,7 +2221,7 @@
       // Core site
       buildFAQ('en');
       buildMarquee('en');
-      initReveal();
+      setTimeout(initReveal, 150);
 
       // Float button
       var floatBtn = document.getElementById('wl-float-btn');
@@ -2260,6 +2260,6 @@
       setLang('en');
 
       // Reveal
-      initReveal();
+      setTimeout(initReveal, 150);
 
     });
