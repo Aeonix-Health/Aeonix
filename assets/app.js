@@ -1770,15 +1770,18 @@
 
     // ── Reveal on scroll ──────────────────────────────
     function initReveal() {
-      document.querySelectorAll('.rv').forEach(function (el) {
-        if (el.getBoundingClientRect().top >= window.innerHeight) el.classList.add('anim');
+      var wHeight = window.innerHeight;
+      var reveals = Array.from(document.querySelectorAll('.rv'));
+      var tops = reveals.map(function(el) { return el.getBoundingClientRect().top; });
+      reveals.forEach(function (el, i) {
+        if (tops[i] >= wHeight) el.classList.add('anim');
       });
       var obs = new IntersectionObserver(function (entries) {
         entries.forEach(function (e) {
           if (e.isIntersecting) { e.target.classList.add('vis'); obs.unobserve(e.target); }
         });
       }, { threshold: 0.05 });
-      document.querySelectorAll('.rv').forEach(function (el) { obs.observe(el); });
+      reveals.forEach(function (el) { obs.observe(el); });
     }
 
     // ── Anchor click handler ──────────────────────────
