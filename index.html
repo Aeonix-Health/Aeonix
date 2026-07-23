@@ -31,7 +31,7 @@
   <!-- Google Tag Manager (deferred to after page load for performance) -->
   <script>
     window.addEventListener('load', function() {
-      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T44V76GK');
+      setTimeout(function(){(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T44V76GK');}, 4000);
     });
   </script>
   <!-- End Google Tag Manager -->
@@ -67,10 +67,10 @@
 
   <!-- Hero image preload for LCP -->
   <link rel="preload" as="image" fetchpriority="high"
-    href="/assets/why-photo.jpg"
-    imagesrcset="/assets/why-photo-mobile.jpg 768w, /assets/why-photo.jpg 1920w"
+    href="/assets/why-photo.webp"
+    imagesrcset="/assets/why-photo-mobile.webp 768w, /assets/why-photo.webp 1920w"
     imagesizes="100vw"
-    type="image/jpeg" />
+    type="image/webp" />
 </head>
 
 <body>
@@ -137,9 +137,9 @@
   <!-- HERO -->
   <header class="hero">
     <picture>
-      <source media="(max-width: 768px)" srcset="/assets/why-photo-mobile.jpg" type="image/jpeg">
+      <source media="(max-width: 768px)" srcset="/assets/why-photo-mobile.webp" type="image/webp">
       <img
-        src="/assets/why-photo.jpg"
+        src="/assets/why-photo.webp"
         width="1920" height="1080" alt="Own Your Health" class="hero-photo"
         loading="eager" fetchpriority="high" decoding="sync" />
     </picture>
@@ -233,7 +233,7 @@
     <div class="why-inner">
       <div class="why-photo rv">
         <img
-          src="/assets/hero-bg.jpg"
+          src="/assets/hero-bg.webp"
           alt="Executive reviewing information about a preventive health screening"
           loading="lazy" width="360" height="520" />
       </div>
@@ -281,7 +281,7 @@
   <!-- PHOTO CALLOUT -->
   <div class="photo-callout rv">
     <img
-      src="/assets/why-photo.jpg"
+      src="/assets/why-photo.webp"
       alt="Couple representing a shared preventive health screening decision" class="bg" loading="lazy" />
     <div class="pc-overlay"></div>
     <div class="pc-content">
@@ -338,7 +338,7 @@
   <!-- LIFESTYLE STRIP -->
   <div class="lifestyle-strip">
     <div class="ls-item rv"><img
-        src="/assets/callout-bg.jpg"
+        src="/assets/callout-bg.webp"
         alt="Woman representing women's preventive health screening" loading="lazy" />
       <div class="ls-label">
         <div class="ls-sub" data-i18n="ls.1.sub">Women's Health</div>
@@ -346,7 +346,7 @@
       </div>
     </div>
     <div class="ls-item rv d1"><img
-        src="/assets/lifestyle-1.jpg"
+        src="/assets/lifestyle-1.webp"
         alt="Person representing longevity and preventive health" loading="lazy" />
       <div class="ls-label">
         <div class="ls-sub" data-i18n="ls.2.sub">Longevity · Prevention</div>
@@ -354,7 +354,7 @@
       </div>
     </div>
     <div class="ls-item rv d2"><img
-        src="/assets/lifestyle-2.jpg"
+        src="/assets/lifestyle-2.webp"
         alt="Person representing personal ownership of long-term health" loading="lazy" />
       <div class="ls-label">
         <div class="ls-sub" data-i18n="ls.3.sub">Own Your Health</div>
@@ -774,7 +774,7 @@
     <div class="blog-grid">
       <div class="bcard rv" data-slug="gp-checkup-misses-80-percent">
         <div class="bcard-img"><img
-            src="/assets/lifestyle-3.jpg"
+            src="/assets/lifestyle-3.webp"
             alt="Illustration for an article about what annual GP check-ups can miss" loading="lazy" /></div>
         <div class="bcard-body">
           <div class="bcat" data-i18n="blog.1.cat">Preventive Medicine</div>
@@ -787,7 +787,7 @@
       </div>
       <div class="bcard rv d1" data-slug="apob-vs-ldl-cholesterol">
         <div class="bcard-img"><img
-            src="/assets/blog-1.jpg"
+            src="/assets/blog-1.webp"
             alt="Illustration for an article comparing ApoB and LDL cholesterol testing" loading="lazy" /></div>
         <div class="bcard-body">
           <div class="bcat" data-i18n="blog.2.cat">Cardiovascular Health</div>
@@ -801,7 +801,7 @@
       </div>
       <div class="bcard rv d2" data-slug="insulin-resistance-silent-risk">
         <div class="bcard-img"><img
-            src="/assets/blog-2.jpg"
+            src="/assets/blog-2.webp"
             alt="Illustration for an article about insulin resistance and metabolic risk" loading="lazy" /></div>
         <div class="bcard-body">
           <div class="bcat" data-i18n="blog.3.cat">Metabolic Health</div>
@@ -847,7 +847,7 @@
           significant findings my GP had never tested. Catching them early changed my trajectory entirely.</p>
         <div class="tc-stars">★★★★★</div>
         <div class="tc-author"><img class="tc-av"
-            src="/assets/blog-3.jpg"
+            src="/assets/blog-3.webp"
             alt="Portrait of Markus H., Aeonix client" loading="lazy" />
           <div>
             <div class="tc-name" data-i18n="testi.1.name">Markus H.</div>
@@ -860,7 +860,7 @@
           meaningful thing we have done for our shared future.</p>
         <div class="tc-stars">★★★★★</div>
         <div class="tc-author"><img class="tc-av"
-            src="/assets/avatar-1.jpg"
+            src="/assets/avatar-1.webp"
             alt="Portrait of Sophie L., Aeonix client" loading="lazy" />
           <div>
             <div class="tc-name" data-i18n="testi.2.name">Sophie L.</div>
@@ -873,7 +873,7 @@
           scientific rigour, the consultation quality — exceptional.</p>
         <div class="tc-stars">★★★★★</div>
         <div class="tc-author"><img class="tc-av"
-            src="/assets/avatar-2.jpg"
+            src="/assets/avatar-2.webp"
             alt="Portrait of Reto L., Aeonix client" loading="lazy" />
           <div>
             <div class="tc-name" data-i18n="testi.3.name">Reto L.</div>
