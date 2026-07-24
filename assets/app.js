@@ -305,17 +305,17 @@
         ],
         "wl.float": "Reserve Your Spot",
         "wl.eyebrow": "Founding Member Access",
-        "wl.title": "153 founding spots<br>remain. Will one<br>be <em>yours?</em>",
+        "wl.title": "453 founding spots<br>remain. Will one<br>be <em>yours?</em>",
         "wl.sub": "Aeonix Founding Members lock in lifetime pricing, exclusive early access, and the knowledge that they shaped something extraordinary from the beginning.",
         "wl.spots.label": "Founding spots claimed",
         "wl.spots.of": "/ 2,000",
-        "wl.progress.remaining": "153 remaining",
+        "wl.progress.remaining": "453 remaining",
         "wl.perk1": "Founding pricing locked for life — 20% below future public rate",
         "wl.perk2": "48-hour priority access before general launch",
         "wl.perk3": "Named in Aeonix's Founding Member registry",
         "wl.perk4": "Invite 2 friends — earn CHF 60 credit when either joins",
         "wl.form.title": "Secure your founding spot",
-        "wl.form.sub": "Join 1,847 people who have already reserved. No payment now — we notify you first.",
+        "wl.form.sub": "Join 1,547 people who have already reserved. No payment now — we notify you first.",
         "wl.form.fname": "First name",
         "wl.form.lname": "Last name",
         "wl.form.email": "Email address",
@@ -637,17 +637,17 @@
         ],
         "wl.float": "Platz reservieren",
         "wl.eyebrow": "Gründungsmitglied-Zugang",
-        "wl.title": "Noch 153 Gründungsplätze<br>verfügbar. Ist einer<br><em>Ihrer?</em>",
+        "wl.title": "Noch 453 Gründungsplätze<br>verfügbar. Ist einer<br><em>Ihrer?</em>",
         "wl.sub": "Aeonix Gründungsmitglieder sichern sich lebenslange Preise, exklusiven Frühzugang und das Wissen, etwas Aussergewöhnliches von Anfang an mitgestaltet zu haben.",
         "wl.spots.label": "Gründungsplätze reserviert",
         "wl.spots.of": "/ 2'000",
-        "wl.progress.remaining": "153 noch verfügbar",
+        "wl.progress.remaining": "453 noch verfügbar",
         "wl.perk1": "Lebenslanger Gründungspreis — 20% unter dem späteren öffentlichen Tarif",
         "wl.perk2": "48 Stunden Prioritätszugang vor dem offiziellen Launch",
         "wl.perk3": "Eintrag ins Aeonix Gründungsmitglieder-Register",
         "wl.perk4": "2 Freunde einladen — CHF 60 Guthaben, wenn einer beitritt",
         "wl.form.title": "Gründungsplatz sichern",
-        "wl.form.sub": "Bereits 1'847 Personen haben reserviert. Keine Zahlung jetzt — wir informieren Sie zuerst.",
+        "wl.form.sub": "Bereits 1'547 Personen haben reserviert. Keine Zahlung jetzt — wir informieren Sie zuerst.",
         "wl.form.fname": "Vorname",
         "wl.form.lname": "Nachname",
         "wl.form.email": "E-Mail-Adresse",
@@ -969,17 +969,17 @@
         ],
         "wl.float": "Réserver ma place",
         "wl.eyebrow": "Accès Membre Fondateur",
-        "wl.title": "Il reste 153 places<br>fondatrices. La vôtre<br>sera-t-elle <em>l'une d'elles ?</em>",
+        "wl.title": "Il reste 453 places<br>fondatrices. La vôtre<br>sera-t-elle <em>l'une d'elles ?</em>",
         "wl.sub": "Les Membres Fondateurs Aeonix bénéficient de tarifs à vie, d'un accès exclusif en avant-première et de la fierté d'avoir contribué à quelque chose d'extraordinaire.",
         "wl.spots.label": "Places fondatrices réservées",
         "wl.spots.of": "/ 2'000",
-        "wl.progress.remaining": "153 restantes",
+        "wl.progress.remaining": "453 restantes",
         "wl.perk1": "Tarif fondateur garanti à vie — 20% sous le futur tarif public",
         "wl.perk2": "Accès prioritaire 48h avant le lancement officiel",
         "wl.perk3": "Inscription au registre des Membres Fondateurs Aeonix",
         "wl.perk4": "Invitez 2 amis — gagnez CHF 60 si l'un d'eux rejoint",
         "wl.form.title": "Sécurisez votre place fondatrice",
-        "wl.form.sub": "Rejoignez 1'847 personnes déjà inscrites. Aucun paiement maintenant — nous vous prévenons en premier.",
+        "wl.form.sub": "Rejoignez 1'547 personnes déjà inscrites. Aucun paiement maintenant — nous vous prévenons en premier.",
         "wl.form.fname": "Prénom",
         "wl.form.lname": "Nom de famille",
         "wl.form.email": "Adresse email",
@@ -1301,17 +1301,17 @@
         ],
         "wl.float": "Prenota il tuo posto",
         "wl.eyebrow": "Accesso Membro Fondatore",
-        "wl.title": "Rimangono 153 posti<br>fondatori. Uno sarà<br><em>il tuo?</em>",
+        "wl.title": "Rimangono 453 posti<br>fondatori. Uno sarà<br><em>il tuo?</em>",
         "wl.sub": "I Membri Fondatori Aeonix si assicurano prezzi a vita, accesso anticipato esclusivo e la consapevolezza di aver contribuito a qualcosa di straordinario fin dall'inizio.",
         "wl.spots.label": "Posti fondatori prenotati",
         "wl.spots.of": "/ 2'000",
-        "wl.progress.remaining": "153 rimanenti",
+        "wl.progress.remaining": "453 rimanenti",
         "wl.perk1": "Prezzo fondatore garantito a vita — 20% sotto la tariffa pubblica futura",
         "wl.perk2": "Accesso prioritario 48h prima del lancio ufficiale",
         "wl.perk3": "Iscritto nel registro dei Membri Fondatori Aeonix",
         "wl.perk4": "Invita 2 amici — guadagna CHF 60 quando uno si unisce",
         "wl.form.title": "Assicura il tuo posto fondatore",
-        "wl.form.sub": "Unisciti a 1.847 persone già iscritte. Nessun pagamento ora — ti avvisiamo per primi.",
+        "wl.form.sub": "Unisciti a 1.547 persone già iscritte. Nessun pagamento ora — ti avvisiamo per primi.",
         "wl.form.fname": "Nome",
         "wl.form.lname": "Cognome",
         "wl.form.email": "Indirizzo email",
@@ -1815,7 +1815,7 @@
       }
     }
 
-    function openArticleReader(slug) {
+    function openArticleReader(slug, skipHistory) {
       var article = null;
       for (var i = 0; i < ARTICLES.length; i++) { if (ARTICLES[i].slug === slug) { article = ARTICLES[i]; break; } }
       if (!article) return;
@@ -1832,17 +1832,26 @@
         bodyHtml + '<div class="ar-cta"><h3>' + cta.h + '</h3><p>' + cta.p + '</p>' +
         '<button class="btn-gold" onclick="closeAllOverlays();smoothTo(\'waitlist\')" style="border:none;cursor:pointer;padding:13px 32px;font-size:.73rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase">' + cta.btn + '</button></div>';
       reader.classList.add('is-open'); reader.scrollTop = 0; document.body.style.overflow = 'hidden';
+      if (!skipHistory) {
+        history.pushState({article: slug}, '', '/' + slug + '.html');
+      }
     }
 
-    function closeArticleReader() {
+    function closeArticleReader(skipHistory) {
       document.getElementById('article-reader').classList.remove('is-open');
+      if (!skipHistory && window.location.pathname !== '/') {
+        history.pushState(null, '', '/');
+      }
       // Keep articles overlay open if it was open
     }
 
-    function closeAllOverlays() {
+    function closeAllOverlays(skipHistory) {
       document.getElementById('article-reader').classList.remove('is-open');
       document.getElementById('articles-overlay').classList.remove('is-open');
       document.body.style.overflow = '';
+      if (skipHistory !== true && window.location.pathname !== '/') {
+        history.pushState(null, '', '/');
+      }
     }
 
     function aoRender() {
@@ -1905,7 +1914,7 @@
     // Keyboard: Escape closes overlays
     document.addEventListener('keydown', function (e) {
       if (e.key !== 'Escape') return;
-      if (document.getElementById('ava-chat-overlay').classList.contains('is-open')) {
+      if (document.getElementById('ava-chat-overlay') && document.getElementById('ava-chat-overlay').classList.contains('is-open')) {
         closeAvaChat();
       } else
         if (document.getElementById('article-reader').classList.contains('is-open')) {
@@ -1913,6 +1922,14 @@
         } else if (document.getElementById('articles-overlay').classList.contains('is-open')) {
           closeArticlesOverlay();
         }
+    });
+
+    window.addEventListener('popstate', function(e) {
+      if (e.state && e.state.article) {
+        openArticleReader(e.state.article, true);
+      } else {
+        closeAllOverlays(true);
+      }
     });
 
     // ════════════════════════════════════════════════════
@@ -1926,7 +1943,7 @@
     var wlRefCode = '';
     var wlMemberEmail = '';
     var wlMemberName = '';
-    var wlSpotsLeft = 153;
+    var wlSpotsLeft = 453;
 
     function genRefCode(email) {
       var hash = 0;
@@ -1967,11 +1984,11 @@
       var obs = new IntersectionObserver(function (entries) {
         entries.forEach(function (e) {
           if (e.isIntersecting) {
-            setTimeout(function () { if (fill) fill.style.width = '92.35%'; }, 300);
+            setTimeout(function () { if (fill) fill.style.width = '77.35%'; }, 300);
             obs.unobserve(e.target);
           }
         });
-      }, { threshold: 0.3 });
+      }, { threshold: 0.1 });
       var sec = document.getElementById('waitlist');
       if (sec) obs.observe(sec);
       setInterval(function () {
@@ -2093,7 +2110,7 @@
       var success = document.getElementById('wl-success');
       if (wrap) wrap.classList.add('is-hidden');
       if (success) success.classList.add('is-active');
-      var num = 1847 + Math.floor(Math.random() * 4) + 1;
+      var num = 1547 + Math.floor(Math.random() * 4) + 1;
       var numEl = document.getElementById('wl-member-number');
       if (numEl) numEl.textContent = '#' + num.toLocaleString('en');
       var base = window.location.origin + window.location.pathname;
@@ -2221,6 +2238,7 @@
       // Core site
       buildFAQ('en');
       buildMarquee('en');
+      initWaitlistProgress();
       setTimeout(initReveal, 150);
 
       // Float button
