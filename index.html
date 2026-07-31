@@ -5,8 +5,9 @@
   <!-- vanilla-cookieconsent CSS -->
   <link rel="preload" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css" as="style"
     onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript><link rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css" /></noscript>
+  <noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css" />
+  </noscript>
   <!-- Google Tag Manager (with Consent Mode v2) -->
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -30,15 +31,15 @@
   <link rel="manifest" href="/site.webmanifest">
   <!-- Google Tag Manager (deferred to after page load for performance) -->
   <script>
-    window.addEventListener('load', function() {
+    window.addEventListener('load', function () {
       var gtmLoaded = false;
       function loadGTM() {
         if (gtmLoaded) return;
         gtmLoaded = true;
-        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T44V76GK');
-        ['scroll','mousemove','touchstart','keydown'].forEach(function(e){window.removeEventListener(e,loadGTM)});
+        (function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-T44V76GK');
+        ['scroll', 'mousemove', 'touchstart', 'keydown'].forEach(function (e) { window.removeEventListener(e, loadGTM) });
       }
-      ['scroll','mousemove','touchstart','keydown'].forEach(function(e){window.addEventListener(e,loadGTM,{once:true})});
+      ['scroll', 'mousemove', 'touchstart', 'keydown'].forEach(function (e) { window.addEventListener(e, loadGTM, { once: true }) });
       setTimeout(loadGTM, 8000);
     });
   </script>
@@ -70,15 +71,17 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap"
     rel="stylesheet" media="print" onload="this.media='all'" />
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" /></noscript>
+  <noscript>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap"
+      rel="stylesheet" />
+  </noscript>
   <link rel="preload" as="image" href="/assets/why-photo-mobile.webp" media="(max-width: 768px)">
   <link rel="stylesheet" href="/assets/main.css" />
 
   <!-- Hero image preload for LCP -->
-  <link rel="preload" as="image" fetchpriority="high"
-    href="/assets/why-photo.webp"
-    imagesrcset="/assets/why-photo-mobile.webp 768w, /assets/why-photo.webp 1920w"
-    imagesizes="100vw"
+  <link rel="preload" as="image" fetchpriority="high" href="/assets/why-photo.webp"
+    imagesrcset="/assets/why-photo-mobile.webp 768w, /assets/why-photo.webp 1920w" imagesizes="100vw"
     type="image/webp" />
 </head>
 
@@ -109,9 +112,8 @@
   <!-- NAV -->
   <nav id="main-nav">
     <a href="#" class="nav-logo" aria-label="Aeonix">
-      <img
-        src="/assets/logo.svg"
-        alt="Aeonix preventive health screening logo" class="nav-logo-img" width="133" height="38" />
+      <img src="/assets/logo.svg" alt="Aeonix preventive health screening logo" class="nav-logo-img" width="133"
+        height="38" />
     </a>
     <div class="nav-right">
       <button class="nav-link" onclick="smoothTo('why')" data-i18n="nav.why">Why Aeonix</button>
@@ -147,9 +149,7 @@
   <header class="hero">
     <picture>
       <source media="(max-width: 768px)" srcset="/assets/why-photo-mobile.webp" type="image/webp">
-      <img
-        src="/assets/why-photo.webp"
-        width="1920" height="1080" alt="Own Your Health" class="hero-photo"
+      <img src="/assets/why-photo.webp" width="1920" height="1080" alt="Own Your Health" class="hero-photo"
         loading="eager" fetchpriority="high" decoding="sync" />
     </picture>
     <div class="hero-overlay"></div>
@@ -241,9 +241,7 @@
   <section class="why" id="why">
     <div class="why-inner">
       <div class="why-photo rv">
-        <img
-          src="/assets/hero-bg.webp"
-          alt="Executive reviewing information about a preventive health screening"
+        <img src="/assets/hero-bg.webp" alt="Executive reviewing information about a preventive health screening"
           loading="lazy" width="360" height="520" />
       </div>
       <div class="why-text rv d1">
@@ -289,9 +287,8 @@
 
   <!-- PHOTO CALLOUT -->
   <div class="photo-callout rv">
-    <img
-      src="/assets/why-photo.webp"
-      alt="Couple representing a shared preventive health screening decision" class="bg" loading="lazy" />
+    <img src="/assets/why-photo.webp" alt="Couple representing a shared preventive health screening decision" class="bg"
+      loading="lazy" />
     <div class="pc-overlay"></div>
     <div class="pc-content">
       <div class="sl" data-i18n="callout.label">Own Your Health Together</div>
@@ -346,24 +343,21 @@
 
   <!-- LIFESTYLE STRIP -->
   <div class="lifestyle-strip">
-    <div class="ls-item rv"><img
-        src="/assets/callout-bg.webp"
+    <div class="ls-item rv"><img src="/assets/callout-bg.webp"
         alt="Woman representing women's preventive health screening" loading="lazy" />
       <div class="ls-label">
         <div class="ls-sub" data-i18n="ls.1.sub">Women's Health</div>
         <div class="ls-hl" data-i18n="ls.1.hl">Because they need you here.</div>
       </div>
     </div>
-    <div class="ls-item rv d1"><img
-        src="/assets/lifestyle-1.webp"
+    <div class="ls-item rv d1"><img src="/assets/lifestyle-1.webp"
         alt="Person representing longevity and preventive health" loading="lazy" />
       <div class="ls-label">
         <div class="ls-sub" data-i18n="ls.2.sub">Longevity · Prevention</div>
         <div class="ls-hl" data-i18n="ls.2.hl">Know before it shows.</div>
       </div>
     </div>
-    <div class="ls-item rv d2"><img
-        src="/assets/lifestyle-2.webp"
+    <div class="ls-item rv d2"><img src="/assets/lifestyle-2.webp"
         alt="Person representing personal ownership of long-term health" loading="lazy" />
       <div class="ls-label">
         <div class="ls-sub" data-i18n="ls.3.sub">Own Your Health</div>
@@ -782,8 +776,7 @@
     </div>
     <div class="blog-grid">
       <div class="bcard rv" data-slug="gp-checkup-misses-80-percent">
-        <div class="bcard-img"><img
-            src="/assets/lifestyle-3.webp"
+        <div class="bcard-img"><img src="/assets/lifestyle-3.webp"
             alt="Illustration for an article about what annual GP check-ups can miss" loading="lazy" /></div>
         <div class="bcard-body">
           <div class="bcat" data-i18n="blog.1.cat">Preventive Medicine</div>
@@ -795,8 +788,7 @@
         </div>
       </div>
       <div class="bcard rv d1" data-slug="apob-vs-ldl-cholesterol">
-        <div class="bcard-img"><img
-            src="/assets/blog-1.webp"
+        <div class="bcard-img"><img src="/assets/blog-1.webp"
             alt="Illustration for an article comparing ApoB and LDL cholesterol testing" loading="lazy" /></div>
         <div class="bcard-body">
           <div class="bcat" data-i18n="blog.2.cat">Cardiovascular Health</div>
@@ -809,8 +801,7 @@
         </div>
       </div>
       <div class="bcard rv d2" data-slug="insulin-resistance-silent-risk">
-        <div class="bcard-img"><img
-            src="/assets/blog-2.webp"
+        <div class="bcard-img"><img src="/assets/blog-2.webp"
             alt="Illustration for an article about insulin resistance and metabolic risk" loading="lazy" /></div>
         <div class="bcard-body">
           <div class="bcat" data-i18n="blog.3.cat">Metabolic Health</div>
@@ -855,9 +846,8 @@
         <p class="tc-q" data-i18n="testi.1.quote">I considered myself healthy. Aeonix revealed three clinically
           significant findings my GP had never tested. Catching them early changed my trajectory entirely.</p>
         <div class="tc-stars">★★★★★</div>
-        <div class="tc-author"><img class="tc-av"
-            src="/assets/blog-3.webp"
-            alt="Portrait of Markus H., Aeonix client" loading="lazy" />
+        <div class="tc-author"><img class="tc-av" src="/assets/blog-3.webp" alt="Portrait of Markus H., Aeonix client"
+            loading="lazy" />
           <div>
             <div class="tc-name" data-i18n="testi.1.name">Markus H.</div>
             <div class="tc-role" data-i18n="testi.1.role">CEO · Zürich</div>
@@ -868,9 +858,8 @@
         <p class="tc-q" data-i18n="testi.2.quote">I gifted this to my husband for our anniversary. It is the most
           meaningful thing we have done for our shared future.</p>
         <div class="tc-stars">★★★★★</div>
-        <div class="tc-author"><img class="tc-av"
-            src="/assets/avatar-1.webp"
-            alt="Portrait of Sophie L., Aeonix client" loading="lazy" />
+        <div class="tc-author"><img class="tc-av" src="/assets/avatar-1.webp" alt="Portrait of Sophie L., Aeonix client"
+            loading="lazy" />
           <div>
             <div class="tc-name" data-i18n="testi.2.name">Sophie L.</div>
             <div class="tc-role" data-i18n="testi.2.role">Geneva</div>
@@ -881,9 +870,8 @@
         <p class="tc-q" data-i18n="testi.3.quote">Finally, a health service that treats me as an intelligent adult. The
           scientific rigour, the consultation quality — exceptional.</p>
         <div class="tc-stars">★★★★★</div>
-        <div class="tc-author"><img class="tc-av"
-            src="/assets/avatar-2.webp"
-            alt="Portrait of Reto L., Aeonix client" loading="lazy" />
+        <div class="tc-author"><img class="tc-av" src="/assets/avatar-2.webp" alt="Portrait of Reto L., Aeonix client"
+            loading="lazy" />
           <div>
             <div class="tc-name" data-i18n="testi.3.name">Reto L.</div>
             <div class="tc-role" data-i18n="testi.3.role">Private Banker · Basel</div>
@@ -1153,10 +1141,8 @@
   <footer>
     <div class="foot-top">
       <div class="foot-brand">
-        <div class="foot-logo"><img
-            src="/assets/foot-logo.svg"
-            alt="Aeonix preventive health screening logo" width="105" height="30"
-            loading="lazy" /></div>
+        <div class="foot-logo"><img src="/assets/foot-logo.svg" alt="Aeonix preventive health screening logo"
+            width="105" height="30" loading="lazy" /></div>
         <p data-i18n="footer.brand">Clinically rigorous preventative health screening, built on Swiss precision and
           medical integrity. A product of AllesHealth GmbH.</p>
       </div>
@@ -1178,15 +1164,14 @@
           <li><button class="fcol-link" onclick="openArticlesOverlay()" data-i18n="footer.s2.l3">Health
               Insights</button></li>
           <li><a href="#faq" data-i18n="footer.s2.l4">FAQ</a></li>
-          <li><a href="mailto:info@alleshealth.com"
-              data-i18n="footer.s2.l5">Corporate Wellness</a></li>
+          <li><a href="mailto:info@alleshealth.com" data-i18n="footer.s2.l5">Corporate Wellness</a></li>
         </ul>
       </div>
       <div class="fcol">
         <h4 data-i18n="footer.s3.title">Legal &amp; Contact</h4>
         <ul>
           <li><a href="mailto:info@alleshealth.com" data-i18n="footer.s3.l1">info@alleshealth.com</a></li>
-          <li><a href="#" data-i18n="footer.s3.l2">Zürich Clinic</a></li>
+          <li><a href="#" data-i18n="footer.s3.l2">Our Lab Partners (Coming soon)</a></li>
           <li><a href="#" data-i18n="footer.s3.l3">Privacy Policy</a></li>
           <li><a href="#" data-i18n="footer.s3.l4">Terms of Service</a></li>
           <li><a href="#" data-i18n="footer.s3.l5">Cookie Policy</a></li>
@@ -1217,9 +1202,8 @@
   <!-- ARTICLES OVERLAY -->
   <div id="articles-overlay" class="site-overlay" role="dialog" aria-modal="true" aria-label="All articles">
     <nav class="ao-nav">
-      <div class="ao-logo"><img
-          src="/assets/ao-logo.svg"
-          alt="Aeonix preventive health screening logo" style="height:34px;width:auto;display:block;" width="119" height="34" loading="lazy" /></div>
+      <div class="ao-logo"><img src="/assets/ao-logo.svg" alt="Aeonix preventive health screening logo"
+          style="height:34px;width:auto;display:block;" width="119" height="34" loading="lazy" /></div>
       <button class="ao-close" onclick="closeArticlesOverlay()">
         <svg width="11" height="11" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"
           stroke-linecap="round">
@@ -1542,82 +1526,82 @@
   <script>
     window.addEventListener('DOMContentLoaded', function () {
       CookieConsent.run({
-      autoShow: true,
-      revision: 1,
-      cookie: {
-        name: 'cc_cookie',
-        expiresAfterDays: 365,
-      },
-      onConsent: function ({ cookie }) {
-        if (CookieConsent.acceptedCategory('analytics')) {
-          gtag('consent', 'update', { analytics_storage: 'granted' });
-          dataLayer.push({ event: 'cookie_consent_analytics' });
-        }
-        if (CookieConsent.acceptedCategory('marketing')) {
-          gtag('consent', 'update', { ad_storage: 'granted' });
-        }
-      },
-      onChange: function ({ cookie }) {
-        const analyticsGranted = CookieConsent.acceptedCategory('analytics');
-        gtag('consent', 'update', {
-          analytics_storage: analyticsGranted ? 'granted' : 'denied'
-        });
-      },
-      categories: {
-        necessary: {
-          enabled: true,
-          readOnly: true
+        autoShow: true,
+        revision: 1,
+        cookie: {
+          name: 'cc_cookie',
+          expiresAfterDays: 365,
         },
-        analytics: {
-          enabled: false,
-          autoClear: {
-            cookies: [
-              { name: /^_ga/ },
-              { name: '_gid' }
-            ]
+        onConsent: function ({ cookie }) {
+          if (CookieConsent.acceptedCategory('analytics')) {
+            gtag('consent', 'update', { analytics_storage: 'granted' });
+            dataLayer.push({ event: 'cookie_consent_analytics' });
+          }
+          if (CookieConsent.acceptedCategory('marketing')) {
+            gtag('consent', 'update', { ad_storage: 'granted' });
           }
         },
-        marketing: {
-          enabled: false
-        }
-      },
-      language: {
-        default: 'en',
-        translations: {
-          en: {
-            consentModal: {
-              title: 'We use cookies 🍪',
-              description: 'We use cookies to analyze traffic and improve your experience.',
-              acceptAllBtn: 'Accept all',
-              acceptNecessaryBtn: 'Reject all',
-              showPreferencesBtn: 'Manage preferences'
-            },
-            preferencesModal: {
-              title: 'Cookie Preferences',
-              acceptAllBtn: 'Accept all',
-              acceptNecessaryBtn: 'Reject all',
-              savePreferencesBtn: 'Save preferences',
-              sections: [
-                {
-                  title: 'Necessary Cookies',
-                  description: 'Required for the site to function. Cannot be disabled.',
-                  linkedCategory: 'necessary'
-                },
-                {
-                  title: 'Analytics Cookies',
-                  description: 'Help us understand how visitors use the site (Google Analytics).',
-                  linkedCategory: 'analytics'
-                },
-                {
-                  title: 'Marketing Cookies',
-                  description: 'Used for targeted advertising.',
-                  linkedCategory: 'marketing'
-                }
+        onChange: function ({ cookie }) {
+          const analyticsGranted = CookieConsent.acceptedCategory('analytics');
+          gtag('consent', 'update', {
+            analytics_storage: analyticsGranted ? 'granted' : 'denied'
+          });
+        },
+        categories: {
+          necessary: {
+            enabled: true,
+            readOnly: true
+          },
+          analytics: {
+            enabled: false,
+            autoClear: {
+              cookies: [
+                { name: /^_ga/ },
+                { name: '_gid' }
               ]
+            }
+          },
+          marketing: {
+            enabled: false
+          }
+        },
+        language: {
+          default: 'en',
+          translations: {
+            en: {
+              consentModal: {
+                title: 'We use cookies 🍪',
+                description: 'We use cookies to analyze traffic and improve your experience.',
+                acceptAllBtn: 'Accept all',
+                acceptNecessaryBtn: 'Reject all',
+                showPreferencesBtn: 'Manage preferences'
+              },
+              preferencesModal: {
+                title: 'Cookie Preferences',
+                acceptAllBtn: 'Accept all',
+                acceptNecessaryBtn: 'Reject all',
+                savePreferencesBtn: 'Save preferences',
+                sections: [
+                  {
+                    title: 'Necessary Cookies',
+                    description: 'Required for the site to function. Cannot be disabled.',
+                    linkedCategory: 'necessary'
+                  },
+                  {
+                    title: 'Analytics Cookies',
+                    description: 'Help us understand how visitors use the site (Google Analytics).',
+                    linkedCategory: 'analytics'
+                  },
+                  {
+                    title: 'Marketing Cookies',
+                    description: 'Used for targeted advertising.',
+                    linkedCategory: 'marketing'
+                  }
+                ]
+              }
             }
           }
         }
-      }
       });
     });
   </script>

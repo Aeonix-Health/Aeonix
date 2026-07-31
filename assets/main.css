@@ -6,3 +6,13 @@
   content-visibility:visible;
 }
 .dna-nT,.dna-nA,.dna-nC,.dna-nG{transform-box:fill-box;transform-origin:center;will-change:transform}
+@media (max-width: 960px) {
+  .wl-inner { display: flex; flex-direction: column; gap: 0; align-items: stretch; }
+  .wl-inner > .rv:not(.wl-card) { display: contents; }
+  .wl-eyebrow { order: 1; margin-bottom: 16px; }
+  .wl-title { order: 2; margin-bottom: 36px; }
+  .wl-card { order: 3; margin-bottom: 48px; width: 100%; }
+  .wl-sub { order: 4; margin-bottom: 32px; }
+  .wl-scarcity { order: 5; margin-bottom: 32px; }
+  .wl-perks { order: 6; }
+}
