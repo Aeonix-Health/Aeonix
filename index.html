@@ -77,7 +77,7 @@
       rel="stylesheet" />
   </noscript>
   <link rel="preload" as="image" href="/assets/why-photo-mobile.webp" media="(max-width: 768px)">
-  <link rel="stylesheet" href="/assets/main.css" />
+  <link rel="stylesheet" href="/assets/main.css?v=5" />
 
   <!-- Hero image preload for LCP -->
   <link rel="preload" as="image" fetchpriority="high" href="/assets/why-photo.webp"
@@ -818,19 +818,23 @@
 
   <!-- FAQ -->
   <section class="faq" id="faq">
+    <div class="faq-header rv">
+      <div class="sl" data-i18n="faq.label">FAQS</div>
+      <h2 class="sh" style="margin-bottom:16px" data-i18n-html="faq.title">Questions Worth <em>Asking</em></h2>
+      <p data-i18n="faq.sub">Everything you need to know about your Aeonix health screening, membership, and results.</p>
+    </div>
     <div class="faq-inner">
-      <div class="faq-left rv">
-        <div class="sl" data-i18n="faq.label">Questions</div>
-        <h2 class="sh" style="margin-bottom:16px" data-i18n-html="faq.title">Everything you<br>need to <em>know.</em>
-        </h2>
-        <p data-i18n="faq.sub">If your question isn't answered here, our team is available at <a
-            href="mailto:info@alleshealth.com">info@alleshealth.com</a> — we respond within one
-          business day.</p>
-        <div class="cit" style="margin-top:24px">
-          <p data-i18n="faq.corp">Corporate or family plan? We offer bespoke pricing for groups of 4 or more.</p>
-        </div>
-      </div>
       <div class="faq-list rv d1" id="faqList"></div>
+      <div class="faq-image rv d2">
+        <img src="/assets/faq-person.webp" alt="Aeonix client looking at phone" loading="lazy" />
+      </div>
+    </div>
+    <div class="faq-footer rv d3">
+      <div class="faq-footer-text">
+        <h3 data-i18n="faq.still.title">Still have questions?</h3>
+        <p data-i18n="faq.still.sub">Our Care Team is here to help you choose the right screening and answer any questions.</p>
+      </div>
+      <a href="mailto:info@alleshealth.com" class="btn-gold" data-i18n="faq.contact">Contact Care Team</a>
     </div>
   </section>
 

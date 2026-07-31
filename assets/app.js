@@ -265,10 +265,13 @@ const T = {
     "footer.s3.l5": "Cookie Policy",
     "footer.copy": "© 2026 AllesHealth GmbH. All Rights Reserved.\nAeonix is a brand of AllesHealth GmbH · Aeonix.Health · Aeonix.ch",
     "footer.tagline": "Aeonix — Own Your Health",
-    "faq.label": "Questions",
-    "faq.title": "Everything you<br>need to <em>know.</em>",
-    "faq.sub": "If your question isn't answered here, our team is available at info@alleshealth.com — we respond within one business day.",
-    "faq.corp": "Corporate or family plan? We offer bespoke pricing for groups of 4 or more.",
+    "faq.label": "FAQS",
+    "faq.title": "Questions Worth <em>Asking</em>",
+    "faq.sub": "Everything you need to know about your Aeonix health screening, membership, and results.",
+    "faq.still.title": "Still have questions?",
+    "faq.still.sub": "Our Care Team is here to help you choose the right screening and answer any questions.",
+    "faq.contact": "Contact Care Team",
+    "faq.book": "Book a Screening ➔",
     "faq.items": [
       {
         "q": "What is included in a screening?",
@@ -1471,12 +1474,17 @@ function buildFAQ(lang) {
   var dict = T[lang] || T.en;
   var items = dict['faq.items'] || T.en['faq.items'];
   list.innerHTML = items.map(function (item, i) {
+    var num = (i + 1 < 10 ? '0' : '') + (i + 1);
+    var bookLink = dict['faq.book'] || T.en['faq.book'];
     return '<div class="faq-item" id="faq-item-' + i + '">' +
       '<button class="faq-q" onclick="toggleFAQ(' + i + ')" aria-expanded="false">' +
+      '<span class="faq-num">' + num + '</span>' +
       '<span class="faq-q-text">' + item.q + '</span>' +
-      '<span class="faq-icon">+</span>' +
+      '<span class="faq-icon"><svg width="12" height="7" viewBox="0 0 12 7" fill="none"><path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>' +
       '</button>' +
-      '<div class="faq-a" id="faq-a-' + i + '">' + item.a + '</div>' +
+      '<div class="faq-a" id="faq-a-' + i + '">' +
+      '<div class="faq-a-inner">' + item.a + '<br><br><a href="#" onclick="smoothTo(\'pricing\'); return false;" class="faq-book-link">' + bookLink + '</a></div>' +
+      '</div>' +
       '</div>';
   }).join('');
 }
