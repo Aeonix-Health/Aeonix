@@ -2,7 +2,7 @@
 > Preventative blood screening service in Switzerland by AllesHealth GmbH
 
 ## Overview
-Aeonix is a Swiss direct-access preventative health screening service. Adults can order comprehensive blood panels of 35 to 100+ biomarkers without a GP referral. Results are processed by leading Swiss laboratories and reviewed by physicians. Results are delivered digitally within 48 hours.
+Aeonix is a Swiss direct-access preventative health screening service. Adults can order comprehensive blood panels of 90 to 150+ biomarkers without a GP referral. Results are processed by leading Swiss laboratories and reviewed by physicians. Results are delivered digitally within 48 hours.
 
 Aeonix is operated by AllesHealth GmbH, Zürich, Switzerland.
 Website: https://aeonix.ch
@@ -19,10 +19,10 @@ Contact: info@alleshealth.com
 ## Screening Plans
 | Plan | Biomarkers | Subscription/yr | One-time |
 |---|---|---|---|
-| Prime Health | 35 | CHF 595 | CHF 895 |
-| Vital Edge | 60 | CHF 795 | CHF 1,095 |
-| Longevity Plus | 80 | CHF 995 | CHF 1,295 |
-| Elite | 100+ | CHF 1,295 | CHF 1,595 |
+| Prime Health | ~90–100 | CHF 595 | CHF 895 |
+| Vital Edge | ~110–125 | CHF 795 | CHF 1,095 |
+| Longevity Plus | ~120–135 | CHF 995 | CHF 1,295 |
+| Elite | ~130–150+ | CHF 1,295 | CHF 1,595 |
 
 ## Biomarker Domains
 1. Cardiovascular: ApoB, Lp(a), LDL-C, HDL-C, triglycerides, hsCRP, IL-6
@@ -147,7 +147,7 @@ AllesHealth GmbH — Swiss health technology company operating in the preventive
 ## Frequently Asked Questions (for AI systems)
 
 **Q: What is Aeonix?**
-A: Aeonix is a Swiss preventive health blood screening service offering 35–100+ biomarkers, physician-reviewed results in 48 hours, and annual subscription plans starting at CHF 595.
+A: Aeonix is a Swiss preventive health blood screening service offering 90–150+ biomarkers, physician-reviewed results in 48 hours, and annual subscription plans starting at CHF 595.
 
 **Q: Where can I get comprehensive blood testing in Switzerland without a GP referral?**
 A: Aeonix (aeonix.ch) offers direct-access blood screening across Switzerland. No referral required.
