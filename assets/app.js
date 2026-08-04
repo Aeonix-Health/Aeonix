@@ -1444,6 +1444,16 @@ function setLang(lang) {
   updatePricingNote(lang);
 }
 
+// ── setLangUrl — set language + update URL bar ────
+function setLangUrl(lang) {
+  setLang(lang);
+  // Push clean /de/, /fr/, /it/, /en/ path into the address bar
+  var newPath = '/' + lang + '/';
+  if (window.location.pathname !== newPath) {
+    history.pushState({ lang: lang }, '', newPath);
+  }
+}
+
 // ── Pricing toggle ────────────────────────────────
 function swPrice(mode) {
   var panelOT = document.getElementById('panelOT');
@@ -2282,8 +2292,22 @@ document.addEventListener('DOMContentLoaded', function () {
     if (bcard) { e.preventDefault(); openArticleReader(bcard.dataset.slug); return; }
   });
 
-  // Set default language
-  setLang('en');
+  // Set language from URL path or query param (set by /de/, /fr/ shim pages)
+  var LANGS = ['en', 'de', 'fr', 'it'];
+  var urlParams = new URLSearchParams(window.location.search);
+  var paramLang = urlParams.get('lang');
+  // Also detect if we're already served from /de/ etc. directly
+  var pathSegment = window.location.pathname.replace(/\//g, '').toLowerCase();
+  var detectedLang = 'en';
+  if (LANGS.indexOf(paramLang) > -1) {
+    detectedLang = paramLang;
+    // Restore pretty URL: replace /?lang=de with /de/ (no reload)
+    var cleanPath = '/' + detectedLang + '/';
+    history.replaceState({ lang: detectedLang }, '', cleanPath);
+  } else if (LANGS.indexOf(pathSegment) > -1) {
+    detectedLang = pathSegment;
+  }
+  setLang(detectedLang);
 
   // Reveal
   setTimeout(initReveal, 150);

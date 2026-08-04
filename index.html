@@ -60,6 +60,12 @@
   <script
     type="application/ld+json">{"@context":"https://schema.org","@type":"MedicalOrganization","name":"Aeonix","url":"https://aeonix.ch","description":"Preventative health screening. 35–100+ biomarkers.","medicalSpecialty":"Preventive Medicine","slogan":"Own Your Health","areaServed":{"@type":"Country","name":"Switzerland"},"contactPoint":{"@type":"ContactPoint","email":"info@alleshealth.com"},"parentOrganization":{"@type":"Organization","name":"AllesHealth GmbH"}}</script>
   <link rel="canonical" href="https://aeonix.ch/" />
+  <!-- hreflang for language variants -->
+  <link rel="alternate" hreflang="x-default" href="https://aeonix.ch/" />
+  <link rel="alternate" hreflang="en" href="https://aeonix.ch/en/" />
+  <link rel="alternate" hreflang="de" href="https://aeonix.ch/de/" />
+  <link rel="alternate" hreflang="fr" href="https://aeonix.ch/fr/" />
+  <link rel="alternate" hreflang="it" href="https://aeonix.ch/it/" />
   <meta name="google-site-verification" content="nJIgCKsoSEc22brdqj_X3Tija7XikL4iq-896u5JaLA" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -102,10 +108,10 @@
     <button class="nav-link" onclick="openArticlesOverlay();closeMobile()">Health Insights</button>
     <button class="nav-link" onclick="smoothTo('waitlist');closeMobile()">Join Waitlist</button>
     <div class="mobile-lang">
-      <button class="ml-btn active" data-lang="en" onclick="setLang('en');closeMobile()">EN</button>
-      <button class="ml-btn" data-lang="de" onclick="setLang('de');closeMobile()">DE</button>
-      <button class="ml-btn" data-lang="fr" onclick="setLang('fr');closeMobile()">FR</button>
-      <button class="ml-btn" data-lang="it" onclick="setLang('it');closeMobile()">IT</button>
+      <button class="ml-btn active" data-lang="en" onclick="setLangUrl('en');closeMobile()">EN</button>
+      <button class="ml-btn" data-lang="de" onclick="setLangUrl('de');closeMobile()">DE</button>
+      <button class="ml-btn" data-lang="fr" onclick="setLangUrl('fr');closeMobile()">FR</button>
+      <button class="ml-btn" data-lang="it" onclick="setLangUrl('it');closeMobile()">IT</button>
     </div>
   </div>
 
@@ -132,10 +138,10 @@
           </svg>
         </button>
         <div class="lang-dropdown" id="langDropdown">
-          <button class="lang-opt active" data-lang="en" onclick="setLang('en')"><span>🇬🇧</span> English</button>
-          <button class="lang-opt" data-lang="de" onclick="setLang('de')"><span>🇩🇪</span> Deutsch</button>
-          <button class="lang-opt" data-lang="fr" onclick="setLang('fr')"><span>🇫🇷</span> Français</button>
-          <button class="lang-opt" data-lang="it" onclick="setLang('it')"><span>🇮🇹</span> Italiano</button>
+          <button class="lang-opt active" data-lang="en" onclick="setLangUrl('en')"><span>🇬🇧</span> English</button>
+          <button class="lang-opt" data-lang="de" onclick="setLangUrl('de')"><span>🇩🇪</span> Deutsch</button>
+          <button class="lang-opt" data-lang="fr" onclick="setLangUrl('fr')"><span>🇫🇷</span> Français</button>
+          <button class="lang-opt" data-lang="it" onclick="setLangUrl('it')"><span>🇮🇹</span> Italiano</button>
         </div>
       </div>
       <button class="nav-cta" onclick="smoothTo('waitlist')" data-i18n="nav.cta">Book Now</button>
