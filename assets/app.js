@@ -1444,8 +1444,64 @@ function setLang(lang) {
   updatePricingNote(lang);
 }
 
+function loadFooter() {
+  var placeholder = document.getElementById('footer-placeholder');
+  if (placeholder) {
+    fetch('/footer.html?v=' + new Date().getTime())
+      .then(function (response) { return response.text(); })
+      .then(function (html) {
+        placeholder.innerHTML = html;
+        if (typeof curLang !== 'undefined' && curLang !== 'en') {
+          setLang(curLang);
+        }
+      })
+      .catch(function (err) { console.error('Failed to load footer', err); });
+  }
+}
+
 // ── setLangUrl — set language + update URL bar ────
 function setLangUrl(lang) {
+  // Handle language switching for any static HTML page (like privacy policy or SEO articles) or subdirectories
+  var path = window.location.pathname;
+  
+  // Edge case: if it's the privacy policy route
+  if (path.indexOf('/privacy-policy') > -1) {
+    if (lang === 'en') {
+      window.location.href = '/privacy-policy.html';
+    } else {
+      window.location.href = '/privacy-policy/' + lang;
+    }
+    return;
+  }
+  // Edge case: if it's the terms of use route
+  if (path.indexOf('/terms-of-use') > -1) {
+    if (lang === 'en') {
+      window.location.href = '/terms-of-use.html';
+    } else {
+      window.location.href = '/terms-of-use/' + lang;
+    }
+    return;
+  }
+
+  if (path.indexOf('.html') > -1 && path.indexOf('index.html') === -1) {
+    // Extract the base filename. For example:
+    // /de/vitamin-d.html -> vitamin-d.html
+    // /vitamin-d.html -> vitamin-d.html
+    // /privacy-policy/de/index.html -> This is an exception we handled before, but since we are placing everything in /de/filename.html now, we should handle it cleanly.
+    
+    var parts = path.split('/').filter(Boolean);
+    var filename = parts[parts.length - 1];
+    
+
+
+    if (lang === 'en') {
+      window.location.href = '/' + filename;
+    } else {
+      window.location.href = '/' + lang + '/' + filename;
+    }
+    return;
+  }
+
   setLang(lang);
   // Push clean /de/, /fr/, /it/, /en/ path into the address bar
   var newPath = '/' + lang + '/';
@@ -2254,6 +2310,7 @@ function wlShareLinkedIn() {
 // ── DOMContentLoaded — wire everything ────────────
 document.addEventListener('DOMContentLoaded', function () {
   // Core site
+  loadFooter();
   buildFAQ('en');
   buildMarquee('en');
   initWaitlistProgress();
@@ -2297,15 +2354,20 @@ document.addEventListener('DOMContentLoaded', function () {
   var urlParams = new URLSearchParams(window.location.search);
   var paramLang = urlParams.get('lang');
   // Also detect if we're already served from /de/ etc. directly
-  var pathSegment = window.location.pathname.replace(/\//g, '').toLowerCase();
+  var pathSegments = window.location.pathname.split('/').filter(Boolean);
   var detectedLang = 'en';
   if (LANGS.indexOf(paramLang) > -1) {
     detectedLang = paramLang;
     // Restore pretty URL: replace /?lang=de with /de/ (no reload)
     var cleanPath = '/' + detectedLang + '/';
     history.replaceState({ lang: detectedLang }, '', cleanPath);
-  } else if (LANGS.indexOf(pathSegment) > -1) {
-    detectedLang = pathSegment;
+  } else {
+    for (var i = 0; i < pathSegments.length; i++) {
+      if (LANGS.indexOf(pathSegments[i].toLowerCase()) > -1) {
+        detectedLang = pathSegments[i].toLowerCase();
+        break;
+      }
+    }
   }
   setLang(detectedLang);
 
