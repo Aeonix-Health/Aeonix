@@ -843,4 +843,118 @@
     <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/analisi-ormonali-donne-svizzera.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/womens-health-comprehensive-screening.html"/>
   </url>
+
+  <!-- Legal — Privacy Policy -->
+  <url>
+    <loc>https://aeonix.ch/privacy-policy.html</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aeonix.ch/privacy-policy/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aeonix.ch/privacy-policy/de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aeonix.ch/privacy-policy/fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://aeonix.ch/privacy-policy/it"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/privacy-policy/en</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aeonix.ch/privacy-policy/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aeonix.ch/privacy-policy/de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aeonix.ch/privacy-policy/fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://aeonix.ch/privacy-policy/it"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/privacy-policy/de</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aeonix.ch/privacy-policy/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aeonix.ch/privacy-policy/de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aeonix.ch/privacy-policy/fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://aeonix.ch/privacy-policy/it"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/privacy-policy/fr</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aeonix.ch/privacy-policy/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aeonix.ch/privacy-policy/de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aeonix.ch/privacy-policy/fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://aeonix.ch/privacy-policy/it"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/privacy-policy/it</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aeonix.ch/privacy-policy/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aeonix.ch/privacy-policy/de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aeonix.ch/privacy-policy/fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://aeonix.ch/privacy-policy/it"/>
+  </url>
+
+  <!-- Legal — Terms of Use -->
+  <url>
+    <loc>https://aeonix.ch/terms-of-use.html</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/terms-of-use.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aeonix.ch/terms-of-use/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aeonix.ch/terms-of-use/de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aeonix.ch/terms-of-use/fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://aeonix.ch/terms-of-use/it"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/terms-of-use/en</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/terms-of-use.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aeonix.ch/terms-of-use/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aeonix.ch/terms-of-use/de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aeonix.ch/terms-of-use/fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://aeonix.ch/terms-of-use/it"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/terms-of-use/de</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/terms-of-use.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aeonix.ch/terms-of-use/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aeonix.ch/terms-of-use/de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aeonix.ch/terms-of-use/fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://aeonix.ch/terms-of-use/it"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/terms-of-use/fr</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/terms-of-use.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aeonix.ch/terms-of-use/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aeonix.ch/terms-of-use/de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aeonix.ch/terms-of-use/fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://aeonix.ch/terms-of-use/it"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/terms-of-use/it</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/terms-of-use.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aeonix.ch/terms-of-use/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aeonix.ch/terms-of-use/de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aeonix.ch/terms-of-use/fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://aeonix.ch/terms-of-use/it"/>
+  </url>
 </urlset>

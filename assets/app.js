@@ -1444,6 +1444,37 @@ function setLang(lang) {
   updatePricingNote(lang);
 }
 
+function loadFooter() {
+  var placeholder = document.getElementById('footer-placeholder');
+  if (placeholder) {
+    fetch('/footer.html?v=' + new Date().getTime())
+      .then(function (response) { return response.text(); })
+      .then(function (html) {
+        placeholder.innerHTML = html;
+        if (typeof curLang !== 'undefined' && curLang !== 'en') {
+          setLang(curLang);
+        }
+      })
+      .catch(function (err) { console.error('Failed to load footer', err); });
+  }
+}
+
+// ── setLangUrl — language switching for privacy-policy / terms-of-use pages ────
+// (Only these two page families ship per-language subdirectories. Every other
+// page on the site keeps its own dedicated per-language filename/slug.)
+function setLangUrl(lang) {
+  var path = window.location.pathname;
+  if (path.indexOf('/privacy-policy') > -1) {
+    window.location.href = '/privacy-policy/' + lang;
+    return;
+  }
+  if (path.indexOf('/terms-of-use') > -1) {
+    window.location.href = '/terms-of-use/' + lang;
+    return;
+  }
+  setLang(lang);
+}
+
 // ── Pricing toggle ────────────────────────────────
 function swPrice(mode) {
   var panelOT = document.getElementById('panelOT');
@@ -2244,6 +2275,7 @@ function wlShareLinkedIn() {
 // ── DOMContentLoaded — wire everything ────────────
 document.addEventListener('DOMContentLoaded', function () {
   // Core site
+  loadFooter();
   buildFAQ('en');
   buildMarquee('en');
   initWaitlistProgress();
@@ -2282,8 +2314,18 @@ document.addEventListener('DOMContentLoaded', function () {
     if (bcard) { e.preventDefault(); openArticleReader(bcard.dataset.slug); return; }
   });
 
-  // Set default language
-  setLang('en');
+  // Set language: default to 'en', but detect 'de'/'fr'/'it' from the URL path
+  // for pages that ship real per-language subdirectories (privacy-policy, terms-of-use).
+  var LANGS = ['en', 'de', 'fr', 'it'];
+  var pathSegments = window.location.pathname.split('/').filter(Boolean);
+  var detectedLang = 'en';
+  for (var i = 0; i < pathSegments.length; i++) {
+    if (LANGS.indexOf(pathSegments[i].toLowerCase()) > -1) {
+      detectedLang = pathSegments[i].toLowerCase();
+      break;
+    }
+  }
+  setLang(detectedLang);
 
   // Reveal
   setTimeout(initReveal, 150);
