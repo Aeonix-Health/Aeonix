@@ -24,6 +24,24 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://aeonix.ch/biological-age-test-switzerland.html</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/biological-age-test-switzerland.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/biologisches-alter-test-schweiz.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/biological-age-test-switzerland.html"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/biologisches-alter-test-schweiz.html</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/biological-age-test-switzerland.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/biologisches-alter-test-schweiz.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/biological-age-test-switzerland.html"/>
+  </url>
+  <url>
     <loc>https://aeonix.ch/bone-health-before-50.html</loc>
     <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
