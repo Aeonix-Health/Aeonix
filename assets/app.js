@@ -158,7 +158,7 @@ const T = {
     "pricing.popular": "Most Popular",
     "pricing.begin": "Begin",
     "pricing.subscribe": "Subscribe & Save",
-    "pricing.note": "All plans include <strong>leading Swiss laboratory processing</strong>, <strong>secure personal dashboard</strong>, and <strong>full GDPR data sovereignty</strong>.<br>Corporate and family plans available. <a href='mailto:info@alleshealth.com'>Contact us</a> for bespoke pricing.",
+    "pricing.note": "All plans include <strong>leading Swiss laboratory processing</strong>, <strong>secure personal dashboard</strong>, and <strong>full GDPR data sovereignty</strong>.<br>Corporate and family plans available. <a href='mailto:aeonix@alleshealth.com'>Contact us</a> for bespoke pricing.",
     "plan.prime": "Prime Health — 100+ Biomarkers",
     "plan.vital": "Vital Edge — 125+ Biomarkers",
     "plan.longevity": "Longevity Plus — 135+ Biomarkers",
@@ -258,7 +258,7 @@ const T = {
     "footer.s2.l4": "FAQ",
     "footer.s2.l5": "Corporate Wellness",
     "footer.s3.title": "Legal & Contact",
-    "footer.s3.l1": "info@alleshealth.com",
+    "footer.s3.l1": "aeonix@alleshealth.com",
     "footer.s3.l2": "Our Lab Partners (Coming soon)",
     "footer.s3.l3": "Privacy Policy",
     "footer.s3.l4": "Terms of Service",
@@ -493,7 +493,7 @@ const T = {
     "pricing.popular": "Am beliebtesten",
     "pricing.begin": "Starten",
     "pricing.subscribe": "Abonnieren & sparen",
-    "pricing.note": "Alle Pläne umfassen <strong>renommierte Schweizer Laborverarbeitung</strong>, <strong>sicheres persönliches Dashboard</strong> und <strong>vollständige DSGVO-Datensouveränität</strong>.<br>Firmen- und Familienpläne verfügbar. <a href='mailto:info@alleshealth.com'>Kontakt</a> für individuelle Preisgestaltung.",
+    "pricing.note": "Alle Pläne umfassen <strong>renommierte Schweizer Laborverarbeitung</strong>, <strong>sicheres persönliches Dashboard</strong> und <strong>vollständige DSGVO-Datensouveränität</strong>.<br>Firmen- und Familienpläne verfügbar. <a href='mailto:aeonix@alleshealth.com'>Kontakt</a> für individuelle Preisgestaltung.",
     "plan.prime": "Prime Health — 100+ Biomarkers",
     "plan.vital": "Vital Edge — 125+ Biomarkers",
     "plan.longevity": "Longevity Plus — 135+ Biomarkers",
@@ -593,7 +593,7 @@ const T = {
     "footer.s2.l4": "FAQ",
     "footer.s2.l5": "Betriebliches Gesundheitsmanagement",
     "footer.s3.title": "Rechtliches & Kontakt",
-    "footer.s3.l1": "info@alleshealth.com",
+    "footer.s3.l1": "aeonix@alleshealth.com",
     "footer.s3.l2": "Unsere Laborpartner (demnächst)",
     "footer.s3.l3": "Datenschutzrichtlinie",
     "footer.s3.l4": "Nutzungsbedingungen",
@@ -602,7 +602,7 @@ const T = {
     "footer.tagline": "Aeonix — Gesundheit selbst bestimmen",
     "faq.label": "Häufige Fragen",
     "faq.title": "Alles, was Sie<br>wissen <em>müssen.</em>",
-    "faq.sub": "Bei weiteren Fragen erreichen Sie uns unter info@alleshealth.com — Antwort innerhalb eines Werktages.",
+    "faq.sub": "Bei weiteren Fragen erreichen Sie uns unter aeonix@alleshealth.com — Antwort innerhalb eines Werktages.",
     "faq.corp": "Firmen- oder Familienplan? Wir bieten massgeschneiderte Preise für Gruppen ab 4 Personen.",
     "faq.items": [
       {
@@ -825,7 +825,7 @@ const T = {
     "pricing.popular": "Le plus populaire",
     "pricing.begin": "Commencer",
     "pricing.subscribe": "S'abonner & économiser",
-    "pricing.note": "Tous les forfaits comprennent <strong>le traitement en laboratoire suisse renommé</strong>, <strong>un tableau de bord sécurisé</strong> et <strong>la pleine souveraineté des données RGPD</strong>.<br>Forfaits entreprise et famille disponibles. <a href='mailto:info@alleshealth.com'>Contactez-nous</a> pour une tarification sur mesure.",
+    "pricing.note": "Tous les forfaits comprennent <strong>le traitement en laboratoire suisse renommé</strong>, <strong>un tableau de bord sécurisé</strong> et <strong>la pleine souveraineté des données RGPD</strong>.<br>Forfaits entreprise et famille disponibles. <a href='mailto:aeonix@alleshealth.com'>Contactez-nous</a> pour une tarification sur mesure.",
     "plan.prime": "Prime Health — 100+ Biomarkers",
     "plan.vital": "Vital Edge — 125+ Biomarkers",
     "plan.longevity": "Longevity Plus — 135+ Biomarkers",
@@ -925,7 +925,7 @@ const T = {
     "footer.s2.l4": "FAQ",
     "footer.s2.l5": "Santé en entreprise",
     "footer.s3.title": "Légal & Contact",
-    "footer.s3.l1": "info@alleshealth.com",
+    "footer.s3.l1": "aeonix@alleshealth.com",
     "footer.s3.l2": "Nos laboratoires partenaires (bientôt)",
     "footer.s3.l3": "Politique de confidentialité",
     "footer.s3.l4": "Conditions d'utilisation",
@@ -934,7 +934,7 @@ const T = {
     "footer.tagline": "Aeonix — Prenez en main votre santé",
     "faq.label": "Questions fréquentes",
     "faq.title": "Tout ce que vous<br>devez <em>savoir.</em>",
-    "faq.sub": "Si votre question n'est pas répondue ici, notre équipe est disponible à info@alleshealth.com — réponse sous un jour ouvrable.",
+    "faq.sub": "Si votre question n'est pas répondue ici, notre équipe est disponible à aeonix@alleshealth.com — réponse sous un jour ouvrable.",
     "faq.corp": "Forfait entreprise ou famille ? Nous proposons des tarifs sur mesure pour les groupes de 4 personnes ou plus.",
     "faq.items": [
       {
@@ -1157,7 +1157,7 @@ const T = {
     "pricing.popular": "Il più popolare",
     "pricing.begin": "Inizia",
     "pricing.subscribe": "Abbonati e risparmia",
-    "pricing.note": "Tutti i piani includono <strong>elaborazione in laboratorio svizzero rinomato</strong>, <strong>dashboard personale sicuro</strong> e <strong>piena sovranità dei dati GDPR</strong>.<br>Piani aziendali e familiari disponibili. <a href='mailto:info@alleshealth.com'>Contattaci</a> per prezzi su misura.",
+    "pricing.note": "Tutti i piani includono <strong>elaborazione in laboratorio svizzero rinomato</strong>, <strong>dashboard personale sicuro</strong> e <strong>piena sovranità dei dati GDPR</strong>.<br>Piani aziendali e familiari disponibili. <a href='mailto:aeonix@alleshealth.com'>Contattaci</a> per prezzi su misura.",
     "plan.prime": "Prime Health — 100+ Biomarkers",
     "plan.vital": "Vital Edge — 125+ Biomarkers",
     "plan.longevity": "Longevity Plus — 135+ Biomarkers",
@@ -1257,7 +1257,7 @@ const T = {
     "footer.s2.l4": "FAQ",
     "footer.s2.l5": "Salute aziendale",
     "footer.s3.title": "Legale & Contatti",
-    "footer.s3.l1": "info@alleshealth.com",
+    "footer.s3.l1": "aeonix@alleshealth.com",
     "footer.s3.l2": "I nostri laboratori partner (prossimamente)",
     "footer.s3.l3": "Informativa sulla privacy",
     "footer.s3.l4": "Termini di servizio",
@@ -1266,7 +1266,7 @@ const T = {
     "footer.tagline": "Aeonix — Possiedi la tua salute",
     "faq.label": "Domande frequenti",
     "faq.title": "Tutto quello che devi<br><em>sapere.</em>",
-    "faq.sub": "Se la tua domanda non ha risposta qui, il nostro team è disponibile a info@alleshealth.com — risposta entro un giorno lavorativo.",
+    "faq.sub": "Se la tua domanda non ha risposta qui, il nostro team è disponibile a aeonix@alleshealth.com — risposta entro un giorno lavorativo.",
     "faq.corp": "Piano aziendale o familiare? Offriamo prezzi su misura per gruppi di 4 o più persone.",
     "faq.items": [
       {
@@ -1978,7 +1978,7 @@ window.addEventListener('popstate', function (e) {
 // const N8N_ACK_URL   = 'http://16.62.72.160:5678/webhook/aeonix-waitlist-ack';
 const N8N_ACK_URL = 'https://n8n.aeonix.ch/webhook/aeonix-waitlist-ack';
 const N8N_INVITE_URL = 'https://n8n.aeonix.ch/webhook/aeonix-waitlist-invite';
-const NOTIFY_EMAIL = 'info@alleshealth.com';
+const NOTIFY_EMAIL = 'aeonix@alleshealth.com';
 var wlRefCode = '';
 var wlMemberEmail = '';
 var wlMemberName = '';

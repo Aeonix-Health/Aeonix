@@ -6,7 +6,7 @@ Aeonix is a Swiss direct-access preventative health screening service. Adults ca
 
 Aeonix is operated by AllesHealth GmbH, Zürich, Switzerland.
 Website: https://aeonix.ch
-Contact: info@alleshealth.com
+Contact: aeonix@alleshealth.com
 
 ## Key differentiators vs competitors (Ahead Health, Care.me, Ayun)
 - Blood-only (no MRI required) → faster, accessible, scalable
