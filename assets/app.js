@@ -1466,20 +1466,12 @@ function setLangUrl(lang) {
   
   // Edge case: if it's the privacy policy route
   if (path.indexOf('/privacy-policy') > -1) {
-    if (lang === 'en') {
-      window.location.href = '/privacy-policy.html';
-    } else {
-      window.location.href = '/privacy-policy/' + lang;
-    }
+    window.location.href = '/privacy-policy/' + lang;
     return;
   }
   // Edge case: if it's the terms of use route
   if (path.indexOf('/terms-of-use') > -1) {
-    if (lang === 'en') {
-      window.location.href = '/terms-of-use.html';
-    } else {
-      window.location.href = '/terms-of-use/' + lang;
-    }
+    window.location.href = '/terms-of-use/' + lang;
     return;
   }
 
