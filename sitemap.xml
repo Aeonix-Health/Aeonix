@@ -41,6 +41,139 @@
     <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/biologisches-alter-test-schweiz.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/biological-age-test-switzerland.html"/>
   </url>
+  <!-- Longevity screening pages - Zurich, Basel, Zug (4 languages each) -->
+  <url>
+    <loc>https://aeonix.ch/longevity-screening-zurich.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/longevity-screening-zurich.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/longevity-vorsorge-zuerich.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/longevite-zurich.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/longevita-zurigo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/longevity-screening-zurich.html"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/longevity-vorsorge-zuerich.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/longevity-screening-zurich.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/longevity-vorsorge-zuerich.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/longevite-zurich.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/longevita-zurigo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/longevity-screening-zurich.html"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/longevite-zurich.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/longevity-screening-zurich.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/longevity-vorsorge-zuerich.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/longevite-zurich.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/longevita-zurigo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/longevity-screening-zurich.html"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/longevita-zurigo.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/longevity-screening-zurich.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/longevity-vorsorge-zuerich.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/longevite-zurich.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/longevita-zurigo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/longevity-screening-zurich.html"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/longevity-screening-basel.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/longevity-screening-basel.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/longevity-vorsorge-basel.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/longevite-bale.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/longevita-basilea.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/longevity-screening-basel.html"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/longevity-vorsorge-basel.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/longevity-screening-basel.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/longevity-vorsorge-basel.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/longevite-bale.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/longevita-basilea.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/longevity-screening-basel.html"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/longevite-bale.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/longevity-screening-basel.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/longevity-vorsorge-basel.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/longevite-bale.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/longevita-basilea.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/longevity-screening-basel.html"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/longevita-basilea.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/longevity-screening-basel.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/longevity-vorsorge-basel.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/longevite-bale.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/longevita-basilea.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/longevity-screening-basel.html"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/longevity-screening-zug.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/longevity-screening-zug.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/longevity-vorsorge-zug.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/longevite-zoug.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/longevita-zugo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/longevity-screening-zug.html"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/longevity-vorsorge-zug.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/longevity-screening-zug.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/longevity-vorsorge-zug.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/longevite-zoug.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/longevita-zugo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/longevity-screening-zug.html"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/longevite-zoug.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/longevity-screening-zug.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/longevity-vorsorge-zug.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/longevite-zoug.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/longevita-zugo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/longevity-screening-zug.html"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/longevita-zugo.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/longevity-screening-zug.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/longevity-vorsorge-zug.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/longevite-zoug.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/longevita-zugo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/longevity-screening-zug.html"/>
+  </url>
   <url>
     <loc>https://aeonix.ch/bone-health-before-50.html</loc>
     <lastmod>2026-06-24</lastmod>

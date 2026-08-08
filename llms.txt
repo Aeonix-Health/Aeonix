@@ -69,6 +69,9 @@ AllesHealth GmbH — Swiss health technology company operating in the preventive
 - [Why Your Krankenkasse Doesn't Cover the Tests That Matter Most](https://aeonix.ch/krankenkasse-doesnt-cover.html)
 - [Lp(a): The Genetic Risk Factor That Affects 1 in 5 People — And Is Almost Never Tested](https://aeonix.ch/lipoprotein-a-genetic-risk.html)
 - [The Longevity Playbook: What Elite Health Screening Actually Measures](https://aeonix.ch/longevity-biomarkers-bryan-johnson.html)
+- [Longevity Screening in Zürich: The Biomarker Panel Behind Healthy Ageing](https://aeonix.ch/longevity-screening-zurich.html)
+- [Longevity Screening in Basel: 135+ Biomarkers for Healthy Ageing](https://aeonix.ch/longevity-screening-basel.html)
+- [Longevity Screening in Zug: The Executive's Biomarker Panel for Healthy Ageing](https://aeonix.ch/longevity-screening-zug.html)
 - [Lp(a) Test in Switzerland: Cost, Coverage and Why You Should Know Your Level](https://aeonix.ch/lp-a-test-cost-switzerland.html)
 - [The Omega-3 Index: The Most Underrated Marker in Preventative Medicine](https://aeonix.ch/omega3-index-underrated-marker.html)
 - [Preventive Health Check Cost in Switzerland: What You Get at Every Price Point](https://aeonix.ch/preventive-health-check-cost-switzerland.html)
@@ -97,6 +100,9 @@ AllesHealth GmbH — Swiss health technology company operating in the preventive
 - [Vorsorgeuntersuchung Zug für Führungskräfte der Crypto Valley](https://aeonix.ch/vorsorgeuntersuchung-zug-fuehrungskraefte.html)
 - [Vorsorgeuntersuchung in Basel: Für Führungskräfte der Pharma- und Life-Sciences-Branche](https://aeonix.ch/vorsorgeuntersuchung-basel-pharma.html)
 - [Vorsorgeuntersuchung für Führungskräfte in Genf: Ein vertraulicher Bluttest für internationale Fachkräfte](https://aeonix.ch/vorsorgeuntersuchung-genf-fuehrungskraefte.html)
+- [Longevity-Vorsorge in Zürich: Das Biomarker-Panel für gesundes Altern](https://aeonix.ch/longevity-vorsorge-zuerich.html)
+- [Longevity-Vorsorge in Basel: 135+ Biomarker für gesundes Altern](https://aeonix.ch/longevity-vorsorge-basel.html)
+- [Longevity-Vorsorge in Zug: Das Biomarker-Panel für Führungskräfte](https://aeonix.ch/longevity-vorsorge-zug.html)
 
 ## Articles Santé (Français)
 - [Bilan sanguin préventif en Suisse : ce qu'une analyse complète révèle vraiment](https://aeonix.ch/bilan-sanguin-preventif-suisse.html)
@@ -111,6 +117,9 @@ AllesHealth GmbH — Swiss health technology company operating in the preventive
 - [Le bilan de santé pour les cadres de Zoug et de la Crypto Valley](https://aeonix.ch/bilan-sante-cadres-zoug.html)
 - [Bilan de santé à Bâle : pensé pour les cadres de la pharma et des sciences de la vie](https://aeonix.ch/bilan-sante-cadres-bale-pharma.html)
 - [Bilan de santé pour cadres à Genève : un dépistage sanguin confidentiel pour les professionnels internationaux](https://aeonix.ch/bilan-sante-cadres-geneve.html)
+- [Dépistage de la longévité à Zurich : le panel de biomarqueurs du vieillissement en bonne santé](https://aeonix.ch/longevite-zurich.html)
+- [Dépistage de la longévité à Bâle : 135+ biomarqueurs pour un vieillissement en bonne santé](https://aeonix.ch/longevite-bale.html)
+- [Dépistage de la longévité à Zoug : le panel de biomarqueurs pour dirigeants](https://aeonix.ch/longevite-zoug.html)
 
 ## Articoli sulla Salute (Italiano)
 - [Il burnout ha un esame del sangue: cosa mostra lo stress nei risultati di laboratorio in Svizzera](https://aeonix.ch/analisi-sangue-burnout-svizzera.html)
@@ -125,6 +134,9 @@ AllesHealth GmbH — Swiss health technology company operating in the preventive
 - [Il check-up salute per i dirigenti di Zugo e della Crypto Valley](https://aeonix.ch/check-salute-dirigenti-zugo.html)
 - [Check-up della salute a Basilea: pensato per i dirigenti del farmaceutico e delle life sciences](https://aeonix.ch/check-salute-dirigenti-basilea-farmaceutico.html)
 - [Check-up salute per dirigenti a Ginevra: uno screening del sangue riservato per professionisti internazionali](https://aeonix.ch/check-salute-dirigenti-ginevra.html)
+- [Screening della longevità a Zurigo: il pannello di biomarcatori per un invecchiamento sano](https://aeonix.ch/longevita-zurigo.html)
+- [Screening della longevità a Basilea: 135+ biomarcatori per un invecchiamento sano](https://aeonix.ch/longevita-basilea.html)
+- [Screening della longevità a Zugo: il pannello per dirigenti](https://aeonix.ch/longevita-zugo.html)
 
 ## City Health Screening Pages
 - [Health Screening in Basel: Preventive Blood Testing for Basel Residents](https://aeonix.ch/health-screening-basel.html)
