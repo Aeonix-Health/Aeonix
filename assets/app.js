@@ -1461,9 +1461,7 @@ function loadFooter() {
   }
 }
 
-// ── setLangUrl — language switching for privacy-policy / terms-of-use pages ────
-// (Only these two page families ship per-language subdirectories. Every other
-// page on the site keeps its own dedicated per-language filename/slug.)
+// ── setLangUrl — language switching with URL update ────────────────────────
 function setLangUrl(lang) {
   var path = window.location.pathname;
   if (path.indexOf('/privacy-policy') > -1) {
@@ -1474,7 +1472,12 @@ function setLangUrl(lang) {
     window.location.href = '/terms-of-use/' + lang;
     return;
   }
+  // Homepage: update language in-place and push clean /lang/ URL
   setLang(lang);
+  var newPath = '/' + lang + '/';
+  if (window.location.pathname !== newPath) {
+    history.pushState({ lang: lang }, '', newPath);
+  }
 }
 
 // ── Pricing toggle ────────────────────────────────
@@ -2318,15 +2321,23 @@ document.addEventListener('DOMContentLoaded', function () {
     if (bcard) { e.preventDefault(); openArticleReader(bcard.dataset.slug); return; }
   });
 
-  // Set language: default to 'en', but detect 'de'/'fr'/'it' from the URL path
-  // for pages that ship real per-language subdirectories (privacy-policy, terms-of-use).
+  // Set language: detect from URL path segment (/de/, /fr/, /it/) or
+  // from ?lang= query param (set by /de/index.html shim redirects).
   var LANGS = ['en', 'de', 'fr', 'it'];
+  var urlParams = new URLSearchParams(window.location.search);
+  var paramLang = urlParams.get('lang');
   var pathSegments = window.location.pathname.split('/').filter(Boolean);
   var detectedLang = 'en';
-  for (var i = 0; i < pathSegments.length; i++) {
-    if (LANGS.indexOf(pathSegments[i].toLowerCase()) > -1) {
-      detectedLang = pathSegments[i].toLowerCase();
-      break;
+  if (LANGS.indexOf(paramLang) > -1) {
+    // Came via shim redirect (?lang=de) — apply lang and restore clean URL
+    detectedLang = paramLang;
+    history.replaceState({ lang: detectedLang }, '', '/' + detectedLang + '/');
+  } else {
+    for (var i = 0; i < pathSegments.length; i++) {
+      if (LANGS.indexOf(pathSegments[i].toLowerCase()) > -1) {
+        detectedLang = pathSegments[i].toLowerCase();
+        break;
+      }
     }
   }
   setLang(detectedLang);
