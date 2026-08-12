@@ -2328,6 +2328,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var paramLang = urlParams.get('lang');
   var pathSegments = window.location.pathname.split('/').filter(Boolean);
   var detectedLang = 'en';
+  var pathLangFound = false;
   if (LANGS.indexOf(paramLang) > -1) {
     // Came via shim redirect (?lang=de) — apply lang and restore clean URL
     detectedLang = paramLang;
@@ -2336,8 +2337,17 @@ document.addEventListener('DOMContentLoaded', function () {
     for (var i = 0; i < pathSegments.length; i++) {
       if (LANGS.indexOf(pathSegments[i].toLowerCase()) > -1) {
         detectedLang = pathSegments[i].toLowerCase();
+        pathLangFound = true;
         break;
       }
+    }
+    if (!pathLangFound && pathSegments.length === 0) {
+      // Bare "/" with no explicit lang — infer from browser preference.
+      var browserLang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+      for (var j = 0; j < LANGS.length; j++) {
+        if (browserLang.indexOf(LANGS[j]) === 0) { detectedLang = LANGS[j]; break; }
+      }
+      history.replaceState({ lang: detectedLang }, '', '/' + detectedLang + '/');
     }
   }
   setLang(detectedLang);
