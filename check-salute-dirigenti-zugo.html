@@ -68,7 +68,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Georgia',serif;background:#FAF8F4;color:#2A2723;line-height:1.85;}
 .nav{position:sticky;top:0;background:rgba(250,248,244,.98);border-bottom:1px solid rgba(184,134,78,.2);padding:0 48px;height:64px;display:flex;align-items:center;justify-content:space-between;z-index:100;}
-.nav-logo{font-family:'Georgia',serif;font-size:1.2rem;color:#1A1814;text-decoration:none;letter-spacing:.05em;}
+.nav-logo{display:flex;align-items:center;height:64px;text-decoration:none;}.nav-logo-img{height:28px;width:auto;display:block;}
 .nav-back{font-size:.75rem;color:#B8864E;text-decoration:none;letter-spacing:.08em;text-transform:uppercase;}
 .nav-back:hover{text-decoration:underline;}
 .hero{background:#1A1814;padding:52px 48px 44px;}
@@ -106,7 +106,7 @@ body{font-family:'Georgia',serif;background:#FAF8F4;color:#2A2723;line-height:1.
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <nav class="nav">
-  <a href="https://aeonix.ch/" class="nav-logo">Aeonix</a>
+  <a href="https://aeonix.ch/" class="nav-logo" aria-label="Aeonix"><img src="/assets/logo.svg" alt="Aeonix" class="nav-logo-img"/></a>
   <a href="https://aeonix.ch/#blog" class="nav-back">← Torna ad Aeonix</a>
 </nav>
 <div class="lang-bar"><a href="https://aeonix.ch/executive-health-check-zug-crypto-valley.html">EN</a><a href="https://aeonix.ch/vorsorgeuntersuchung-zug-fuehrungskraefte.html">DE</a><a href="https://aeonix.ch/bilan-sante-cadres-zoug.html">FR</a><a href="https://aeonix.ch/check-salute-dirigenti-zugo.html" class="active">IT</a></div>
@@ -142,28 +142,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <p><strong>L'assicurazione malattia coprirà uno screening Aeonix?</strong> L'assicurazione di base svizzera (LAMal) non copre lo screening sanguigno preventivo per adulti sani, e Aeonix al momento non offre alcun rimborso. Alcune assicurazioni complementari (LCA) includono un budget di prevenzione che potrebbe essere applicabile — verificate con la vostra assicurazione. Il valore di Aeonix sta altrove: risultati in 48 ore invece delle quattro-cinque settimane comuni altrove, nessuna impegnativa necessaria, discrezione totale e monitoraggio dei propri biomarcatori anno su anno.</p>
   <p><strong>Serve l'impegnativa del medico di famiglia per prenotare?</strong> No, non è richiesta alcuna impegnativa. Aeonix è un servizio ad accesso diretto: si prenota online, si visita un laboratorio partner nel momento più comodo, e un medico valida i risultati prima che compaiano sulla dashboard.</p>
   <p><strong>Quanto tempo ci vuole per ricevere i risultati?</strong> I risultati validati da un medico vengono consegnati digitalmente entro 48 ore dal prelievo del sangue, tramite la dashboard personale sicura.</p>
-
-  <!--
-  OPEN QUESTION FOR SUNDEEP/GAURAV — do not publish until resolved:
-  This table's age-bracket column does not exist anywhere else on the site (not on the
-  homepage, not confirmed by the site owner). It may be real product logic that never made
-  it into other pages, or it may be invented content from a translation/localization pass.
-  Please confirm before this goes live — if it's not real, delete the column rather than
-  publish an unverified claim. The biomarker-count column has been corrected to match the
-  confirmed figures (100+ / 125+ / 135+ / 150+) regardless of how the age-bracket question
-  is resolved.
--->
   <h2>Scegli il tuo piano</h2>
   <p>Tutti e quattro i piani Aeonix si basano sullo stesso standard — laboratori partner svizzeri, validazione medica e dashboard sicura — con un pannello di biomarcatori che si amplia in base agli ambiti di rischio legati all'età. 100+–150+ biomarcatori, in base al piano.</p>
-  <table>
-  <thead><tr><th>Piano</th><th>Fascia d'età</th><th>Biomarcatori</th><th>Ambiti</th><th>Prezzo</th></tr></thead>
+  <div style="overflow-x:auto;">
+<table>
+  <thead><tr><th>Piano</th><th>Biomarcatori</th><th>Ambiti</th><th>Prezzo</th></tr></thead>
   <tbody>
-  <tr><td>Prime Health</td><td>25–45</td><td>100+</td><td>10–11</td><td>CHF 595/anno</td></tr>
-  <tr><td>Vital Edge</td><td>35–55</td><td>125+</td><td>12–13</td><td>CHF 795/anno</td></tr>
-  <tr><td>Longevity Plus</td><td>55–65</td><td>135+</td><td>13–14</td><td>CHF 995/anno</td></tr>
-  <tr><td>Elite</td><td>65+</td><td>150+</td><td>14–15</td><td>CHF 1'295/anno</td></tr>
+  <tr><td>Prime Health</td><td>100+</td><td>10–11</td><td>CHF 595/anno</td></tr>
+  <tr><td>Vital Edge</td><td>125+</td><td>12–13</td><td>CHF 795/anno</td></tr>
+  <tr><td>Longevity Plus</td><td>135+</td><td>13–14</td><td>CHF 995/anno</td></tr>
+  <tr><td>Elite</td><td>150+</td><td>14–15</td><td>CHF 1'295/anno</td></tr>
   </tbody>
   </table>
+</div>
   <p>Tutti i piani includono: laboratorio svizzero rinomato · risultati validati da un medico · dashboard sicura · monitoraggio annuale · assistenza DE/EN/FR/IT.</p>
   </div>
 </div>
