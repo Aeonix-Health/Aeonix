@@ -13,6 +13,7 @@ const T = {
     "nav.pricing": "Plans",
     "nav.blog": "Insights",
     "nav.faq": "FAQ",
+    "nav.contact": "Contact Us",
     "nav.cta": "Book Now",
     "hero.eyebrow": "Preventative Screening · Switzerland",
     "hero.title": "The greatest act<br>of love is knowing<br>you are <em>well.</em>",
@@ -267,6 +268,39 @@ const T = {
     "footer.tagline": "Aeonix — Own Your Health",
     "footer.ai.title": "AI-Generated Content",
     "footer.ai.text": "Some of the visual content on our website has been generated and enhanced using artificial intelligence (AI) applications.",
+    "footer.s3.l6": "Contact Us",
+    "contact.meta.title": "Contact Us | Aeonix",
+    "contact.hero.title": "How to Reach Us",
+    "contact.card.email.title": "Email Us",
+    "contact.card.email.sub": "For general inquiries and support",
+    "contact.card.call.title": "Call Us",
+    "contact.card.call.sub": "Speak directly with our Care Team",
+    "contact.card.visit.title": "Visit Us",
+    "contact.card.visit.sub": "Our clinic in the heart of Switzerland",
+    "contact.card.visit.value": "Basel, Switzerland",
+    "contact.card.hours.title": "Hours",
+    "contact.card.hours.sub": "Monday–Friday support coverage",
+    "contact.card.hours.value": "08:00–18:00 CET",
+    "contact.form.kicker": "Send Us a",
+    "contact.form.kicker.em": "Message",
+    "contact.form.sub": "Please share a few details about your interest. A dedicated member of our Swiss team will personally review and attend to your inquiry.",
+    "contact.form.firstName": "First Name",
+    "contact.form.lastName": "Last Name",
+    "contact.form.email": "Email Address",
+    "contact.form.phone": "Phone Number (optional)",
+    "contact.form.message": "How can we assist you? Please share any relevant context here…",
+    "contact.form.submit": "Send Message",
+    "contact.office.title": "Our Basel Office",
+    "contact.office.address": "Address: Apfhalterstrasse 7B, 4132 Muttenz, BL",
+    "contact.office.hours": "Monday–Friday, 08:00–18:00 CET",
+    "contact.office.lab": "Our Lab Partner: Announcing Soon",
+    "contact.office.directions": "Get Directions",
+    "contact.cta.kicker": "Prefer a More",
+    "contact.cta.kicker.em": "Personal",
+    "contact.cta.kicker.end": "Conversation?",
+    "contact.cta.sub": "Our Care Team can help you choose the right health screening and guide you through every step of your Aeonix journey. Contact us directly to book a bespoke consultation.",
+    "contact.cta.book": "Book a Consultation",
+    "contact.cta.call": "Call Our Care Team",
     "faq.label": "FAQS",
     "faq.title": "Questions Worth <em>Asking</em>",
     "faq.sub": "Everything you need to know about your Aeonix health screening, membership, and results.",
@@ -350,6 +384,7 @@ const T = {
     "nav.pricing": "Pläne",
     "nav.blog": "Wissen",
     "nav.faq": "FAQ",
+    "nav.contact": "Kontakt",
     "nav.cta": "Jetzt buchen",
     "hero.eyebrow": "Präventives Screening · Schweiz",
     "hero.title": "Der grösste Ausdruck<br>von Liebe ist zu wissen,<br>dass Sie <em>gesund sind.</em>",
@@ -604,6 +639,39 @@ const T = {
     "footer.tagline": "Aeonix — Gesundheit selbst bestimmen",
     "footer.ai.title": "KI-generierte Inhalte",
     "footer.ai.text": "Ein Teil der visuellen Inhalte auf unserer Website wurde mit Hilfe von Anwendungen der künstlichen Intelligenz (KI) erstellt und verbessert.",
+    "footer.s3.l6": "Kontakt",
+    "contact.meta.title": "Kontakt | Aeonix",
+    "contact.hero.title": "So erreichen Sie uns",
+    "contact.card.email.title": "E-Mail senden",
+    "contact.card.email.sub": "Für allgemeine Anfragen und Support",
+    "contact.card.call.title": "Anrufen",
+    "contact.card.call.sub": "Sprechen Sie direkt mit unserem Care Team",
+    "contact.card.visit.title": "Besuchen Sie uns",
+    "contact.card.visit.sub": "Unsere Klinik im Herzen der Schweiz",
+    "contact.card.visit.value": "Basel, Schweiz",
+    "contact.card.hours.title": "Öffnungszeiten",
+    "contact.card.hours.sub": "Support von Montag bis Freitag",
+    "contact.card.hours.value": "08:00–18:00 MEZ",
+    "contact.form.kicker": "Senden Sie uns eine",
+    "contact.form.kicker.em": "Nachricht",
+    "contact.form.sub": "Teilen Sie uns ein paar Details zu Ihrem Anliegen mit. Ein festes Mitglied unseres Schweizer Teams prüft Ihre Anfrage persönlich und kümmert sich darum.",
+    "contact.form.firstName": "Vorname",
+    "contact.form.lastName": "Nachname",
+    "contact.form.email": "E-Mail-Adresse",
+    "contact.form.phone": "Telefonnummer (optional)",
+    "contact.form.message": "Wie können wir Ihnen helfen? Teilen Sie uns hier gerne den relevanten Kontext mit…",
+    "contact.form.submit": "Nachricht senden",
+    "contact.office.title": "Unser Büro in Basel",
+    "contact.office.address": "Adresse: Apfhalterstrasse 7B, 4132 Muttenz, BL",
+    "contact.office.hours": "Montag–Freitag, 08:00–18:00 MEZ",
+    "contact.office.lab": "Unser Laborpartner: Wird in Kürze bekannt gegeben",
+    "contact.office.directions": "Route anzeigen",
+    "contact.cta.kicker": "Bevorzugen Sie ein",
+    "contact.cta.kicker.em": "persönlicheres",
+    "contact.cta.kicker.end": "Gespräch?",
+    "contact.cta.sub": "Unser Care Team hilft Ihnen, die richtige Gesundheitsuntersuchung auszuwählen, und begleitet Sie bei jedem Schritt Ihrer Aeonix-Reise. Kontaktieren Sie uns direkt, um eine individuelle Beratung zu vereinbaren.",
+    "contact.cta.book": "Beratung buchen",
+    "contact.cta.call": "Care Team anrufen",
     "faq.label": "Häufige Fragen",
     "faq.title": "Alles, was Sie<br>wissen <em>müssen.</em>",
     "faq.sub": "Bei weiteren Fragen erreichen Sie uns unter aeonix@alleshealth.com — Antwort innerhalb eines Werktages.",
@@ -684,6 +752,7 @@ const T = {
     "nav.pricing": "Forfaits",
     "nav.blog": "Savoir",
     "nav.faq": "FAQ",
+    "nav.contact": "Contactez-nous",
     "nav.cta": "Réserver",
     "hero.eyebrow": "Dépistage préventif · Suisse",
     "hero.title": "Le plus grand acte<br>d'amour est de savoir<br>que vous allez <em>bien.</em>",
@@ -938,6 +1007,39 @@ const T = {
     "footer.tagline": "Aeonix — Prenez en main votre santé",
     "footer.ai.title": "Contenu généré par IA",
     "footer.ai.text": "Une partie du contenu visuel de notre site a été générée et améliorée à l'aide d'applications d'intelligence artificielle (IA).",
+    "footer.s3.l6": "Contactez-nous",
+    "contact.meta.title": "Contactez-nous | Aeonix",
+    "contact.hero.title": "Comment nous joindre",
+    "contact.card.email.title": "Écrivez-nous",
+    "contact.card.email.sub": "Pour toute question générale ou assistance",
+    "contact.card.call.title": "Appelez-nous",
+    "contact.card.call.sub": "Parlez directement à notre équipe Care Team",
+    "contact.card.visit.title": "Rendez-nous visite",
+    "contact.card.visit.sub": "Notre clinique au cœur de la Suisse",
+    "contact.card.visit.value": "Bâle, Suisse",
+    "contact.card.hours.title": "Horaires",
+    "contact.card.hours.sub": "Assistance du lundi au vendredi",
+    "contact.card.hours.value": "08h00–18h00 CET",
+    "contact.form.kicker": "Envoyez-nous un",
+    "contact.form.kicker.em": "Message",
+    "contact.form.sub": "Partagez quelques détails sur votre demande. Un membre dédié de notre équipe suisse examinera personnellement votre demande et y répondra.",
+    "contact.form.firstName": "Prénom",
+    "contact.form.lastName": "Nom",
+    "contact.form.email": "Adresse e-mail",
+    "contact.form.phone": "Numéro de téléphone (facultatif)",
+    "contact.form.message": "Comment pouvons-nous vous aider ? Partagez ici tout contexte utile…",
+    "contact.form.submit": "Envoyer le message",
+    "contact.office.title": "Notre bureau de Bâle",
+    "contact.office.address": "Adresse : Apfhalterstrasse 7B, 4132 Muttenz, BL",
+    "contact.office.hours": "Lundi–vendredi, 08h00–18h00 CET",
+    "contact.office.lab": "Notre laboratoire partenaire : annonce à venir",
+    "contact.office.directions": "Itinéraire",
+    "contact.cta.kicker": "Vous préférez un échange plus",
+    "contact.cta.kicker.em": "personnel",
+    "contact.cta.kicker.end": "?",
+    "contact.cta.sub": "Notre équipe Care Team peut vous aider à choisir le bilan de santé adapté et vous accompagner à chaque étape de votre parcours Aeonix. Contactez-nous directement pour réserver une consultation sur mesure.",
+    "contact.cta.book": "Réserver une consultation",
+    "contact.cta.call": "Appeler notre Care Team",
     "faq.label": "Questions fréquentes",
     "faq.title": "Tout ce que vous<br>devez <em>savoir.</em>",
     "faq.sub": "Si votre question n'est pas répondue ici, notre équipe est disponible à aeonix@alleshealth.com — réponse sous un jour ouvrable.",
@@ -1018,6 +1120,7 @@ const T = {
     "nav.pricing": "Piani",
     "nav.blog": "Sapere",
     "nav.faq": "FAQ",
+    "nav.contact": "Contattaci",
     "nav.cta": "Prenota",
     "hero.eyebrow": "Screening preventivo · Svizzera",
     "hero.title": "Il più grande atto<br>d'amore è sapere<br>di stare <em>bene.</em>",
@@ -1272,6 +1375,39 @@ const T = {
     "footer.tagline": "Aeonix — Possiedi la tua salute",
     "footer.ai.title": "Contenuti generati dall'IA",
     "footer.ai.text": "Alcuni contenuti visivi del nostro sito sono stati generati e migliorati utilizzando applicazioni di intelligenza artificiale (IA).",
+    "footer.s3.l6": "Contattaci",
+    "contact.meta.title": "Contattaci | Aeonix",
+    "contact.hero.title": "Come contattarci",
+    "contact.card.email.title": "Scrivici",
+    "contact.card.email.sub": "Per richieste generali e assistenza",
+    "contact.card.call.title": "Chiamaci",
+    "contact.card.call.sub": "Parla direttamente con il nostro Care Team",
+    "contact.card.visit.title": "Vieni a trovarci",
+    "contact.card.visit.sub": "La nostra clinica nel cuore della Svizzera",
+    "contact.card.visit.value": "Basilea, Svizzera",
+    "contact.card.hours.title": "Orari",
+    "contact.card.hours.sub": "Assistenza dal lunedì al venerdì",
+    "contact.card.hours.value": "08:00–18:00 CET",
+    "contact.form.kicker": "Inviaci un",
+    "contact.form.kicker.em": "Messaggio",
+    "contact.form.sub": "Condividi alcuni dettagli sulla tua richiesta. Un membro dedicato del nostro team svizzero esaminerà personalmente la tua richiesta e ti risponderà.",
+    "contact.form.firstName": "Nome",
+    "contact.form.lastName": "Cognome",
+    "contact.form.email": "Indirizzo e-mail",
+    "contact.form.phone": "Numero di telefono (opzionale)",
+    "contact.form.message": "Come possiamo aiutarti? Condividi qui qualsiasi contesto utile…",
+    "contact.form.submit": "Invia messaggio",
+    "contact.office.title": "Il nostro ufficio di Basilea",
+    "contact.office.address": "Indirizzo: Apfhalterstrasse 7B, 4132 Muttenz, BL",
+    "contact.office.hours": "Lunedì–venerdì, 08:00–18:00 CET",
+    "contact.office.lab": "Il nostro laboratorio partner: presto disponibile",
+    "contact.office.directions": "Indicazioni stradali",
+    "contact.cta.kicker": "Preferisci una conversazione più",
+    "contact.cta.kicker.em": "personale",
+    "contact.cta.kicker.end": "?",
+    "contact.cta.sub": "Il nostro Care Team può aiutarti a scegliere il check-up più adatto e accompagnarti in ogni fase del tuo percorso Aeonix. Contattaci direttamente per prenotare una consulenza su misura.",
+    "contact.cta.book": "Prenota una consulenza",
+    "contact.cta.call": "Chiama il nostro Care Team",
     "faq.label": "Domande frequenti",
     "faq.title": "Tutto quello che devi<br><em>sapere.</em>",
     "faq.sub": "Se la tua domanda non ha risposta qui, il nostro team è disponibile a aeonix@alleshealth.com — risposta entro un giorno lavorativo.",
@@ -1478,6 +1614,10 @@ function setLangUrl(lang) {
   }
   if (path.indexOf('/terms-of-use') > -1) {
     window.location.href = '/terms-of-use/' + lang;
+    return;
+  }
+  if (path.indexOf('/contact') > -1) {
+    window.location.href = '/contact/' + lang;
     return;
   }
   // Homepage: update language in-place and push clean /lang/ URL
@@ -2289,6 +2429,9 @@ function wlShareLinkedIn() {
 
 // ── DOMContentLoaded — wire everything ────────────
 document.addEventListener('DOMContentLoaded', function () {
+  // Captured before any history.replaceState below can drop it from the URL
+  var initialHash = window.location.hash;
+
   // Core site
   loadFooter();
   buildFAQ('en');
@@ -2340,7 +2483,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if (LANGS.indexOf(paramLang) > -1) {
     // Came via shim redirect (?lang=de) — apply lang and restore clean URL
     detectedLang = paramLang;
-    history.replaceState({ lang: detectedLang }, '', '/' + detectedLang + '/');
+    history.replaceState({ lang: detectedLang }, '', '/' + detectedLang + '/' + initialHash);
   } else {
     for (var i = 0; i < pathSegments.length; i++) {
       if (LANGS.indexOf(pathSegments[i].toLowerCase()) > -1) {
@@ -2355,10 +2498,23 @@ document.addEventListener('DOMContentLoaded', function () {
       for (var j = 0; j < LANGS.length; j++) {
         if (browserLang.indexOf(LANGS[j]) === 0) { detectedLang = LANGS[j]; break; }
       }
-      history.replaceState({ lang: detectedLang }, '', '/' + detectedLang + '/');
+      history.replaceState({ lang: detectedLang }, '', '/' + detectedLang + '/' + initialHash);
     }
   }
   setLang(detectedLang);
+
+  // Re-run the anchor scroll ourselves: the replaceState calls above can
+  // cancel the browser's native scroll-to-fragment, and late-loading FAQ/
+  // marquee content and web fonts can shift section positions after it.
+  if (initialHash) {
+    var scrollTarget = initialHash.slice(1);
+    var doScroll = function () { smoothTo(scrollTarget); };
+    if (document.readyState === 'complete') {
+      setTimeout(doScroll, 200);
+    } else {
+      window.addEventListener('load', function () { setTimeout(doScroll, 200); });
+    }
+  }
 
   // Reveal
   setTimeout(initReveal, 150);
