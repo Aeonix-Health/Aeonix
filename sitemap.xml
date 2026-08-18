@@ -1108,4 +1108,131 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://aeonix.ch/terms-of-use/fr"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://aeonix.ch/terms-of-use/it"/>
   </url>
+
+  <!-- Liquid biopsy cancer screening (previously missing from sitemap) -->
+  <url>
+    <loc>https://aeonix.ch/liquid-biopsy-cancer-screening-switzerland.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/liquid-biopsy-cancer-screening-switzerland.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/liquid-biopsy-krebsfrueherkennung-schweiz.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/biopsie-liquide-depistage-cancer-suisse.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/biopsia-liquida-screening-tumori-svizzera.html"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/liquid-biopsy-krebsfrueherkennung-schweiz.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/liquid-biopsy-cancer-screening-switzerland.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/liquid-biopsy-krebsfrueherkennung-schweiz.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/biopsie-liquide-depistage-cancer-suisse.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/biopsia-liquida-screening-tumori-svizzera.html"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/biopsie-liquide-depistage-cancer-suisse.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/liquid-biopsy-cancer-screening-switzerland.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/liquid-biopsy-krebsfrueherkennung-schweiz.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/biopsie-liquide-depistage-cancer-suisse.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/biopsia-liquida-screening-tumori-svizzera.html"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/biopsia-liquida-screening-tumori-svizzera.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/liquid-biopsy-cancer-screening-switzerland.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/liquid-biopsy-krebsfrueherkennung-schweiz.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/biopsie-liquide-depistage-cancer-suisse.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/biopsia-liquida-screening-tumori-svizzera.html"/>
+  </url>
+
+  <!-- Workplace burnout / chronic stress (previously missing from sitemap) -->
+  <url>
+    <loc>https://aeonix.ch/workplace-burnout-stress-screening-switzerland.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/workplace-burnout-stress-screening-switzerland.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/burnout-chronischer-stress-schweiz.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/burnout-stress-chronique-suisse.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/burnout-stress-cronico-svizzera.html"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/burnout-chronischer-stress-schweiz.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/workplace-burnout-stress-screening-switzerland.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/burnout-chronischer-stress-schweiz.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/burnout-stress-chronique-suisse.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/burnout-stress-cronico-svizzera.html"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/burnout-stress-chronique-suisse.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/workplace-burnout-stress-screening-switzerland.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/burnout-chronischer-stress-schweiz.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/burnout-stress-chronique-suisse.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/burnout-stress-cronico-svizzera.html"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/burnout-stress-cronico-svizzera.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/workplace-burnout-stress-screening-switzerland.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/burnout-chronischer-stress-schweiz.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/burnout-stress-chronique-suisse.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/burnout-stress-cronico-svizzera.html"/>
+  </url>
+
+  <!-- Contact page (new) -->
+  <url>
+    <loc>https://aeonix.ch/contact.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aeonix.ch/contact/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aeonix.ch/contact/de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aeonix.ch/contact/fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://aeonix.ch/contact/it"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/contact/de</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aeonix.ch/contact/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aeonix.ch/contact/de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aeonix.ch/contact/fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://aeonix.ch/contact/it"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/contact/fr</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aeonix.ch/contact/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aeonix.ch/contact/de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aeonix.ch/contact/fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://aeonix.ch/contact/it"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/contact/it</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aeonix.ch/contact/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aeonix.ch/contact/de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aeonix.ch/contact/fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://aeonix.ch/contact/it"/>
+  </url>
 </urlset>
