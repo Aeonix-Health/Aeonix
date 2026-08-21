@@ -68,7 +68,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Georgia',serif;background:#FAF8F4;color:#2A2723;line-height:1.85;}
 .nav{position:sticky;top:0;background:rgba(250,248,244,.98);border-bottom:1px solid rgba(184,134,78,.2);padding:0 48px;height:64px;display:flex;align-items:center;justify-content:space-between;z-index:100;}
-.nav-logo{font-family:'Georgia',serif;font-size:1.2rem;color:#1A1814;text-decoration:none;letter-spacing:.05em;}
+.nav-logo{display:flex;align-items:center;height:64px;text-decoration:none;}.nav-logo-img{height:28px;width:auto;display:block;}
 .nav-back{font-size:.75rem;color:#B8864E;text-decoration:none;letter-spacing:.08em;text-transform:uppercase;}
 .nav-back:hover{text-decoration:underline;}
 .hero{background:#1A1814;padding:52px 48px 44px;}
@@ -106,7 +106,7 @@ body{font-family:'Georgia',serif;background:#FAF8F4;color:#2A2723;line-height:1.
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <nav class="nav">
-  <a href="https://aeonix.ch/" class="nav-logo">Aeonix</a>
+  <a href="https://aeonix.ch/" class="nav-logo" aria-label="Aeonix"><img src="/assets/logo.svg" alt="Aeonix" class="nav-logo-img"/></a>
   <a href="https://aeonix.ch/#blog" class="nav-back">← Retour à Aeonix</a>
 </nav>
 <div class="lang-bar"><a href="https://aeonix.ch/executive-health-check-zurich-managers.html">EN</a><a href="https://aeonix.ch/vorsorgeuntersuchung-zuerich-manager.html">DE</a><a href="https://aeonix.ch/bilan-sante-cadres-zurich.html" class="active">FR</a><a href="https://aeonix.ch/check-salute-dirigenti-zurigo.html">IT</a></div>
@@ -135,28 +135,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <h2>Ce qu'apporte en plus le bilan Aeonix pour cadres</h2>
   <p>Aeonix est un service de dépistage sanguin préventif en accès direct — sans ordonnance du médecin généraliste. Un seul prélèvement sanguin, traité au sein du réseau de laboratoires partenaires suisses (Viollier / Unilabs / Synlab), est validé par un médecin et livré sur votre tableau de bord numérique sécurisé en 48 heures. Pas d'IRM, pas de radiation, pas de scanner — le dépistage repose volontairement sur le sang uniquement, ce qui signifie aucune contrainte de disponibilité d'appareil et aucune claustrophobie à anticiper.</p>
   <p>Comme Aeonix fonctionne sur un abonnement annuel avec suivi d'une année sur l'autre, chaque résultat s'appuie sur le précédent. Pour un dirigeant qui ne peut pas s'engager à des visites fréquentes en personne, cette combinaison — un prélèvement, des résultats numériques, un historique de biomarqueurs continu — s'intègre à un agenda de voyage plutôt que d'entrer en concurrence avec lui.</p>
-
-  <!--
-  OPEN QUESTION FOR SUNDEEP/GAURAV — do not publish until resolved:
-  This table's age-bracket column does not exist anywhere else on the site (not on the
-  homepage, not confirmed by the site owner). It may be real product logic that never made
-  it into other pages, or it may be invented content from a translation/localization pass.
-  Please confirm before this goes live — if it's not real, delete the column rather than
-  publish an unverified claim. The biomarker-count column has been corrected to match the
-  confirmed figures (100+ / 125+ / 135+ / 150+) regardless of how the age-bracket question
-  is resolved.
--->
   <h2>Des formules adaptées à votre âge et à votre profil de risque</h2>
   <p>Aeonix propose quatre formules annuelles, échelonnées par tranche d'âge et nombre de biomarqueurs testés :</p>
-  <table>
-  <thead><tr><th>Formule</th><th>Tranche d'âge</th><th>Biomarqueurs</th><th>Domaines</th><th>Prix</th></tr></thead>
+  <div style="overflow-x:auto;">
+<table>
+  <thead><tr><th>Formule</th><th>Biomarqueurs</th><th>Domaines</th><th>Prix</th></tr></thead>
   <tbody>
-  <tr><td>Prime Health</td><td>25–45</td><td>100+</td><td>10–11</td><td>CHF 595/an</td></tr>
-  <tr><td>Vital Edge</td><td>35–55</td><td>125+</td><td>12–13</td><td>CHF 795/an</td></tr>
-  <tr><td>Longevity Plus</td><td>55–65</td><td>135+</td><td>13–14</td><td>CHF 995/an</td></tr>
-  <tr><td>Elite</td><td>65+</td><td>150+</td><td>14–15</td><td>CHF 1 295/an</td></tr>
+  <tr><td>Prime Health</td><td>100+</td><td>10–11</td><td>CHF 595/an</td></tr>
+  <tr><td>Vital Edge</td><td>125+</td><td>12–13</td><td>CHF 795/an</td></tr>
+  <tr><td>Longevity Plus</td><td>135+</td><td>13–14</td><td>CHF 995/an</td></tr>
+  <tr><td>Elite</td><td>150+</td><td>14–15</td><td>CHF 1 295/an</td></tr>
   </tbody>
   </table>
+</div>
 
   <h2>Questions fréquentes</h2>
   <p><strong>Aeonix est-il la même entreprise qu'Aeon ?</strong> Non. Aeonix et Aeon (aeon.life) sont deux entreprises distinctes et sans lien entre elles. Les deux sont basées à Zurich, ce qui ajoute à la confusion. Aeonix est exploité par AllesHealth GmbH et propose un dépistage préventif exclusivement sanguin sur abonnement annuel, avec des résultats livrés en 48 heures.</p>

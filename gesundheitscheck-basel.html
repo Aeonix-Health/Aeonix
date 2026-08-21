@@ -55,7 +55,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Georgia',serif;background:#FAF8F4;color:#2A2723;line-height:1.85;}
 .nav{position:sticky;top:0;background:rgba(250,248,244,.98);border-bottom:1px solid rgba(184,134,78,.2);padding:0 48px;height:64px;display:flex;align-items:center;justify-content:space-between;z-index:100;}
-.nav-logo{font-family:'Georgia',serif;font-size:1.2rem;color:#1A1814;text-decoration:none;}
+.nav-logo{display:flex;align-items:center;height:64px;text-decoration:none;}.nav-logo-img{height:28px;width:auto;display:block;}
 .nav-back{font-size:.75rem;color:#B8864E;text-decoration:none;letter-spacing:.08em;text-transform:uppercase;}
 .nav-back:hover{text-decoration:underline;}
 .hero{background:#1A1814;padding:52px 48px 44px;}
@@ -94,7 +94,7 @@ body{font-family:'Georgia',serif;background:#FAF8F4;color:#2A2723;line-height:1.
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <nav class="nav">
-  <a href="https://aeonix.ch/" class="nav-logo">Aeonix</a>
+  <a href="https://aeonix.ch/" class="nav-logo" aria-label="Aeonix"><img src="/assets/logo.svg" alt="Aeonix" class="nav-logo-img"/></a>
   <a href="https://aeonix.ch/" class="nav-back">← Zurück zu Aeonix</a>
 </nav>
 <div class="lang-bar"><a href="https://aeonix.ch/health-screening-basel.html">EN</a><a href="https://aeonix.ch/gesundheitscheck-basel.html" class="active">DE</a><a href="https://aeonix.ch/bilan-sante-bale.html">FR</a><a href="https://aeonix.ch/check-salute-basilea.html">IT</a></div>
@@ -131,31 +131,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p><strong>Zahlt die Krankenkasse?</strong> Die KVG-Grundversicherung deckt keine routinemässige präventive Blutuntersuchung für gesunde Erwachsene. Einige Zusatzversicherungen enthalten ein Präventionsbudget.</p>
 <p><strong>Wann bekomme ich meine Ergebnisse?</strong> Innerhalb von 48 Stunden nach der Blutentnahme.</p></div>
 </div>
-<!--
-  OPEN QUESTION FOR SUNDEEP/GAURAV — do not publish until resolved:
-  This table's age-bracket column does not exist anywhere else on the site (not on the
-  homepage, not confirmed by the site owner). It may be real product logic that never made
-  it into other pages, or it may be invented content from a translation/localization pass.
-  Please confirm before this goes live — if it's not real, delete the column rather than
-  publish an unverified claim. The biomarker-count column has been corrected to match the
-  confirmed figures (100+ / 125+ / 135+ / 150+) regardless of how the age-bracket question
-  is resolved.
--->
 <h2>Aeonix-Screening-Pläne</h2>
 <div style="overflow-x:auto;margin:24px 0">
 <table style="width:100%;border-collapse:collapse;font-size:.88rem">
 <thead><tr style="background:rgba(184,134,78,.12)">
-<th style="padding:10px 14px;text-align:left;border-bottom:2px solid rgba(184,134,78,.3);color:#8C6A3A">Plan</th>
-<th style="padding:10px 14px;text-align:left;border-bottom:2px solid rgba(184,134,78,.3);color:#8C6A3A">Altersgruppe</th>
-<th style="padding:10px 14px;text-align:left;border-bottom:2px solid rgba(184,134,78,.3);color:#8C6A3A">Marker</th>
+<th style="padding:10px 14px;text-align:left;border-bottom:2px solid rgba(184,134,78,.3);color:#8C6A3A">Plan</th><th style="padding:10px 14px;text-align:left;border-bottom:2px solid rgba(184,134,78,.3);color:#8C6A3A">Marker</th>
 <th style="padding:10px 14px;text-align:left;border-bottom:2px solid rgba(184,134,78,.3);color:#8C6A3A">Domänen</th>
 <th style="padding:10px 14px;text-align:left;border-bottom:2px solid rgba(184,134,78,.3);color:#8C6A3A">Ab</th>
 </tr></thead>
 <tbody>
-<tr><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)"><strong>Prime Health</strong></td><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)">25–45</td><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)">100+</td><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)">10–11</td><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)">CHF 595/Jahr</td></tr>
-<tr><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)"><strong>Vital Edge</strong></td><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)">35–55</td><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)">125+</td><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)">12–13</td><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)">CHF 795/Jahr</td></tr>
-<tr><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)"><strong>Longevity Plus</strong></td><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)">55–65</td><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)">135+</td><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)">13–14</td><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)">CHF 995/Jahr</td></tr>
-<tr><td style="padding:9px 14px"><strong>Elite</strong></td><td style="padding:9px 14px">65+</td><td style="padding:9px 14px">150+</td><td style="padding:9px 14px">14–15</td><td style="padding:9px 14px">CHF 1.295/Jahr</td></tr>
+<tr><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)"><strong>Prime Health</strong></td><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)">100+</td><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)">10–11</td><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)">CHF 595/Jahr</td></tr>
+<tr><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)"><strong>Vital Edge</strong></td><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)">125+</td><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)">12–13</td><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)">CHF 795/Jahr</td></tr>
+<tr><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)"><strong>Longevity Plus</strong></td><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)">135+</td><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)">13–14</td><td style="padding:9px 14px;border-bottom:1px solid rgba(26,24,20,.07)">CHF 995/Jahr</td></tr>
+<tr><td style="padding:9px 14px"><strong>Elite</strong></td><td style="padding:9px 14px">150+</td><td style="padding:9px 14px">14–15</td><td style="padding:9px 14px">CHF 1.295/Jahr</td></tr>
 </tbody></table></div>
 <p><strong>Alle Pläne umfassen:</strong> renommiertes Schweizer Labor · ärztlich geprüfte Ergebnisse · sicheres Dashboard · Jahres-Tracking · Support DE/EN/FR/IT.</p>
 <p style="margin-top:14px;font-size:.9rem"><strong>Weiterlesen:</strong> <a href="https://aeonix.ch/vorsorgeuntersuchung-basel-pharma.html" style="color:#B8864E">Vorsorgeuntersuchung in Basel: Für Führungskräfte der Pharma- und Life-Sciences-Branche</a></p>

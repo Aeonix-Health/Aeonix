@@ -68,7 +68,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Georgia',serif;background:#FAF8F4;color:#2A2723;line-height:1.85;}
 .nav{position:sticky;top:0;background:rgba(250,248,244,.98);border-bottom:1px solid rgba(184,134,78,.2);padding:0 48px;height:64px;display:flex;align-items:center;justify-content:space-between;z-index:100;}
-.nav-logo{font-family:'Georgia',serif;font-size:1.2rem;color:#1A1814;text-decoration:none;letter-spacing:.05em;}
+.nav-logo{display:flex;align-items:center;height:64px;text-decoration:none;}.nav-logo-img{height:28px;width:auto;display:block;}
 .nav-back{font-size:.75rem;color:#B8864E;text-decoration:none;letter-spacing:.08em;text-transform:uppercase;}
 .nav-back:hover{text-decoration:underline;}
 .hero{background:#1A1814;padding:52px 48px 44px;}
@@ -106,7 +106,7 @@ body{font-family:'Georgia',serif;background:#FAF8F4;color:#2A2723;line-height:1.
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <nav class="nav">
-  <a href="https://aeonix.ch/" class="nav-logo">Aeonix</a>
+  <a href="https://aeonix.ch/" class="nav-logo" aria-label="Aeonix"><img src="/assets/logo.svg" alt="Aeonix" class="nav-logo-img"/></a>
   <a href="https://aeonix.ch/#blog" class="nav-back">← Zurück zu Aeonix</a>
 </nav>
 <div class="lang-bar"><a href="https://aeonix.ch/executive-health-screening-basel-pharma.html">EN</a><a href="https://aeonix.ch/vorsorgeuntersuchung-basel-pharma.html" class="active">DE</a><a href="https://aeonix.ch/bilan-sante-cadres-bale-pharma.html">FR</a><a href="https://aeonix.ch/check-salute-dirigenti-basilea-farmaceutico.html">IT</a></div>
@@ -155,26 +155,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <p><strong>Übernimmt meine Krankenkasse die Kosten?</strong> Die Schweizer Grundversicherung (KVG) übernimmt keine präventiven Blutuntersuchungen für gesunde Erwachsene, und Aeonix rechnet nicht direkt mit Versicherern ab und bietet keine Kostenerstattung an. Manche Zusatzversicherungen (VVG) enthalten ein Präventionsbudget, das einen Teil der Kosten abdecken kann, ein Blick in die eigene Police lohnt sich. Sie erhalten eine detaillierte Quittung, die Sie selbst einreichen können.</p>
   <p><strong>Brauche ich eine Überweisung von meinem Arzt?</strong> Nein. Aeonix funktioniert im Direktzugang, Sie können also ohne Überweisung buchen. Ihr Blut wird in einem Schweizer Partnerlabor entnommen, und Ihre Ergebnisse werden von einem Arzt geprüft, bevor sie an Sie übermittelt werden.</p>
   <p><strong>Wie lange dauert es, bis ich meine Ergebnisse erhalte?</strong> Ärztlich geprüfte Ergebnisse werden digital innerhalb von 48 Stunden nach der Blutentnahme zugestellt.</p>
-
-  <!--
-  OPEN QUESTION FOR SUNDEEP/GAURAV — do not publish until resolved:
-  This table's age-bracket column does not exist anywhere else on the site (not on the
-  homepage, not confirmed by the site owner). It may be real product logic that never made
-  it into other pages, or it may be invented content from a translation/localization pass.
-  Please confirm before this goes live — if it's not real, delete the column rather than
-  publish an unverified claim. The biomarker-count column has been corrected to match the
-  confirmed figures (100+ / 125+ / 135+ / 150+) regardless of how the age-bracket question
-  is resolved.
--->
   <h2>Pläne und Preise</h2>
   <p>Aeonix bietet vier Jahrespläne, gestaffelt nach Altersgruppe und Panel-Tiefe. 100+–150+ Biomarker, je nach Plan.</p>
-  <table>
-  <tr><th>Plan</th><th>Altersgruppe</th><th>Marker</th><th>Bereiche</th><th>Preis</th></tr>
-  <tr><td>Prime Health</td><td>25–45</td><td>100+</td><td>10–11</td><td>CHF 595/Jahr</td></tr>
-  <tr><td>Vital Edge</td><td>35–55</td><td>125+</td><td>12–13</td><td>CHF 795/Jahr</td></tr>
-  <tr><td>Longevity Plus</td><td>55–65</td><td>135+</td><td>13–14</td><td>CHF 995/Jahr</td></tr>
-  <tr><td>Elite</td><td>65+</td><td>150+</td><td>14–15</td><td>CHF 1,295/Jahr</td></tr>
+  <div style="overflow-x:auto;">
+<table>
+  <tr><th>Plan</th><th>Marker</th><th>Bereiche</th><th>Preis</th></tr>
+  <tr><td>Prime Health</td><td>100+</td><td>10–11</td><td>CHF 595/Jahr</td></tr>
+  <tr><td>Vital Edge</td><td>125+</td><td>12–13</td><td>CHF 795/Jahr</td></tr>
+  <tr><td>Longevity Plus</td><td>135+</td><td>13–14</td><td>CHF 995/Jahr</td></tr>
+  <tr><td>Elite</td><td>150+</td><td>14–15</td><td>CHF 1,295/Jahr</td></tr>
   </table>
+</div>
   <p>Alle Pläne beinhalten: renommiertes Schweizer Labor · ärztlich geprüfte Ergebnisse · sicheres Dashboard · jährliches Tracking · Support auf DE/EN/FR/IT.</p>
   </div>
 </div>

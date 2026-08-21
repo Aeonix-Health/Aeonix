@@ -55,7 +55,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Georgia',serif;background:#FAF8F4;color:#2A2723;line-height:1.85;}
 .nav{position:sticky;top:0;background:rgba(250,248,244,.98);border-bottom:1px solid rgba(184,134,78,.2);padding:0 48px;height:64px;display:flex;align-items:center;justify-content:space-between;z-index:100;}
-.nav-logo{font-family:'Georgia',serif;font-size:1.2rem;color:#1A1814;text-decoration:none;}
+.nav-logo{display:flex;align-items:center;height:64px;text-decoration:none;}.nav-logo-img{height:28px;width:auto;display:block;}
 .nav-back{font-size:.75rem;color:#B8864E;text-decoration:none;letter-spacing:.08em;text-transform:uppercase;}
 .nav-back:hover{text-decoration:underline;}
 .hero{background:#1A1814;padding:52px 48px 44px;}
@@ -94,7 +94,7 @@ body{font-family:'Georgia',serif;background:#FAF8F4;color:#2A2723;line-height:1.
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <nav class="nav">
-  <a href="https://aeonix.ch/" class="nav-logo">Aeonix</a>
+  <a href="https://aeonix.ch/" class="nav-logo" aria-label="Aeonix"><img src="/assets/logo.svg" alt="Aeonix" class="nav-logo-img"/></a>
   <a href="https://aeonix.ch/" class="nav-back">← Back to Aeonix</a>
 </nav>
 <div class="lang-bar"><a href="https://aeonix.ch/health-screening-basel.html" class="active">EN</a><a href="https://aeonix.ch/gesundheitscheck-basel.html">DE</a><a href="https://aeonix.ch/bilan-sante-bale.html">FR</a><a href="https://aeonix.ch/check-salute-basilea.html">IT</a></div>
@@ -117,8 +117,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li><strong>Cardiovascular risk:</strong> ApoB, Lp(a), full lipid panel, hsCRP, IL-6</li>
 <li><strong>Metabolic health:</strong> Fasting insulin, HOMA-IR, HbA1c, fasting glucose</li>
 <li><strong>Hormonal health:</strong> Full thyroid panel (TSH, free T3, free T4, Anti-TPO), sex hormones, DHEA-S, cortisol</li>
-<li><strong>Nutritional status:</strong> Vitamin D, Omega-3 Index, B12, folate, iron, ferritin, zinc, magnesium</li>
-<li><strong>Cancer adjunct markers:</strong> PSA (men), CA-125 (women), CEA (Longevity Plus and Elite plans)</li>
+<li><strong>Nutritional status:</strong> Vitamin D, B12, folate, iron, ferritin, zinc, magnesium</li>
+<li><strong>Cancer adjunct markers:</strong> PSA (men), CEA and AFP (Longevity Plus and Elite plans)</li>
 </ul>
 
 <h2>Pricing for Basel residents</h2>
