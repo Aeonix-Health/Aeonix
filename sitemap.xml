@@ -186,6 +186,47 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Multilingual articles - Chronic stress & life expectancy -->
+  <url>
+    <loc>https://aeonix.ch/chronic-stress-life-expectancy.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/chronic-stress-life-expectancy.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/chronischer-stress-lebenserwartung.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/stress-chronique-esperance-vie.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/stress-cronico-aspettativa-vita.html"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/chronischer-stress-lebenserwartung.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/chronic-stress-life-expectancy.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/chronischer-stress-lebenserwartung.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/stress-chronique-esperance-vie.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/stress-cronico-aspettativa-vita.html"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/stress-chronique-esperance-vie.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/chronic-stress-life-expectancy.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/chronischer-stress-lebenserwartung.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/stress-chronique-esperance-vie.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/stress-cronico-aspettativa-vita.html"/>
+  </url>
+  <url>
+    <loc>https://aeonix.ch/stress-cronico-aspettativa-vita.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/chronic-stress-life-expectancy.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/chronischer-stress-lebenserwartung.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/stress-chronique-esperance-vie.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/stress-cronico-aspettativa-vita.html"/>
+  </url>
   <url>
     <loc>https://aeonix.ch/cancer-markers-preventative-screening.html</loc>
     <lastmod>2026-06-24</lastmod>
