@@ -1744,9 +1744,11 @@ function avaSetIntroVisibility(visible) {
 }
 
 function avaRenderReply(text) {
-  var lines = String(text).split(/\r?\n/);
+  var normalized = String(text).replace(/\s(?=\d+\.\s+\S)/g, '\n');
+  var lines = normalized.split(/\r?\n/);
   var html = [];
   var inList = false;
+  var listTag = 'ul';
   var currentItem = [];
   var currentParagraph = [];
 
@@ -1774,13 +1776,14 @@ function avaRenderReply(text) {
   function closeList() {
     if (!inList) return;
     flushListItem();
-    html.push('</ul>');
+    html.push('</' + listTag + '>');
     inList = false;
   }
 
   lines.forEach(function (line) {
     var trimmed = line.trim();
     var bulletMatch = /^\*\s+(.+)$/.exec(trimmed);
+    var numberedMatch = /^\d+\.\s+(.+)$/.exec(trimmed);
     var isIndented = /^\s+/.test(line);
 
     if (!trimmed) {
@@ -1789,14 +1792,17 @@ function avaRenderReply(text) {
       return;
     }
 
-    if (bulletMatch) {
+    if (bulletMatch || numberedMatch) {
+      var tag = numberedMatch ? 'ol' : 'ul';
       flushParagraph();
+      if (inList && listTag !== tag) closeList();
       if (!inList) {
-        html.push('<ul class="ava-reply-list">');
+        listTag = tag;
+        html.push('<' + tag + ' class="ava-reply-list">');
         inList = true;
       }
       flushListItem();
-      currentItem = [bulletMatch[1]];
+      currentItem = [(bulletMatch || numberedMatch)[1]];
       return;
     }
 
