@@ -2136,8 +2136,8 @@ window.addEventListener('popstate', function (e) {
 // WAITLIST SYSTEM
 // ════════════════════════════════════════════════════
 
-// const N8N_ACK_URL   = 'http://16.62.72.160:5678/webhook/aeonix-waitlist-ack';
-const N8N_ACK_URL = 'https://n8n.aeonix.ch/webhook/aeonix-waitlist-ack';
+const AEONIX_WAITLIST_URL = 'https://devswissapi.alleshealth.com/contact/aeonixWaitlist';
+const AEONIX_INVITE_URL = 'https://devswissapi.alleshealth.com/contact/aeonixInvite';
 const N8N_INVITE_URL = 'https://n8n.aeonix.ch/webhook/aeonix-waitlist-invite';
 const NOTIFY_EMAIL = 'aeonix@alleshealth.com';
 var wlRefCode = '';
@@ -2275,18 +2275,18 @@ function wlSubmit(e) {
   }).then(function (result) {
     console.log('[HubSpot] response', result);
     if (result.ok) {
-      fetch(N8N_ACK_URL, {
+      fetch(AEONIX_WAITLIST_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          firstName: fname,
-          lastName: lname,
-          email: email,
-          planInterest: plan || 'undecided',
-          country: city || 'not specified'
+          FirstName: fname,
+          LastName: lname,
+          Email: email,
+          PlanInterest: plan || 'undecided',
+          Country: city || 'not specified'
         })
       }).catch(function (err) {
-        console.error('[N8N] ack error', err);
+        console.error('[Aeonix Waitlist] error', err);
       });
       wlShowSuccess(fname, email);
     } else {
@@ -2404,6 +2404,17 @@ function wlSendInvites() {
         subject: wlMemberName + ' invited you to Aeonix'
       })
     }).catch(function () { });
+  });
+  fetch(AEONIX_INVITE_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      InviterName: wlMemberName,
+      InviterEmail: wlMemberEmail,
+      Emails: friends
+    })
+  }).catch(function (err) {
+    console.error('[Aeonix Invite] error', err);
   });
   var fieldsEl = document.getElementById('wl-invite-fields');
   var inviteTitleEl = document.getElementById('wl-invite-title');
