@@ -1149,525 +1149,131 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://aeonix.ch/terms-of-use/fr"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://aeonix.ch/terms-of-use/it"/>
   </url>
-  <!-- Multilingual articles - Prevention topic cluster (13 articles x 4 languages) -->
+
+  <!-- Liquid biopsy cancer screening (previously missing from sitemap) -->
   <url>
-    <loc>https://aeonix.ch/which-preventive-screenings-you-need.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <loc>https://aeonix.ch/liquid-biopsy-cancer-screening-switzerland.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/which-preventive-screenings-you-need.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/welche-vorsorgeuntersuchungen-brauche-ich.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/quels-depistages-preventifs-necessaires.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/quali-screening-preventivi-servono.html"/>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/liquid-biopsy-cancer-screening-switzerland.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/liquid-biopsy-krebsfrueherkennung-schweiz.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/biopsie-liquide-depistage-cancer-suisse.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/biopsia-liquida-screening-tumori-svizzera.html"/>
   </url>
   <url>
-    <loc>https://aeonix.ch/welche-vorsorgeuntersuchungen-brauche-ich.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <loc>https://aeonix.ch/liquid-biopsy-krebsfrueherkennung-schweiz.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/which-preventive-screenings-you-need.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/welche-vorsorgeuntersuchungen-brauche-ich.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/quels-depistages-preventifs-necessaires.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/quali-screening-preventivi-servono.html"/>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/liquid-biopsy-cancer-screening-switzerland.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/liquid-biopsy-krebsfrueherkennung-schweiz.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/biopsie-liquide-depistage-cancer-suisse.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/biopsia-liquida-screening-tumori-svizzera.html"/>
   </url>
   <url>
-    <loc>https://aeonix.ch/quels-depistages-preventifs-necessaires.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <loc>https://aeonix.ch/biopsie-liquide-depistage-cancer-suisse.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/which-preventive-screenings-you-need.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/welche-vorsorgeuntersuchungen-brauche-ich.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/quels-depistages-preventifs-necessaires.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/quali-screening-preventivi-servono.html"/>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/liquid-biopsy-cancer-screening-switzerland.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/liquid-biopsy-krebsfrueherkennung-schweiz.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/biopsie-liquide-depistage-cancer-suisse.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/biopsia-liquida-screening-tumori-svizzera.html"/>
   </url>
   <url>
-    <loc>https://aeonix.ch/quali-screening-preventivi-servono.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <loc>https://aeonix.ch/biopsia-liquida-screening-tumori-svizzera.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/which-preventive-screenings-you-need.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/welche-vorsorgeuntersuchungen-brauche-ich.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/quels-depistages-preventifs-necessaires.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/quali-screening-preventivi-servono.html"/>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/liquid-biopsy-cancer-screening-switzerland.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/liquid-biopsy-krebsfrueherkennung-schweiz.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/biopsie-liquide-depistage-cancer-suisse.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/biopsia-liquida-screening-tumori-svizzera.html"/>
+  </url>
+
+  <!-- Workplace burnout / chronic stress (previously missing from sitemap) -->
+  <url>
+    <loc>https://aeonix.ch/workplace-burnout-stress-screening-switzerland.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/workplace-burnout-stress-screening-switzerland.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/burnout-chronischer-stress-schweiz.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/burnout-stress-chronique-suisse.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/burnout-stress-cronico-svizzera.html"/>
   </url>
   <url>
-    <loc>https://aeonix.ch/complete-preventive-health-exam-explained.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <loc>https://aeonix.ch/burnout-chronischer-stress-schweiz.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/complete-preventive-health-exam-explained.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/vorsorgeuntersuchung-inhalt-erklaert.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/bilan-preventif-complet-explique.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/esame-preventivo-completo-spiegato.html"/>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/workplace-burnout-stress-screening-switzerland.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/burnout-chronischer-stress-schweiz.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/burnout-stress-chronique-suisse.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/burnout-stress-cronico-svizzera.html"/>
   </url>
   <url>
-    <loc>https://aeonix.ch/vorsorgeuntersuchung-inhalt-erklaert.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <loc>https://aeonix.ch/burnout-stress-chronique-suisse.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/complete-preventive-health-exam-explained.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/vorsorgeuntersuchung-inhalt-erklaert.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/bilan-preventif-complet-explique.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/esame-preventivo-completo-spiegato.html"/>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/workplace-burnout-stress-screening-switzerland.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/burnout-chronischer-stress-schweiz.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/burnout-stress-chronique-suisse.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/burnout-stress-cronico-svizzera.html"/>
   </url>
   <url>
-    <loc>https://aeonix.ch/bilan-preventif-complet-explique.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <loc>https://aeonix.ch/burnout-stress-cronico-svizzera.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/complete-preventive-health-exam-explained.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/vorsorgeuntersuchung-inhalt-erklaert.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/bilan-preventif-complet-explique.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/esame-preventivo-completo-spiegato.html"/>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/workplace-burnout-stress-screening-switzerland.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/burnout-chronischer-stress-schweiz.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/burnout-stress-chronique-suisse.html"/>
+    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/burnout-stress-cronico-svizzera.html"/>
+  </url>
+
+  <!-- Contact page (new) -->
+  <url>
+    <loc>https://aeonix.ch/contact.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aeonix.ch/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aeonix.ch/contact/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aeonix.ch/contact/de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aeonix.ch/contact/fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://aeonix.ch/contact/it"/>
   </url>
   <url>
-    <loc>https://aeonix.ch/esame-preventivo-completo-spiegato.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <loc>https://aeonix.ch/contact/de</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/complete-preventive-health-exam-explained.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/vorsorgeuntersuchung-inhalt-erklaert.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/bilan-preventif-complet-explique.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/esame-preventivo-completo-spiegato.html"/>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aeonix.ch/contact/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aeonix.ch/contact/de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aeonix.ch/contact/fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://aeonix.ch/contact/it"/>
   </url>
   <url>
-    <loc>https://aeonix.ch/how-often-preventive-health-screenings.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <loc>https://aeonix.ch/contact/fr</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/how-often-preventive-health-screenings.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/wie-oft-vorsorgeuntersuchungen.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/frequence-depistages-preventifs.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/frequenza-screening-preventivi.html"/>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aeonix.ch/contact/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aeonix.ch/contact/de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aeonix.ch/contact/fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://aeonix.ch/contact/it"/>
   </url>
   <url>
-    <loc>https://aeonix.ch/wie-oft-vorsorgeuntersuchungen.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <loc>https://aeonix.ch/contact/it</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/how-often-preventive-health-screenings.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/wie-oft-vorsorgeuntersuchungen.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/frequence-depistages-preventifs.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/frequenza-screening-preventivi.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/frequence-depistages-preventifs.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/how-often-preventive-health-screenings.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/wie-oft-vorsorgeuntersuchungen.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/frequence-depistages-preventifs.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/frequenza-screening-preventivi.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/frequenza-screening-preventivi.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/how-often-preventive-health-screenings.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/wie-oft-vorsorgeuntersuchungen.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/frequence-depistages-preventifs.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/frequenza-screening-preventivi.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/best-age-start-preventive-care.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/best-age-start-preventive-care.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/richtiges-alter-vorsorge-beginnen.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/bon-age-commencer-prevention.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/eta-giusta-iniziare-prevenzione.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/richtiges-alter-vorsorge-beginnen.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/best-age-start-preventive-care.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/richtiges-alter-vorsorge-beginnen.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/bon-age-commencer-prevention.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/eta-giusta-iniziare-prevenzione.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/bon-age-commencer-prevention.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/best-age-start-preventive-care.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/richtiges-alter-vorsorge-beginnen.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/bon-age-commencer-prevention.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/eta-giusta-iniziare-prevenzione.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/eta-giusta-iniziare-prevenzione.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/best-age-start-preventive-care.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/richtiges-alter-vorsorge-beginnen.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/bon-age-commencer-prevention.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/eta-giusta-iniziare-prevenzione.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/how-to-know-preventive-plan-working.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/how-to-know-preventive-plan-working.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/vorsorgeplan-erfolg-erkennen.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/savoir-si-plan-prevention-fonctionne.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/piano-prevenzione-funziona-davvero.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/vorsorgeplan-erfolg-erkennen.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/how-to-know-preventive-plan-working.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/vorsorgeplan-erfolg-erkennen.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/savoir-si-plan-prevention-fonctionne.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/piano-prevenzione-funziona-davvero.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/savoir-si-plan-prevention-fonctionne.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/how-to-know-preventive-plan-working.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/vorsorgeplan-erfolg-erkennen.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/savoir-si-plan-prevention-fonctionne.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/piano-prevenzione-funziona-davvero.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/piano-prevenzione-funziona-davvero.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/how-to-know-preventive-plan-working.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/vorsorgeplan-erfolg-erkennen.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/savoir-si-plan-prevention-fonctionne.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/piano-prevenzione-funziona-davvero.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/can-preventive-care-save-money-long-term.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/can-preventive-care-save-money-long-term.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/vorsorge-spart-langfristig-geld.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/prevention-fait-elle-economiser-argent.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/prevenzione-fa-risparmiare-denaro.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/vorsorge-spart-langfristig-geld.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/can-preventive-care-save-money-long-term.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/vorsorge-spart-langfristig-geld.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/prevention-fait-elle-economiser-argent.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/prevenzione-fa-risparmiare-denaro.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/prevention-fait-elle-economiser-argent.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/can-preventive-care-save-money-long-term.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/vorsorge-spart-langfristig-geld.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/prevention-fait-elle-economiser-argent.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/prevenzione-fa-risparmiare-denaro.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/prevenzione-fa-risparmiare-denaro.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/can-preventive-care-save-money-long-term.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/vorsorge-spart-langfristig-geld.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/prevention-fait-elle-economiser-argent.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/prevenzione-fa-risparmiare-denaro.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/preventive-health-measures-for-seniors.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/preventive-health-measures-for-seniors.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/vorsorge-massnahmen-fuer-senioren.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/mesures-prevention-seniors.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/misure-prevenzione-anziani.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/vorsorge-massnahmen-fuer-senioren.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/preventive-health-measures-for-seniors.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/vorsorge-massnahmen-fuer-senioren.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/mesures-prevention-seniors.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/misure-prevenzione-anziani.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/mesures-prevention-seniors.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/preventive-health-measures-for-seniors.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/vorsorge-massnahmen-fuer-senioren.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/mesures-prevention-seniors.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/misure-prevenzione-anziani.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/misure-prevenzione-anziani.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/preventive-health-measures-for-seniors.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/vorsorge-massnahmen-fuer-senioren.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/mesures-prevention-seniors.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/misure-prevenzione-anziani.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/questions-to-ask-doctor-checkup.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/questions-to-ask-doctor-checkup.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/fragen-an-arzt-vorsorgeuntersuchung.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/questions-a-poser-medecin-bilan.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/domande-da-fare-medico-visita.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/fragen-an-arzt-vorsorgeuntersuchung.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/questions-to-ask-doctor-checkup.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/fragen-an-arzt-vorsorgeuntersuchung.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/questions-a-poser-medecin-bilan.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/domande-da-fare-medico-visita.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/questions-a-poser-medecin-bilan.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/questions-to-ask-doctor-checkup.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/fragen-an-arzt-vorsorgeuntersuchung.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/questions-a-poser-medecin-bilan.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/domande-da-fare-medico-visita.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/domande-da-fare-medico-visita.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/questions-to-ask-doctor-checkup.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/fragen-an-arzt-vorsorgeuntersuchung.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/questions-a-poser-medecin-bilan.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/domande-da-fare-medico-visita.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/health-risks-to-ask-doctor-about.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/health-risks-to-ask-doctor-about.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/gesundheitsrisiken-arzt-fragen.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/risques-sante-a-demander-medecin.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/rischi-salute-da-chiedere-medico.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/gesundheitsrisiken-arzt-fragen.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/health-risks-to-ask-doctor-about.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/gesundheitsrisiken-arzt-fragen.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/risques-sante-a-demander-medecin.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/rischi-salute-da-chiedere-medico.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/risques-sante-a-demander-medecin.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/health-risks-to-ask-doctor-about.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/gesundheitsrisiken-arzt-fragen.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/risques-sante-a-demander-medecin.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/rischi-salute-da-chiedere-medico.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/rischi-salute-da-chiedere-medico.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/health-risks-to-ask-doctor-about.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/gesundheitsrisiken-arzt-fragen.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/risques-sante-a-demander-medecin.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/rischi-salute-da-chiedere-medico.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/importance-of-preventive-care-long-term.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/importance-of-preventive-care-long-term.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/bedeutung-vorsorge-langfristige-gesundheit.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/importance-prevention-sante-long-terme.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/importanza-prevenzione-salute-lungo-termine.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/bedeutung-vorsorge-langfristige-gesundheit.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/importance-of-preventive-care-long-term.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/bedeutung-vorsorge-langfristige-gesundheit.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/importance-prevention-sante-long-terme.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/importanza-prevenzione-salute-lungo-termine.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/importance-prevention-sante-long-terme.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/importance-of-preventive-care-long-term.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/bedeutung-vorsorge-langfristige-gesundheit.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/importance-prevention-sante-long-terme.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/importanza-prevenzione-salute-lungo-termine.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/importanza-prevenzione-salute-lungo-termine.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/importance-of-preventive-care-long-term.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/bedeutung-vorsorge-langfristige-gesundheit.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/importance-prevention-sante-long-terme.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/importanza-prevenzione-salute-lungo-termine.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/overlooked-preventive-health-practices.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/overlooked-preventive-health-practices.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/uebersehene-vorsorge-massnahmen.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/pratiques-prevention-negligees.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/pratiche-prevenzione-trascurate.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/uebersehene-vorsorge-massnahmen.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/overlooked-preventive-health-practices.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/uebersehene-vorsorge-massnahmen.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/pratiques-prevention-negligees.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/pratiche-prevenzione-trascurate.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/pratiques-prevention-negligees.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/overlooked-preventive-health-practices.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/uebersehene-vorsorge-massnahmen.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/pratiques-prevention-negligees.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/pratiche-prevenzione-trascurate.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/pratiche-prevenzione-trascurate.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/overlooked-preventive-health-practices.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/uebersehene-vorsorge-massnahmen.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/pratiques-prevention-negligees.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/pratiche-prevenzione-trascurate.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/health-numbers-everyone-should-know.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/health-numbers-everyone-should-know.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/gesundheitswerte-die-jeder-kennen-sollte.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/chiffres-sante-a-connaitre.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/numeri-salute-da-conoscere.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/gesundheitswerte-die-jeder-kennen-sollte.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/health-numbers-everyone-should-know.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/gesundheitswerte-die-jeder-kennen-sollte.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/chiffres-sante-a-connaitre.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/numeri-salute-da-conoscere.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/chiffres-sante-a-connaitre.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/health-numbers-everyone-should-know.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/gesundheitswerte-die-jeder-kennen-sollte.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/chiffres-sante-a-connaitre.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/numeri-salute-da-conoscere.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/numeri-salute-da-conoscere.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/health-numbers-everyone-should-know.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/gesundheitswerte-die-jeder-kennen-sollte.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/chiffres-sante-a-connaitre.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/numeri-salute-da-conoscere.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/staying-healthy-without-constant-doctor-visits.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/staying-healthy-without-constant-doctor-visits.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/gesund-bleiben-ohne-staendige-arztbesuche.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/rester-en-sante-sans-visites-medicales-constantes.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/restare-in-salute-senza-visite-mediche-continue.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/gesund-bleiben-ohne-staendige-arztbesuche.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/staying-healthy-without-constant-doctor-visits.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/gesund-bleiben-ohne-staendige-arztbesuche.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/rester-en-sante-sans-visites-medicales-constantes.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/restare-in-salute-senza-visite-mediche-continue.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/rester-en-sante-sans-visites-medicales-constantes.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/staying-healthy-without-constant-doctor-visits.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/gesund-bleiben-ohne-staendige-arztbesuche.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/rester-en-sante-sans-visites-medicales-constantes.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/restare-in-salute-senza-visite-mediche-continue.html"/>
-  </url>
-  <url>
-    <loc>https://aeonix.ch/restare-in-salute-senza-visite-mediche-continue.html</loc>
-    <lastmod>2026-09-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-CH" href="https://aeonix.ch/staying-healthy-without-constant-doctor-visits.html"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://aeonix.ch/gesund-bleiben-ohne-staendige-arztbesuche.html"/>
-    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://aeonix.ch/rester-en-sante-sans-visites-medicales-constantes.html"/>
-    <xhtml:link rel="alternate" hreflang="it-CH" href="https://aeonix.ch/restare-in-salute-senza-visite-mediche-continue.html"/>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aeonix.ch/contact/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aeonix.ch/contact/de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://aeonix.ch/contact/fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://aeonix.ch/contact/it"/>
   </url>
 </urlset>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-CH">
 
 <head>
   <!-- vanilla-cookieconsent CSS -->
@@ -83,6 +83,71 @@
   <link rel="preload" as="image" fetchpriority="high" href="/assets/why-photo.webp"
     imagesrcset="/assets/why-photo-mobile.webp 768w, /assets/why-photo.webp 1920w" imagesizes="100vw"
     type="image/webp" />
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is included in a screening?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Every plan includes clinician-selected biomarker testing at a leading Swiss laboratory, a physician-reviewed annotated report, and access to your secure personal health dashboard. Higher plans include broader panels, physician consultations, and concierge home collection."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do I need a GP referral?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. Aeonix is a direct-access service. You can book and complete your screening without any referral. If your results indicate the need for specialist follow-up, we will facilitate that referral for you."
+    }
+  },{
+    "@type": "Question",
+    "name": "How quickly will I receive my results?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Results are delivered to your secure dashboard within 48 hours of laboratory receipt of your sample. This is significantly faster than standard GP-requested panels."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is a blood draw required?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Aeonix uses venous blood sampling — the clinical gold standard for biomarker accuracy. Prime Health and Vital Edge require a clinic visit. Longevity Plus and Elite include an optional concierge home blood draw."
+    }
+  },{
+    "@type": "Question",
+    "name": "How are my data protected?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "All data is processed and stored in Switzerland in full compliance with GDPR and Swiss Federal Data Protection law. We never share, sell, or license your health data to any third party — including insurers and pharmaceutical companies."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I use Aeonix alongside my GP?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Absolutely — and we encourage it. Your Aeonix report is designed to complement GP care. Many clients share their annotated results with their GP to inform a broader clinical conversation."
+    }
+  },{
+    "@type": "Question",
+    "name": "Who interprets the results?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Every report is reviewed by a qualified physician before delivery. Your results are not raw laboratory figures — they are clinically contextualised, annotated for your demographics, and accompanied by a prioritised action plan."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is Aeonix covered by Swiss insurance?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Aeonix is a private preventative screening service not currently covered by mandatory Krankenkasse (KVG/LAMal) basic insurance. Some supplementary (Zusatzversicherung/LCA) policies may provide partial reimbursement — we recommend checking with your insurer."
+    }
+  }]
+}
+</script>
+
 </head>
 
 <body>
@@ -99,13 +164,13 @@
     <button class="nav-link" onclick="smoothTo('pricing');closeMobile()" data-i18n="nav.pricing">Plans</button>
     <button class="nav-link" onclick="smoothTo('blog');closeMobile()" data-i18n="nav.blog">Insights</button>
     <button class="nav-link" onclick="smoothTo('faq');closeMobile()" data-i18n="nav.faq">FAQ</button>
-    <button class="nav-link" onclick="openArticlesOverlay();closeMobile()">Health Insights</button>
+    <a href="/contact.html" class="nav-link" data-i18n="nav.contact">Contact Us</a>
     <button class="nav-link" onclick="smoothTo('waitlist');closeMobile()">Join Waitlist</button>
     <div class="mobile-lang">
-      <button class="ml-btn active" data-lang="en" onclick="setLang('en');closeMobile()">EN</button>
-      <button class="ml-btn" data-lang="de" onclick="setLang('de');closeMobile()">DE</button>
-      <button class="ml-btn" data-lang="fr" onclick="setLang('fr');closeMobile()">FR</button>
-      <button class="ml-btn" data-lang="it" onclick="setLang('it');closeMobile()">IT</button>
+      <button class="ml-btn active" data-lang="en" onclick="setLangUrl('en');closeMobile()">EN</button>
+      <button class="ml-btn" data-lang="de" onclick="setLangUrl('de');closeMobile()">DE</button>
+      <button class="ml-btn" data-lang="fr" onclick="setLangUrl('fr');closeMobile()">FR</button>
+      <button class="ml-btn" data-lang="it" onclick="setLangUrl('it');closeMobile()">IT</button>
     </div>
   </div>
 
@@ -122,7 +187,7 @@
       <button class="nav-link" onclick="smoothTo('pricing')" data-i18n="nav.pricing">Plans</button>
       <button class="nav-link" onclick="smoothTo('blog')" data-i18n="nav.blog">Insights</button>
       <button class="nav-link" onclick="smoothTo('faq')" data-i18n="nav.faq">FAQ</button>
-      <button class="nav-link" onclick="openArticlesOverlay()">Health Insights</button>
+      <a href="/contact.html" class="nav-link" data-i18n="nav.contact">Contact Us</a>
       <div class="nav-divider"></div>
       <div class="lang-select" id="langSelect">
         <button class="lang-trigger" id="langTrigger">
@@ -132,10 +197,10 @@
           </svg>
         </button>
         <div class="lang-dropdown" id="langDropdown">
-          <button class="lang-opt active" data-lang="en" onclick="setLang('en')"><span>🇬🇧</span> English</button>
-          <button class="lang-opt" data-lang="de" onclick="setLang('de')"><span>🇩🇪</span> Deutsch</button>
-          <button class="lang-opt" data-lang="fr" onclick="setLang('fr')"><span>🇫🇷</span> Français</button>
-          <button class="lang-opt" data-lang="it" onclick="setLang('it')"><span>🇮🇹</span> Italiano</button>
+          <button class="lang-opt active" data-lang="en" onclick="setLangUrl('en')"><span>🇬🇧</span> English</button>
+          <button class="lang-opt" data-lang="de" onclick="setLangUrl('de')"><span>🇩🇪</span> Deutsch</button>
+          <button class="lang-opt" data-lang="fr" onclick="setLangUrl('fr')"><span>🇫🇷</span> Français</button>
+          <button class="lang-opt" data-lang="it" onclick="setLangUrl('it')"><span>🇮🇹</span> Italiano</button>
         </div>
       </div>
       <button class="nav-cta" onclick="smoothTo('waitlist')" data-i18n="nav.cta">Book Now</button>
@@ -144,6 +209,23 @@
       </button>
     </div>
   </nav>
+  
+
+  <!-- PATHWAY TO LONGEVITY STRIP -->
+  <div class="pathway-strip">
+    <div class="pathway-strip-eyebrow"><span data-i18n="pathway.eyebrow">Launching Soon in</span><img
+        src="https://ik.imagekit.io/yllucexhy/Aeonix/flag-switzerland.svg" alt="Switzerland" class="pathway-strip-flag" /></div>
+    <h2 class="pathway-strip-title" data-i18n="pathway.title">Pathway to Longevity</h2>
+
+    <div class="launch-banner">
+      <div class="launch-banner-text">
+        <span class="launch-dot" aria-hidden="true"></span>
+        <span><strong data-i18n="banner.launch.title">Aeonix is Launching Soon</strong></span>
+      </div>
+      <button class="btn-gold launch-banner-btn" onclick="smoothTo('waitlist')" data-i18n="banner.launch.cta">Join
+        Waitlist</button>
+    </div>
+  </div>
 
   <!-- HERO -->
   <header class="hero">
@@ -1037,7 +1119,7 @@
             <div class="wl-error" id="wl-error"></div>
             <label class="wl-gdpr"><input type="checkbox" id="wl-gdpr-check" /><span class="wl-gdpr-label">I agree that
                 AllesHealth GmbH may store and process my personal data. See our <a
-                  href="https://www.alleshealth.com/data-privacy-policy" target="_blank" rel="noopener">Privacy
+                  href="https://aeonix.ch/privacy-policy.html" target="_blank" rel="noopener">Privacy
                   Policy</a>.</span></label>
             <div class="wl-gdpr-error" id="wl-gdpr-error">Please accept the privacy policy to continue.</div>
             <button type="submit" class="wl-submit" id="wl-submit-btn">
@@ -1139,8 +1221,9 @@
   <footer>
     <div class="foot-top">
       <div class="foot-brand">
+        <a href="/">
         <div class="foot-logo"><img src="/assets/foot-logo.svg" alt="Aeonix preventive health screening logo"
-            width="105" height="30" loading="lazy" /></div>
+            width="105" height="30" loading="lazy" /></div></a>
         <p data-i18n="footer.brand">Clinically rigorous preventative health screening, built on Swiss precision and
           medical integrity. A product of AllesHealth GmbH.</p>
       </div>
@@ -1173,6 +1256,7 @@
           <li><a href="/privacy-policy.html" data-i18n="footer.s3.l3">Privacy Policy</a></li>
           <li><a href="/terms-of-use.html" data-i18n="footer.s3.l4">Terms of Service</a></li>
           <li><a href="#" data-i18n="footer.s3.l5">Cookie Policy</a></li>
+          <li><a href="/contact.html" data-i18n="footer.s3.l6">Contact Us</a></li>
         </ul>
       </div>
     </div>
@@ -1180,6 +1264,11 @@
       <div class="fcopy" data-i18n="footer.copy">© 2026 AllesHealth GmbH. All Rights Reserved.<br>Aeonix is a brand of
         AllesHealth GmbH · Aeonix.Health · Aeonix.ch</div>
       <div class="ftagline" data-i18n="footer.tagline">Aeonix — Own Your Health</div>
+    </div>
+    <div class="foot-ai-notice">
+      <p><strong data-i18n="footer.ai.title">AI-Generated Content</strong><span data-i18n="footer.ai.text">Some of
+          the visual content on our website has been generated and enhanced using artificial intelligence (AI)
+          applications.</span></p>
     </div>
   </footer>
 
@@ -1212,7 +1301,7 @@
     </nav>
     <div class="ao-hero">
       <div class="ao-hero-label">Health Insights</div>
-      <h1>Evidence. Not <em>opinion.</em></h1>
+      <h2>Evidence. Not <em>opinion.</em></h2>
       <p>Clinical science explained clearly — by the Aeonix medical team.</p>
       <div class="ao-search-wrap">
         <input type="text" id="ao-search" placeholder="Search 38 articles…" oninput="aoSearch()" />

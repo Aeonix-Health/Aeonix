@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- vanilla-cookieconsent CSS -->
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css" />
+  </noscript>
+  <!-- Google Tag Manager (with Consent Mode v2) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('consent', 'default', {
+      analytics_storage: 'denied',
+      ad_storage: 'denied',
+      functionality_storage: 'denied',
+      personalization_storage: 'denied',
+      wait_for_update: 2000
+    });
+  </script>
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <!-- PWA manifest -->
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- Browser-language redirect (mirrors homepage behaviour for this page) -->
+  <script>
+    (function () {
+      var seg = window.location.pathname.split('/').filter(Boolean);
+      var hasLangParam = new URLSearchParams(location.search).get('lang');
+      if (seg.length === 1 && seg[0] === 'contact.html' && !hasLangParam) {
+        var bl = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+        var langs = ['de', 'fr', 'it'];
+        for (var i = 0; i < langs.length; i++) {
+          if (bl.indexOf(langs[i]) === 0) { location.replace('/contact/' + langs[i]); return; }
+        }
+      }
+    })();
+  </script>
+  <!-- Google Tag Manager -->
+  <script>
+    window.addEventListener('load', function () {
+      var gtmLoaded = false;
+      function loadGTM() {
+        if (gtmLoaded) return;
+        gtmLoaded = true;
+        (function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-T44V76GK');
+        ['scroll', 'mousemove', 'touchstart', 'keydown'].forEach(function (e) { window.removeEventListener(e, loadGTM) });
+      }
+      ['scroll', 'mousemove', 'touchstart', 'keydown'].forEach(function (e) { window.addEventListener(e, loadGTM, { once: true }) });
+      setTimeout(loadGTM, 8000);
+    });
+  </script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Contact Us | Aeonix</title>
+  <meta name="description"
+    content="Get in touch with Aeonix. Email, call, or visit our Basel office, or send us a message — our Swiss Care Team responds within one business day." />
+  <link rel="canonical" href="https://aeonix.ch/contact.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload"
+    href="https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKky2F7i6C.woff2"
+    as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriCZOIHTWEBlw.woff2" as="font"
+    type="font/woff2" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap"
+    rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap"
+      rel="stylesheet" />
+  </noscript>
+  <link rel="stylesheet" href="/assets/main.css?v=5" />
+
+  <style>
+    .ct-wrapper {
+      padding-top: 110px;
+    }
+
+    .ct-hero {
+      text-align: center;
+      padding: 30px 24px 40px;
+    }
+
+    .ct-hero h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.2rem, 4vw, 3rem);
+      font-weight: 300;
+      color: var(--ink);
+    }
+
+    .ct-rule {
+      width: 46px;
+      height: 2px;
+      background: var(--gold);
+      margin: 18px auto 0;
+    }
+
+    .ct-cards {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 0 24px 70px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .ct-cards>* {
+      min-width: 0;
+    }
+
+    .ct-card {
+      background: var(--surface);
+      border: 1px solid #E8E4DF;
+      border-radius: 14px;
+      padding: 28px 24px;
+    }
+
+    .ct-card-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--surface2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 18px;
+    }
+
+    .ct-card-icon img {
+      width: 20px;
+      height: 20px;
+    }
+
+    .ct-card h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--ink);
+      margin-bottom: 6px;
+    }
+
+    .ct-card p {
+      font-size: .82rem;
+      color: var(--ink3);
+      line-height: 1.5;
+      margin-bottom: 12px;
+    }
+
+    .ct-card-value {
+      font-size: .88rem;
+      font-weight: 600;
+      color: var(--gold);
+      text-decoration: none;
+    }
+
+    .ct-card-value:hover {
+      color: var(--gold-d);
+    }
+
+    .ct-msg {
+      background: var(--surface2);
+      padding: 70px 24px;
+    }
+
+    .ct-msg-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1.15fr;
+      gap: 64px;
+      align-items: start;
+    }
+
+    .ct-msg-inner>* {
+      min-width: 0;
+    }
+
+    .ct-msg-left h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 3.2vw, 2.6rem);
+      font-weight: 300;
+      color: var(--ink);
+      margin-bottom: 18px;
+    }
+
+    .ct-msg-left h2 em {
+      font-style: italic;
+      color: var(--gold);
+    }
+
+    .ct-msg-left p {
+      font-size: .95rem;
+      color: var(--ink2);
+      line-height: 1.7;
+      margin-bottom: 28px;
+      max-width: 420px;
+    }
+
+    .ct-msg-photo {
+      border-radius: 14px;
+      overflow: hidden;
+      max-width: 420px;
+    }
+
+    .ct-msg-photo img {
+      width: 100%;
+      display: block;
+    }
+
+    .ct-form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .ct-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .ct-field {
+      width: 100%;
+      padding: 15px 22px;
+      border-radius: 999px;
+      border: 1px solid #E8E4DF;
+      background: var(--surface);
+      font-family: 'DM Sans', sans-serif;
+      font-size: .88rem;
+      color: var(--ink);
+      appearance: none;
+    }
+
+    .ct-field::placeholder {
+      color: var(--ink4);
+    }
+
+    .ct-counter {
+      font-size: .7rem;
+      color: var(--ink4);
+      text-align: right;
+      margin-top: -8px;
+    }
+
+    .ct-field:focus,
+    .ct-textarea:focus {
+      outline: none;
+      border-color: var(--gold-l);
+    }
+
+    .ct-textarea {
+      width: 100%;
+      padding: 18px 22px;
+      border-radius: 20px;
+      border: 1px solid #E8E4DF;
+      background: var(--surface);
+      font-family: 'DM Sans', sans-serif;
+      font-size: .88rem;
+      color: var(--ink);
+      min-height: 140px;
+      resize: vertical;
+    }
+
+    .ct-textarea::placeholder {
+      color: var(--ink4);
+    }
+
+    .ct-submit {
+      align-self: flex-start;
+      background: var(--gold);
+      color: #fff;
+      border: none;
+      border-radius: 999px;
+      padding: 15px 34px;
+      font-size: .8rem;
+      font-weight: 500;
+      letter-spacing: .04em;
+      cursor: pointer;
+      transition: background .25s, transform .25s;
+    }
+
+    .ct-submit:hover {
+      background: var(--gold-d);
+      transform: translateY(-2px);
+    }
+
+    .ct-note {
+      font-size: .76rem;
+      color: var(--ink4);
+      margin-top: -4px;
+    }
+
+    .ct-form-error {
+      font-size: .78rem;
+      color: var(--red);
+      display: none;
+    }
+
+    .ct-form-error.is-visible {
+      display: block;
+    }
+
+    .ct-form-success {
+      font-size: .85rem;
+      font-weight: 500;
+      color: var(--green);
+      display: none;
+    }
+
+    .ct-form-success.is-visible {
+      display: block;
+    }
+
+    .ct-office-section {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 80px 24px;
+      display: grid;
+      grid-template-columns: 1.05fr 1fr;
+      gap: 56px;
+      align-items: center;
+    }
+
+    .ct-office-section>* {
+      min-width: 0;
+    }
+
+    .ct-map {
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid #E8E4DF;
+      aspect-ratio: 4 / 3;
+    }
+
+    .ct-map iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+    }
+
+    .ct-office h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.9rem, 3vw, 2.4rem);
+      font-weight: 300;
+      color: var(--ink);
+      margin-bottom: 22px;
+    }
+
+    .ct-office-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+      font-size: .9rem;
+      color: var(--ink2);
+    }
+
+    .ct-office-row .ct-oicon {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+      color: var(--gold);
+    }
+
+    .ct-office-row .ct-oicon img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .ct-directions {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 13px 28px;
+      border-radius: 999px;
+      border: 1px solid var(--gold);
+      color: var(--gold);
+      font-size: .8rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: background .25s, color .25s;
+    }
+
+    .ct-directions:hover {
+      background: var(--gold);
+      color: #fff;
+    }
+
+    .ct-directions::after {
+      content: ' →';
+    }
+
+    .ct-cta {
+      background: var(--ink);
+      padding: 90px 24px;
+      text-align: center;
+    }
+
+    .ct-cta h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 3.4vw, 2.8rem);
+      font-weight: 300;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+
+    .ct-cta h2 em {
+      font-style: italic;
+      color: var(--gold-l);
+    }
+
+    .ct-cta p {
+      max-width: 620px;
+      margin: 0 auto 34px;
+      color: rgba(255, 255, 255, .55);
+      font-size: .98rem;
+      line-height: 1.7;
+    }
+
+    .ct-cta-actions {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .ct-btn-solid,
+    .ct-btn-outline {
+      padding: 15px 32px;
+      border-radius: 999px;
+      font-size: .78rem;
+      font-weight: 500;
+      letter-spacing: .04em;
+      text-decoration: none;
+      transition: all .25s;
+      cursor: pointer;
+    }
+
+    .ct-btn-solid {
+      background: var(--gold);
+      color: #fff;
+      border: 1px solid var(--gold);
+    }
+
+    .ct-btn-solid:hover {
+      background: var(--gold-d);
+      transform: translateY(-2px);
+    }
+
+    .ct-btn-outline {
+      background: 0 0;
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, .35);
+    }
+
+    .ct-btn-outline:hover {
+      border-color: #fff;
+    }
+
+    @media (max-width: 900px) {
+      .ct-cards {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .ct-msg-inner {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .ct-office-section {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .ct-wrapper {
+        padding-top: 90px;
+      }
+
+      .ct-cards {
+        grid-template-columns: 1fr;
+      }
+
+      .ct-row {
+        grid-template-columns: 1fr;
+      }
+
+      .ct-msg,
+      .ct-office-section,
+      .ct-cta {
+        padding: 50px 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T44V76GK" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="/" class="nav-link">Home</a>
+    <div class="mobile-lang">
+      <button class="ml-btn active" data-lang="en" onclick="setLangUrl('en');closeMobile()">EN</button>
+      <button class="ml-btn" data-lang="de" onclick="setLangUrl('de');closeMobile()">DE</button>
+      <button class="ml-btn" data-lang="fr" onclick="setLangUrl('fr');closeMobile()">FR</button>
+      <button class="ml-btn" data-lang="it" onclick="setLangUrl('it');closeMobile()">IT</button>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav id="main-nav">
+    <a href="/" class="nav-logo" aria-label="Aeonix">
+      <img src="/assets/logo.svg" alt="Aeonix preventive health screening logo" class="nav-logo-img" width="133"
+        height="38" />
+    </a>
+    <div class="nav-right">
+      <a href="/" class="nav-link">← Back to Home</a>
+      <div class="lang-select" id="langSelect">
+        <button class="lang-trigger" id="langTrigger">
+          <span id="langLabel">EN</span>
+          <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+            <path d="M2 3.5l3 3 3-3" />
+          </svg>
+        </button>
+        <div class="lang-dropdown" id="langDropdown">
+          <button class="lang-opt active" data-lang="en" onclick="setLangUrl('en')"><span>🇬🇧</span> English</button>
+          <button class="lang-opt" data-lang="de" onclick="setLangUrl('de')"><span>🇩🇪</span> Deutsch</button>
+          <button class="lang-opt" data-lang="fr" onclick="setLangUrl('fr')"><span>🇫🇷</span> Français</button>
+          <button class="lang-opt" data-lang="it" onclick="setLangUrl('it')"><span>🇮🇹</span> Italiano</button>
+        </div>
+      </div>
+      <button class="burger" id="burger" onclick="toggleMobile()" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main class="ct-wrapper">
+    <section class="ct-hero">
+      <h1 data-i18n="contact.hero.title">How to Reach Us</h1>
+      <div class="ct-rule"></div>
+    </section>
+
+    <section class="ct-cards">
+      <div class="ct-card">
+        <div class="ct-card-icon"><img src="/assets/icon-email.webp" alt="" width="20" height="20" loading="lazy" /></div>
+        <h3 data-i18n="contact.card.email.title">Email Us</h3>
+        <p data-i18n="contact.card.email.sub">For general inquiries and support</p>
+        <a class="ct-card-value" href="mailto:aeonix@alleshealth.com">aeonix@alleshealth.com</a>
+      </div>
+      <div class="ct-card">
+        <div class="ct-card-icon"><img src="/assets/icon-call.webp" alt="" width="20" height="20" loading="lazy" /></div>
+        <h3 data-i18n="contact.card.call.title">Call Us</h3>
+        <p data-i18n="contact.card.call.sub">Speak directly with our Care Team</p>
+        <a class="ct-card-value" href="tel:+41798658316">+41 79 865 83 16</a>
+      </div>
+      <div class="ct-card">
+        <div class="ct-card-icon"><img src="/assets/icon-visit.webp" alt="" width="20" height="20" loading="lazy" /></div>
+        <h3 data-i18n="contact.card.visit.title">Visit Us</h3>
+        <p data-i18n="contact.card.visit.sub">Our clinic in the heart of Switzerland</p>
+        <a class="ct-card-value" data-i18n="contact.card.visit.value"
+          href="https://www.google.com/maps/search/?api=1&query=47.5306628,7.6419144" target="_blank"
+          rel="noopener">Basel, Switzerland</a>
+      </div>
+      <div class="ct-card">
+        <div class="ct-card-icon"><img src="/assets/icon-hours.webp" alt="" width="20" height="20" loading="lazy" /></div>
+        <h3 data-i18n="contact.card.hours.title">Hours</h3>
+        <p data-i18n="contact.card.hours.sub">Monday–Friday support coverage</p>
+        <span class="ct-card-value" data-i18n="contact.card.hours.value">08:00–18:00 CET</span>
+      </div>
+    </section>
+
+    <section class="ct-msg">
+      <div class="ct-msg-inner">
+        <div class="ct-msg-left">
+          <h2><span data-i18n="contact.form.kicker">Send Us a</span> <em data-i18n="contact.form.kicker.em">Message</em></h2>
+          <p data-i18n="contact.form.sub">Please share a few details about your interest. A dedicated member of our
+            Swiss team will personally review and attend to your inquiry.</p>
+          <div class="ct-msg-photo">
+            <img src="/assets/contact-message.webp" alt="Aeonix client using their phone" loading="lazy" />
+          </div>
+        </div>
+        <form class="ct-form" onsubmit="return submitContactForm(event)">
+          <div class="ct-row">
+            <input class="ct-field" type="text" name="firstName" required maxlength="100" placeholder="First Name" />
+            <input class="ct-field" type="text" name="lastName" required maxlength="100" placeholder="Last Name" />
+          </div>
+          <div class="ct-row">
+            <input class="ct-field" type="email" name="email" required placeholder="Email Address" />
+            <input class="ct-field" type="tel" name="phone" placeholder="Phone Number (optional)" />
+          </div>
+          <input class="ct-field" type="text" id="ct-inquiry" name="inquiryType" required maxlength="150"
+            placeholder="General Inquiry / Membership Questions" />
+          <div class="ct-counter" id="ct-inquiry-count">0/150</div>
+          <textarea class="ct-textarea" name="message" required minlength="5" maxlength="2000"
+            placeholder="How can we assist you? Please share any relevant context here…"></textarea>
+          <div id="ct-turnstile"></div>
+          <button class="ct-submit" type="submit" data-i18n="contact.form.submit">Send Message</button>
+          <div class="ct-form-error" id="ct-form-error"></div>
+          <div class="ct-form-success" id="ct-form-success"></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="ct-office-section">
+      <div class="ct-map">
+        <iframe src="https://www.google.com/maps?q=47.5306628,7.6419144&z=15&output=embed" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" title="Aeonix Basel office location"></iframe>
+      </div>
+      <div class="ct-office">
+        <h2 data-i18n="contact.office.title">Our Basel Office</h2>
+        <div class="ct-office-row">
+          <span class="ct-oicon"><img src="/assets/icon-visit.webp" alt="" /></span>
+          <span data-i18n="contact.office.address">Address: Apfhalterstrasse 7B, 4132 Muttenz, BL</span>
+        </div>
+        <div class="ct-office-row">
+          <span class="ct-oicon"><img src="/assets/icon-hours.webp" alt="" /></span>
+          <span data-i18n="contact.office.hours">Monday–Friday, 08:00–18:00 CET</span>
+        </div>
+        <div class="ct-office-row">
+          <span class="ct-oicon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 6 6 1-4.5 4.5L17.5 20 12 17l-5.5 3 1-6.5L3 9l6-1z"/></svg>
+          </span>
+          <span data-i18n="contact.office.lab">Our Lab Partner: Announcing Soon</span>
+        </div>
+        <a class="ct-directions" href="https://www.google.com/maps/dir/?api=1&destination=47.5306628,7.6419144"
+          target="_blank" rel="noopener" data-i18n="contact.office.directions">Get Directions</a>
+      </div>
+    </section>
+
+    <section class="ct-cta">
+      <h2><span data-i18n="contact.cta.kicker">Prefer a More</span> <em data-i18n="contact.cta.kicker.em">Personal</em> <span data-i18n="contact.cta.kicker.end">Conversation?</span></h2>
+      <p data-i18n="contact.cta.sub">Our Care Team can help you choose the right health screening and guide you
+        through every step of your Aeonix journey. Contact us directly to book a bespoke consultation.</p>
+      <div class="ct-cta-actions">
+        <a class="ct-btn-solid" href="/#waitlist" data-i18n="contact.cta.book">Book a Consultation</a>
+        <a class="ct-btn-outline" href="tel:+41798658316" data-i18n="contact.cta.call">Call Our Care Team</a>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="/assets/app.js" defer></script>
+  <script src="/assets/services/api.js"></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onTurnstileLoad" async defer></script>
+  <script>
+    var turnstileToken = '';
+    function onTurnstileLoad() {
+      turnstile.render('#ct-turnstile', {
+        sitekey: TURNSTILE_SITE_KEY,
+        callback: function (token) { turnstileToken = token; },
+        'expired-callback': function () { turnstileToken = ''; },
+        'error-callback': function () { turnstileToken = ''; }
+      });
+    }
+
+    (function () {
+      var CHAR_LIMIT = 150;
+      var field = document.getElementById('ct-inquiry');
+      var counter = document.getElementById('ct-inquiry-count');
+      if (!field || !counter) return;
+      function update() {
+        counter.textContent = field.value.length + '/' + CHAR_LIMIT;
+      }
+      field.addEventListener('input', update);
+      update();
+    })();
+
+    function submitContactForm(event) {
+      event.preventDefault();
+      var form = event.target;
+      var btn = form.querySelector('.ct-submit');
+      var errorEl = document.getElementById('ct-form-error');
+      var successEl = document.getElementById('ct-form-success');
+      errorEl.classList.remove('is-visible');
+      successEl.classList.remove('is-visible');
+
+      if (!turnstileToken) {
+        errorEl.textContent = 'Please complete the verification check above.';
+        errorEl.classList.add('is-visible');
+        return false;
+      }
+
+      var payload = {
+        FirstName: form.firstName.value.trim(),
+        LastName: form.lastName.value.trim(),
+        Email: form.email.value.trim(),
+        Phone: form.phone.value.trim(),
+        InquiryType: form.inquiryType.value.trim(),
+        Message: form.message.value.trim(),
+        TurnstileToken: turnstileToken
+      };
+
+      var original = btn.textContent;
+      btn.textContent = 'Sending…';
+      btn.disabled = true;
+
+      submitContactInquiry(payload)
+        .then(function (result) {
+          if (!result.ok || !result.data || result.data.success !== true) {
+            throw new Error((result.data && result.data.message) || 'Request failed');
+          }
+          btn.textContent = '✓ Sent';
+          successEl.textContent = result.data.message || 'Your message has been received. Our team will get back to you shortly.';
+          successEl.classList.add('is-visible');
+          form.reset();
+          if (typeof turnstile !== 'undefined') turnstile.reset();
+          turnstileToken = '';
+          setTimeout(function () {
+            btn.textContent = original;
+            btn.disabled = false;
+          }, 1800);
+        })
+        .catch(function (err) {
+          errorEl.textContent = (err && err.message && err.message !== 'Request failed')
+            ? err.message
+            : 'Something went wrong sending your message. Please try again or email us directly.';
+          errorEl.classList.add('is-visible');
+          btn.textContent = original;
+          btn.disabled = false;
+          if (typeof turnstile !== 'undefined') turnstile.reset();
+          turnstileToken = '';
+        });
+
+      return false;
+    }
+  </script>
+  <!-- vanilla-cookieconsent JS + config -->
+  <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js" defer></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', function () {
+      CookieConsent.run({
+        autoShow: true,
+        revision: 1,
+        cookie: {
+          name: 'cc_cookie',
+          expiresAfterDays: 365,
+        },
+        onConsent: function ({ cookie }) {
+          if (CookieConsent.acceptedCategory('analytics')) {
+            gtag('consent', 'update', { analytics_storage: 'granted' });
+            dataLayer.push({ event: 'cookie_consent_analytics' });
+          }
+          if (CookieConsent.acceptedCategory('marketing')) {
+            gtag('consent', 'update', { ad_storage: 'granted' });
+          }
+        },
+        onChange: function ({ cookie }) {
+          const analyticsGranted = CookieConsent.acceptedCategory('analytics');
+          gtag('consent', 'update', {
+            analytics_storage: analyticsGranted ? 'granted' : 'denied'
+          });
+        },
+        categories: {
+          necessary: {
+            enabled: true,
+            readOnly: true
+          },
+          analytics: {
+            enabled: false,
+            autoClear: {
+              cookies: [
+                { name: /^_ga/ },
+                { name: '_gid' }
+              ]
+            }
+          },
+          marketing: {
+            enabled: false
+          }
+        },
+        language: {
+          default: 'en',
+          translations: {
+            en: {
+              consentModal: {
+                title: 'We use cookies 🍪',
+                description: 'We use cookies to analyze traffic and improve your experience.',
+                acceptAllBtn: 'Accept all',
+                acceptNecessaryBtn: 'Reject all',
+                showPreferencesBtn: 'Manage preferences'
+              },
+              preferencesModal: {
+                title: 'Cookie Preferences',
+                acceptAllBtn: 'Accept all',
+                acceptNecessaryBtn: 'Reject all',
+                savePreferencesBtn: 'Save preferences',
+                sections: [
+                  {
+                    title: 'Necessary Cookies',
+                    description: 'Required for the site to function. Cannot be disabled.',
+                    linkedCategory: 'necessary'
+                  },
+                  {
+                    title: 'Analytics Cookies',
+                    description: 'Help us understand how visitors use the site (Google Analytics).',
+                    linkedCategory: 'analytics'
+                  },
+                  {
+                    title: 'Marketing Cookies',
+                    description: 'Used for targeted advertising.',
+                    linkedCategory: 'marketing'
+                  }
+                ]
+              }
+            }
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
